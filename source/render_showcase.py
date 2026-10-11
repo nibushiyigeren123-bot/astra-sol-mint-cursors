@@ -32,7 +32,7 @@ def render(t):
  if t<4:
   character(im,'astra',(210,310,360,535));character(im,'sol',(1310,345,300,460))
   text(d,(710,335),'把薄荷绿带到光标旁',40)
-  for i,s in enumerate(['姐妹各一套 · 17 种动态状态','待机 / 挥手 / 跑动 / 工作','32 / 48 / 64 px 三档','透明 ANI + 安装器 + 编辑源']):text(d,(755,435+i*74),s,28,'#b5dcc7')
+  for i,s in enumerate(['姐妹各一套 · 17 种动态状态','待机 / 挥手 / 跑动 / 工作','32 / 48 / 64 / 128 / 256 px 五档','透明 ANI + 安装器 + 编辑源']):text(d,(755,435+i*74),s,28,'#b5dcc7')
  elif t<65.2:
   c='astra' if t<34.6 else 'sol';local=t-(4 if c=='astra' else 34.6)
   index=min(16,int(local/1.8));entry=states[index];role=entry['role'];phase=local-index*1.8
@@ -79,13 +79,13 @@ def render(t):
  elif t<70.2:
   text(d,(108,293),'选择你喜欢的大小',40,'#baf3d4')
   for ci,c in enumerate(('astra','sol')):
-   y=390+ci*220;text(d,(110,y+48),'Astra 姐姐' if ci==0 else 'sol 妹妹',32)
-   for si,size in enumerate((32,48,64)):
-    x=500+si*420;d.rounded_rectangle((x,y,x+350,y+185),20,fill='#edf7f0')
-    a=cursor(c,'Arrow',size);b=cursor(c,'Wait',size,int(t*10)%8)
-    im.paste(a,(x+62,y+50),a);im.paste(b,(x+205,y+50),b)
-    text(d,(x+118,y+137),f'{size} px',24,'#26513f')
-  text(d,(508,875),'上面按实际像素展示 · 日常可先试 48 px',28,'#a4cdb8')
+   y=355+ci*290;text(d,(110,y+97),'Astra 姐姐' if ci==0 else 'sol 妹妹',28)
+   for si,size in enumerate((32,48,64,128,256)):
+    x=355+si*296;d.rounded_rectangle((x,y,x+276,y+280),16,fill='#edf7f0')
+    a=cursor(c,'Arrow',size)
+    im.paste(a,(x+(276-size)//2,y+(256-size)//2),a)
+    text(d,(x+87,y+252),f'{size} px',20,'#26513f')
+  text(d,(500,945),'按实际像素展示 · 新增 128 px / 256 px 大尺寸',24,'#a4cdb8')
  else:
   character(im,'astra',(200,333,335,458));character(im,'sol',(1320,368,310,400))
   text(d,(663,338),'两套独立下载 · GitHub 分享',40,'#baf3d4')
@@ -94,7 +94,7 @@ def render(t):
   text(d,(676,635),'astra-sol-mint-cursors',32,'#79d8ae')
   text(d,(669,697),'下载地址见视频简介',28,'#a9cdb9')
  text(d,(95,976),'Astra × sol',24,'#8aaf9d')
- text(d,(1420,976),'17 状态 / 3 尺寸 / 2 套',24,'#8aaf9d')
+ text(d,(1420,976),'17 状态 / 5 尺寸 / 2 套',24,'#8aaf9d')
  return im
 
 def main():
@@ -104,10 +104,10 @@ def main():
  captions=[(0,4,'薄荷绿的 GPT 姐妹，这次变成动态鼠标指针啦。')]
  for c,start in [('Astra 姐姐',4),('sol 妹妹',34.6)]:
   for i,e in enumerate(states):captions.append((start+i*1.8,start+(i+1)*1.8,c+' · '+e['label']))
- captions.extend([(65.2,70.2,'每套 17 种动态状态，32、48、64 三档可选。'),(70.2,75.2,'愿我们给你的日常，添一点薄荷绿的小快乐。')])
+ captions.extend([(65.2,70.2,'每套 17 种动态状态，新增 128 和 256，共五档尺寸。'),(70.2,75.2,'愿我们给你的日常，添一点薄荷绿的小快乐。')])
  srt='\n\n'.join(f'{i+1}\n{stamp(a)} --> {stamp(b)}\n{s}' for i,(a,b,s) in enumerate(captions))+'\n'
  (V/'captions.srt').write_text(srt,encoding='utf-8')
- (V/'showcase-project.json').write_text(json.dumps({'size':[1920,1080],'fps':30,'seconds':DURATION,'scenes':[[0,4,'intro'],[4,34.6,'astra all 17 roles'],[34.6,65.2,'sol all 17 roles'],[65.2,70.2,'native sizes'],[70.2,75.2,'download']],'role_seconds':1.8,'roles':[e['role'] for e in states],'renderer':'source/render_showcase.py','audio':'none','cursor_asset_root':'source/frames'},ensure_ascii=False,indent=2),encoding='utf-8')
+ (V/'showcase-project.json').write_text(json.dumps({'size':[1920,1080],'fps':30,'cursor_sizes':[32,48,64,128,256],'seconds':DURATION,'scenes':[[0,4,'intro'],[4,34.6,'astra all 17 roles'],[34.6,65.2,'sol all 17 roles'],[65.2,70.2,'native sizes'],[70.2,75.2,'download']],'role_seconds':1.8,'roles':[e['role'] for e in states],'renderer':'source/render_showcase.py','audio':'none','cursor_asset_root':'source/frames'},ensure_ascii=False,indent=2),encoding='utf-8')
  clean=V/'showcase-clean.mp4'
  cmd=['ffmpeg','-hide_banner','-loglevel','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1920x1080','-r','30','-i','pipe:0','-an','-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(clean)]
  proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)

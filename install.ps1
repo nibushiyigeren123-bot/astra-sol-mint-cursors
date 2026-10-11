@@ -1,7 +1,7 @@
 ﻿[CmdletBinding()]
 param(
  [ValidateSet('all','astra','sol')][string]$Character='all',
- [ValidateSet(32,48,64)][int]$Size=48,
+ [ValidateSet(32,48,64,128,256)][int]$Size=48,
  [switch]$Apply,[switch]$Restore,[switch]$VerifyOnly
 )
 $ErrorActionPreference='Stop'
@@ -26,20 +26,36 @@ using System.Runtime.InteropServices;
 public static class MintCursorNative {
  [DllImport("user32.dll", SetLastError=true)]
  public static extern bool SystemParametersInfo(uint action,uint parameter,IntPtr value,uint flags);
+ [DllImport("user32.dll", CharSet=CharSet.Unicode, SetLastError=true)]
+ private static extern IntPtr LoadImageW(IntPtr module,string path,uint type,int width,int height,uint flags);
+ [DllImport("user32.dll", SetLastError=true)]
+ private static extern bool SetSystemCursor(IntPtr cursor,uint id);
+ [DllImport("user32.dll")]
+ private static extern bool DestroyCursor(IntPtr cursor);
+ public static bool ApplyExactSize(string path,uint id,int size) {
+  IntPtr cursor=LoadImageW(IntPtr.Zero,path,2,size,size,16);
+  if(cursor==IntPtr.Zero) return false;
+  // SetSystemCursor consumes a nonshared handle on success.
+  if(SetSystemCursor(cursor,id)) return true;
+  DestroyCursor(cursor);return false;
+ }
 }
 '@
+}
+function Restore-MintSavedValues($values){
+ $reg=[Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors',$true)
+ try{
+  foreach($entry in $values){
+   if($entry.exists){$kind=[System.Enum]::Parse([Microsoft.Win32.RegistryValueKind],$entry.kind);$reg.SetValue($entry.name,$entry.value,$kind)}
+   else{$reg.DeleteValue($entry.name,$false)}
+  }
+ }finally{$reg.Close()}
 }
 if($Restore){
  $backups=Get-ChildItem -LiteralPath (Join-Path $destination 'backup') -Filter '*.json' | Sort-Object Name -Descending
  if(-not $backups){throw 'No saved cursor settings found.'}
  $saved=Get-Content -LiteralPath $backups[0].FullName -Raw -Encoding UTF8 | ConvertFrom-Json
- $reg=[Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors',$true)
- try{
-  foreach($entry in $saved){
-   if($entry.exists){$kind=[System.Enum]::Parse([Microsoft.Win32.RegistryValueKind],$entry.kind);$reg.SetValue($entry.name,$entry.value,$kind)}
-   else{$reg.DeleteValue($entry.name,$false)}
-  }
- }finally{$reg.Close()}
+ Restore-MintSavedValues $saved
  if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,3)){throw 'Windows cursor refresh failed.'}
  Write-Output "Restored settings saved in $($backups[0].Name)";return
 }
@@ -52,7 +68,7 @@ foreach($entry in $manifest){
 }
 $schemeKey=Join-Path $cursorKey 'Schemes'
 if(-not(Test-Path -LiteralPath $schemeKey)){[void](New-Item -Path $schemeKey)}
-foreach($c in $characters){foreach($pixels in @(32,48,64)){
+foreach($c in $characters){foreach($pixels in @(32,48,64,128,256)){
  $entries=@($manifest | Where-Object { $_.character -eq $c -and $_.size -eq $pixels })
  if($entries.Count -ne 17){throw "Incomplete scheme: $c $pixels"}
  $paths=foreach($role in $roles){$e=$entries | Where-Object role -eq $role;Join-Path $destination $e.file}
@@ -60,9 +76,10 @@ foreach($c in $characters){foreach($pixels in @(32,48,64)){
  [void](New-ItemProperty -Path $schemeKey -Name "$display Mint $($pixels)px" -Value ($paths -join ',') -PropertyType String -Force)
 }}
 if($Apply){
+ try{
  $reg=[Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors',$true)
  try{
-  $saved=foreach($name in @('')+$roles+@('Scheme Source')){
+  $saved=foreach($name in @('')+$roles+@('Scheme Source','CursorBaseSize')){
    $exists=$name -in $reg.GetValueNames()
    [pscustomobject]@{name=$name;exists=$exists;value=if($exists){$reg.GetValue($name,$null,[Microsoft.Win32.RegistryValueOptions]::DoNotExpandEnvironmentNames)}else{$null};kind=if($exists){$reg.GetValueKind($name).ToString()}else{$null}}
   }
@@ -76,7 +93,25 @@ if($Apply){
   $display=if($Character -eq 'astra'){'Astra'}else{'sol'}
   $reg.SetValue('',"$display Mint $($Size)px",[Microsoft.Win32.RegistryValueKind]::String)
   $reg.SetValue('Scheme Source',1,[Microsoft.Win32.RegistryValueKind]::DWord)
+  $reg.SetValue('CursorBaseSize',$Size,[Microsoft.Win32.RegistryValueKind]::DWord)
  }finally{$reg.Close()}
  if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,3)){throw "Windows refresh failed. Backup: $backup"}
+ $systemIds=@{Arrow=32512;Help=32651;AppStarting=32650;Wait=32514;Crosshair=32515;IBeam=32513;NWPen=32631;No=32648;SizeNS=32645;SizeWE=32644;SizeNWSE=32642;SizeNESW=32643;SizeAll=32646;UpArrow=32516;Hand=32649;Pin=32671;Person=32672}
+ foreach($role in $roles){
+  $entry=$manifest | Where-Object { $_.character -eq $Character -and $_.size -eq $Size -and $_.role -eq $role }
+  if(-not[MintCursorNative]::ApplyExactSize((Join-Path $destination $entry.file),$systemIds[$role],$Size)){
+   throw "Could not apply exact cursor size for $role. Backup: $backup"
+  }
+ }
+ }catch{
+  $applyError=$_
+  if($saved){
+   try{
+    Restore-MintSavedValues $saved
+    if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,3)){throw 'Rollback cursor refresh failed.'}
+   }catch{throw "Apply failed: $($applyError.Exception.Message) Rollback failed: $($_.Exception.Message) Use -Restore. Backup: $backup"}
+  }
+  throw "Apply failed; previous cursor settings and size restored. $($applyError.Exception.Message)"
+ }
  Write-Output "Applied $Character $Size px. Previous settings: $backup"
 }else{Write-Output 'Installed cursor schemes. Open Control Panel > Mouse > Pointers to choose a Mint scheme.'}

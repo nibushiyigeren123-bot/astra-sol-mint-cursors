@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 REPO = ROOT if Path(__file__).parent.name == 'source' else ROOT / 'public' / 'astra-sol-mint-cursors'
 OLD = Path('E:/cladue缓存/Astra_Sol桌宠_20261009')
-SIZES = (32, 48, 64)
+SIZES = (32, 48, 64, 128, 256)
 ROLES = [
  ('Arrow','正常选择'),('Help','帮助选择'),('AppStarting','后台运行'),
  ('Wait','忙碌'),('Crosshair','精确选择'),('IBeam','文本选择'),
@@ -26,7 +26,8 @@ def save_json(path, value):
 
 def cursor_bytes(image, hotspot):
  """32-bit bottom-up BGRA DIB plus DWORD-aligned 1-bit AND mask."""
- w,h=image.size; rgba=image.tobytes(); pixels=bytearray(); stride=((w+31)//32)*4
+ w,h=image.size; assert 1 <= w <= 256 and 1 <= h <= 256
+ rgba=image.tobytes(); pixels=bytearray(); stride=((w+31)//32)*4
  mask=bytearray(stride*h)
  for out_y,y in enumerate(range(h-1,-1,-1)):
   for x in range(w):
@@ -34,7 +35,7 @@ def cursor_bytes(image, hotspot):
    pixels.extend((b,g,r,a))
    if a==0:mask[out_y*stride+x//8] |= 1 << (7-x%8)
  dib=struct.pack('<IiiHHIIiiII',40,w,h*2,1,32,0,len(pixels),0,0,0,0)+pixels+mask
- return struct.pack('<HHH',0,2,1)+struct.pack('<BBBBHHII',w,h,0,0,*hotspot,len(dib),22)+dib
+ return struct.pack('<HHH',0,2,1)+struct.pack('<BBBBHHII',w % 256,h % 256,0,0,*hotspot,len(dib),22)+dib
 
 def chunk(kind,data):
  return kind+struct.pack('<I',len(data))+data+(b'\0' if len(data)%2 else b'')
@@ -181,7 +182,7 @@ def main():
  small=ImageFont.truetype('C:/Windows/Fonts/msyh.ttc',15)
  sheet=Image.new('RGB',(1440,880),'#152721');d=ImageDraw.Draw(sheet)
  d.text((45,25),'薄荷绿 GPT 姐妹 · Windows 指针',font=font,fill='#daf9e8')
- d.text((45,64),'Astra 姐姐 / sol 妹妹     17 种状态 × 32 / 48 / 64 px',font=small,fill='#90bbaa')
+ d.text((45,64),'Astra 姐姐 / sol 妹妹     17 种状态 × 32 / 48 / 64 / 128 / 256 px',font=small,fill='#90bbaa')
  for ci,c in enumerate(NAMES):
   y0=120+ci*365;d.text((45,y0),NAMES[c],font=font,fill='#b4f4d4')
   for i,(role,label) in enumerate(ROLES):
@@ -192,16 +193,15 @@ def main():
    d.text((x+8,y+91),label,font=small,fill='#174438')
  sheet.save(previews/'cursor-overview.png')
  # Actual native-size comparisons on light and dark backgrounds.
- comp=Image.new('RGB',(900,400),'#152721');cd=ImageDraw.Draw(comp)
- cd.text((24,18),'实际尺寸对照：32 / 48 / 64 px',font=font,fill='#d7f9e7')
+ comp=Image.new('RGB',(1920,900),'#152721');cd=ImageDraw.Draw(comp)
+ cd.text((40,20),'实际尺寸对照：32 / 48 / 64 / 128 / 256 px · 每个指针均为原生像素',font=font,fill='#d7f9e7')
  for ci,c in enumerate(NAMES):
-  cd.text((24,84+ci*150),NAMES[c],font=small,fill='#b4f4d4')
+  y=115+ci*385;cd.text((40,y-42),NAMES[c],font=font,fill='#b4f4d4')
   for si,size in enumerate(SIZES):
-   x=200+si*220;y=72+ci*150
-   cd.rounded_rectangle((x,y,x+195,y+130),10,fill='#f2f8f4')
-   im,_=compile_frame(c,'Arrow',size);comp.paste(im,(x+20,y+23),im)
-   busy,_=compile_frame(c,'Wait',size);comp.paste(busy,(x+110,y+23),busy)
-   cd.text((x+20,y+102),f'{size} px',font=small,fill='#214a3e')
+   x=40+si*374
+   cd.rounded_rectangle((x,y,x+350,y+335),12,fill='#f2f8f4')
+   im,_=compile_frame(c,'Arrow',size);comp.paste(im,(x+(350-size)//2,y+18+(256-size)//2),im)
+   cd.text((x+125,y+289),f'{size} px',font=font,fill='#214a3e')
  comp.save(previews/'actual-sizes.png')
  gifs=[]
  for f in range(24):

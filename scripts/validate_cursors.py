@@ -10,6 +10,7 @@ REPO=ROOT if (ROOT/'cursors').exists() else ROOT/'public'/'astra-sol-mint-cursor
 def parse_cur(raw,expected):
  assert struct.unpack_from('<HHH',raw)==(0,2,1)
  w,h,colors,res,hx,hy,length,offset=struct.unpack_from('<BBBBHHII',raw,6)
+ w,h=w or 256,h or 256
  assert (w,h)==(expected['size'],)*2
  assert [hx,hy]==expected['hotspot'] and offset==22 and offset+length==len(raw)
  header=struct.unpack_from('<IiiHHIIiiII',raw,offset)
@@ -111,7 +112,7 @@ def main():
    sheet.paste(light,(x,y));sheet.paste(dark,(x+70,y))
    d.text((x,y+78),e['character']+' '+e['role'],font=ImageFont.truetype('C:/Windows/Fonts/arial.ttf',13),fill='#d6eee0')
   sheet.save(REPO/'previews'/'windows-native-review.png')
- output={'cursor_files':len(entries),'schemes':6,'role_count':17,'native_verified':u is not None,'records':records}
+ output={'cursor_files':len(entries),'schemes':len({(e['character'],e['size']) for e in entries}),'role_count':17,'native_verified':u is not None,'records':records}
  (REPO/'validation.json').write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf-8')
  print(json.dumps({k:v for k,v in output.items() if k!='records'}))
 if __name__=='__main__':main()

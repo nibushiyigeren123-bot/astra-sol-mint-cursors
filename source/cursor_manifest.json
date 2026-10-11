@@ -765,6 +765,516 @@
     "action": "waving"
   },
   {
+    "character": "astra",
+    "size": 128,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/astra/128/Arrow.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/128/Help.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/128/AppStarting.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/128/Wait.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/128/Crosshair.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/128/IBeam.ani",
+    "hotspot": [
+      32,
+      40
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/128/NWPen.ani",
+    "hotspot": [
+      10,
+      68
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/128/No.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/128/SizeNS.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/128/SizeWE.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/128/SizeNWSE.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/128/SizeNESW.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/128/SizeAll.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/128/UpArrow.ani",
+    "hotspot": [
+      38,
+      8
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/128/Hand.ani",
+    "hotspot": [
+      28,
+      8
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/128/Pin.ani",
+    "hotspot": [
+      38,
+      70
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/128/Person.ani",
+    "hotspot": [
+      38,
+      20
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/astra/256/Arrow.ani",
+    "hotspot": [
+      16,
+      16
+    ],
+    "frames": 6,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/256/Help.ani",
+    "hotspot": [
+      16,
+      16
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/256/AppStarting.ani",
+    "hotspot": [
+      16,
+      16
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/256/Wait.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/256/Crosshair.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/256/IBeam.ani",
+    "hotspot": [
+      64,
+      80
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/256/NWPen.ani",
+    "hotspot": [
+      20,
+      136
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/256/No.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/256/SizeNS.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/256/SizeWE.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/256/SizeNWSE.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/256/SizeNESW.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/256/SizeAll.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/256/UpArrow.ani",
+    "hotspot": [
+      76,
+      16
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/256/Hand.ani",
+    "hotspot": [
+      56,
+      16
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/256/Pin.ani",
+    "hotspot": [
+      76,
+      140
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting"
+  },
+  {
+    "character": "astra",
+    "size": 256,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/256/Person.ani",
+    "hotspot": [
+      76,
+      40
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
     "character": "sol",
     "size": 32,
     "role": "Arrow",
@@ -1523,6 +2033,516 @@
     "hotspot": [
       19,
       10
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/sol/128/Arrow.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/128/Help.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/128/AppStarting.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/128/Wait.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/128/Crosshair.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/128/IBeam.ani",
+    "hotspot": [
+      32,
+      40
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/128/NWPen.ani",
+    "hotspot": [
+      10,
+      68
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/128/No.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/128/SizeNS.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/128/SizeWE.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/128/SizeNWSE.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/128/SizeNESW.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/128/SizeAll.ani",
+    "hotspot": [
+      38,
+      38
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/128/UpArrow.ani",
+    "hotspot": [
+      38,
+      8
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/128/Hand.ani",
+    "hotspot": [
+      28,
+      8
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/128/Pin.ani",
+    "hotspot": [
+      38,
+      70
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/128/Person.ani",
+    "hotspot": [
+      38,
+      20
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/sol/256/Arrow.ani",
+    "hotspot": [
+      16,
+      16
+    ],
+    "frames": 6,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/256/Help.ani",
+    "hotspot": [
+      16,
+      16
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/256/AppStarting.ani",
+    "hotspot": [
+      16,
+      16
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/256/Wait.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/256/Crosshair.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/256/IBeam.ani",
+    "hotspot": [
+      64,
+      80
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/256/NWPen.ani",
+    "hotspot": [
+      20,
+      136
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/256/No.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/256/SizeNS.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/256/SizeWE.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/256/SizeNWSE.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/256/SizeNESW.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/256/SizeAll.ani",
+    "hotspot": [
+      76,
+      76
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/256/UpArrow.ani",
+    "hotspot": [
+      76,
+      16
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/256/Hand.ani",
+    "hotspot": [
+      56,
+      16
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/256/Pin.ani",
+    "hotspot": [
+      76,
+      140
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting"
+  },
+  {
+    "character": "sol",
+    "size": 256,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/256/Person.ani",
+    "hotspot": [
+      76,
+      40
     ],
     "frames": 4,
     "jiffies": 8,

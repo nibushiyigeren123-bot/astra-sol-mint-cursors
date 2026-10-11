@@ -12,13 +12,15 @@ Astra 姐姐和 sol 妹妹各自一套动态指针，沿用此前姐妹的 Q 版
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
-安装器把文件复制到当前用户 `%LOCALAPPDATA%\AstraSolMintCursors\1.0.0`，并登记指针方案，不需要管理员权限。默认只登记方案；打开“控制面板 → 鼠标 → 指针”，选择 **Astra Mint 48px** 或 **sol Mint 48px**，点击应用。32、48、64 三档均可选，推荐先试 48；64 更适合录制展示或看清角色。Windows 的辅助功能指针大小设置可能进一步缩放显示。
+安装器把文件复制到当前用户 `%LOCALAPPDATA%\AstraSolMintCursors\1.0.0`，并登记指针方案，不需要管理员权限。默认只登记方案；打开“控制面板 → 鼠标 → 指针”即可选择角色。32、48、64、128、256 五档均可选。
+
+**使用大尺寸时，请运行下面带 `-Apply` 的命令。** Windows 的默认文件加载会按系统指针尺寸缩放；`-Apply` 会同时保存所选尺寸，并按指定像素加载及应用17个动态状态，避免大文件仍显示很小。128px适合看清角色，256px适合大屏或展示。此步骤会改当前指针和指针大小，原设置及尺寸一起备份。若原生替换请求失败，安装器会恢复原注册表设置并重新加载系统指针，然后报出失败状态；恢复自身失败时会给出备份路径。重新登录或其他软件重置指针后，如果显示大小发生变化，可再次运行同一 `-Apply` 命令。
 
 也可以直接指定角色和尺寸并应用：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Character astra -Size 48 -Apply
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Character sol -Size 64 -Apply
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Character astra -Size 128 -Apply
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Character sol -Size 256 -Apply
 ```
 
 `-Apply` 会在复制目录的 `backup/` 保存当前指针注册表值。恢复最近一次应用前的设置：
@@ -62,7 +64,7 @@ python scripts/validate_cursors.py
 python source/render_showcase.py
 ```
 
-源码生成器使用 Windows 自带字体，视频生成器需要 FFmpeg。校验器检查二进制边界、透明像素、动画差异，并在 Windows 上用 `LoadImageW`、`GetIconInfo`、`DrawIconEx` 实际加载所有文件、检查热点、绘制每个动画步骤，比较绘制颜色。公开 `validation.json` 是制作机验收记录，`checksums.json` 为分发文件 SHA-256。尚未在每种 DPI、远程桌面或各类游戏中实测。
+源码生成器使用 Windows 自带字体，视频生成器需要 FFmpeg。校验器检查二进制边界、透明像素、动画差异，并在 Windows 上用 `LoadImageW`、`GetIconInfo`、`DrawIconEx` 实际加载所有文件、检查热点、绘制每个动画步骤，比较绘制颜色。公开 `validation.json` 是制作机文件验收记录，`checksums.json` 为分发文件 SHA-256。安装器已在隔离注册表中检查十套方案登记、256px应用请求、正常恢复、原生刷新失败及特殊状态替换失败时的自动恢复；这些安装器测试的原生修改调用采用模拟。制作时未替换用户正在使用的系统指针，真实 `-Apply` 以及每种 DPI、远程桌面和各类游戏环境仍需实际使用验证。
 
 Windows 原生加载审查：
 
