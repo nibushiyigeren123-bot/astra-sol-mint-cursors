@@ -117,27 +117,34 @@ def action_frame(character,role,frame):
  if character not in ACTION_CACHE:
   atlas=Image.open(REPO/'source'/'characters'/f'{character}-actions.png').convert('RGBA')
   assert atlas.size==(1536,1872)
-  actions={};bounds=[]
+  actions={}
   for name,(row,count) in ACTION_ROWS.items():
    group=[atlas.crop((i*192,row*208,(i+1)*192,(row+1)*208)) for i in range(count)]
-   actions[name]=group;bounds.extend(im.getbbox() for im in group)
-  bbox=(min(b[0] for b in bounds),min(b[1] for b in bounds),max(b[2] for b in bounds),max(b[3] for b in bounds))
-  for name,group in actions.items():
+   # A shared action bounds includes every frame, preserving animation movement.
+   bounds=[im.getbbox() for im in group]
+   bbox=(min(b[0] for b in bounds),min(b[1] for b in bounds),max(b[2] for b in bounds),max(b[3] for b in bounds))
    normalized=[]
    for im in group:
-    source=im.crop(bbox);source.thumbnail((41*4,50*4),Image.Resampling.LANCZOS);normalized.append(source)
+    source=im.crop(bbox)
+    factor=min(240/source.width,240/source.height)
+    source=source.resize((round(source.width*factor),round(source.height*factor)),Image.Resampling.LANCZOS)
+    normalized.append(source)
    actions[name]=normalized
   ACTION_CACHE[character]=actions
  return ACTION_CACHE[character][ROLE_ACTION[role]][frame % ACTION_ROWS[ROLE_ACTION[role]][1]]
 
 def compile_frame(character,role,size,frame=0):
  canvas=Image.new('RGBA',(256,256))
- # Use the previously accepted nine-state atlas; scale/anchor stays constant.
+ # Full-body character dominates all five canvas sizes; no opaque pixels cropped.
  source=action_frame(character,role,frame)
- canvas.alpha_composite(source,(256-source.width-4,256-source.height-4))
- icon,hs=symbol(role,frame);canvas.alpha_composite(icon)
+ canvas.alpha_composite(source,((256-source.width)//2,248-source.height))
+ icon,hs=symbol(role,frame)
+ box=icon.getbbox();badge=icon.crop(box)
+ factor=66/max(badge.size)
+ badge=badge.resize((round(badge.width*factor),round(badge.height*factor)),Image.Resampling.LANCZOS)
+ canvas.alpha_composite(badge,(3,3))
  result=canvas.resize((size,size),Image.Resampling.LANCZOS)
- hs=tuple(round(v*size/64) for v in hs)
+ hs=tuple(max(0,min(size-1,round(((value*4-box[axis])*factor+3)*size/256))) for axis,value in enumerate(hs))
  return result,hs
 
 def main():

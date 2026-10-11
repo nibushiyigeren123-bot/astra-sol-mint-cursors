@@ -1,0 +1,29 @@
+【Astra / sol 动态鼠标指针使用说明】
+
+支持 Windows，两位姐妹各17种动态状态，提供32 / 48 / 64 / 128 / 256px五档，日常推荐64px。新版五档都放大了Q版全身形象，缩小功能符号、减少留白，保留完整动作。
+
+① 下载后完整解压到新文件夹。不要在压缩包内直接运行，也不要只拿出一个安装文件。
+
+② 第一次先安装指针：双击“应用_Astra_64px.cmd”或“应用_sol_64px.cmd”，安装并应用对应角色。然后双击“尺寸保持_开启.cmd”。从旧版升级，也请用新包的对应尺寸CMD重新安装，更新角色素材；已经装好当前版的朋友可直接开启尺寸保持。开启一次后会随登录启动，不用每次重复开。
+
+③ 想换大小或角色，直接双击对应的现成CMD：姐姐的文件分别是“应用_Astra_32px.cmd”“应用_Astra_48px.cmd”“应用_Astra_64px.cmd”“应用_Astra_128px.cmd”“应用_Astra_256px.cmd”；妹妹分别是“应用_sol_32px.cmd”“应用_sol_48px.cmd”“应用_sol_64px.cmd”“应用_sol_128px.cmd”“应用_sol_256px.cmd”。例如大号妹妹选“应用_sol_128px.cmd”或“应用_sol_256px.cmd”。完整包两位都有，单角色包只含该角色的五档。无需改文件名，也不需要输入命令。
+
+④ 习惯INF安装也可以：右键“安装_Astra_64px.inf”或“安装_sol_64px.inf”→安装，再到“控制面板→鼠标→指针”选择对应姐妹方案，点应用，最后开启尺寸保持。Windows 11可能要先选“显示更多选项”。INF安装后还要选方案并应用；想一键换大小，建议使用上面的CMD。
+
+【注意】不要再调整“Windows设置→辅助功能→鼠标指针和触控”里的大小滑块！调整它可能让姐妹变回Windows默认指针。请保持“尺寸保持”开启，想要什么大小就用对应尺寸的安装/应用CMD。
+
+如果误调后变回默认，重新双击想用的“应用_角色_尺寸px.cmd”；若尺寸保持已关闭，再运行“尺寸保持_开启.cmd”。然后不要再拖动系统大小滑块。
+
+想恢复Windows默认指针：先运行“尺寸保持_关闭.cmd”，再到鼠标的指针页选择原Windows方案并应用。“尺寸保持_卸载.cmd”可移除组件，指针素材与方案会保留。
+
+仓库与源码：
+https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors
+
+姐妹完整包：
+https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/raw/refs/heads/main/downloads/astra-sol-mint-cursors-v1.0.4.zip
+
+Astra单独包：
+https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/raw/refs/heads/main/downloads/astra-mint-cursors-v1.0.4.zip
+
+sol单独包：
+https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/raw/refs/heads/main/downloads/sol-mint-cursors-v1.0.4.zip

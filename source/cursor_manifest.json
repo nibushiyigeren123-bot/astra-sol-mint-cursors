@@ -6,8 +6,8 @@
     "label": "正常选择",
     "file": "cursors/astra/32/Arrow.ani",
     "hotspot": [
-      2,
-      2
+      0,
+      1
     ],
     "frames": 6,
     "jiffies": 12,
@@ -21,8 +21,8 @@
     "label": "帮助选择",
     "file": "cursors/astra/32/Help.ani",
     "hotspot": [
-      2,
-      2
+      0,
+      1
     ],
     "frames": 6,
     "jiffies": 8,
@@ -36,8 +36,8 @@
     "label": "后台运行",
     "file": "cursors/astra/32/AppStarting.ani",
     "hotspot": [
-      2,
-      2
+      0,
+      1
     ],
     "frames": 8,
     "jiffies": 6,
@@ -51,8 +51,8 @@
     "label": "忙碌",
     "file": "cursors/astra/32/Wait.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 6,
@@ -66,8 +66,8 @@
     "label": "精确选择",
     "file": "cursors/astra/32/Crosshair.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 6,
     "jiffies": 8,
@@ -81,8 +81,8 @@
     "label": "文本选择",
     "file": "cursors/astra/32/IBeam.ani",
     "hotspot": [
-      8,
-      10
+      2,
+      4
     ],
     "frames": 6,
     "jiffies": 8,
@@ -96,8 +96,8 @@
     "label": "手写",
     "file": "cursors/astra/32/NWPen.ani",
     "hotspot": [
-      2,
-      17
+      1,
+      8
     ],
     "frames": 6,
     "jiffies": 8,
@@ -111,8 +111,8 @@
     "label": "不可用",
     "file": "cursors/astra/32/No.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -126,8 +126,8 @@
     "label": "垂直调整",
     "file": "cursors/astra/32/SizeNS.ani",
     "hotspot": [
-      10,
-      10
+      2,
+      4
     ],
     "frames": 5,
     "jiffies": 8,
@@ -141,8 +141,8 @@
     "label": "水平调整",
     "file": "cursors/astra/32/SizeWE.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      2
     ],
     "frames": 8,
     "jiffies": 8,
@@ -156,8 +156,8 @@
     "label": "对角调整1",
     "file": "cursors/astra/32/SizeNWSE.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -171,8 +171,8 @@
     "label": "对角调整2",
     "file": "cursors/astra/32/SizeNESW.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -186,8 +186,8 @@
     "label": "移动",
     "file": "cursors/astra/32/SizeAll.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -201,8 +201,8 @@
     "label": "候选选择",
     "file": "cursors/astra/32/UpArrow.ani",
     "hotspot": [
-      10,
-      2
+      4,
+      1
     ],
     "frames": 5,
     "jiffies": 8,
@@ -216,8 +216,8 @@
     "label": "链接选择",
     "file": "cursors/astra/32/Hand.ani",
     "hotspot": [
-      7,
-      2
+      3,
+      0
     ],
     "frames": 4,
     "jiffies": 8,
@@ -231,8 +231,8 @@
     "label": "位置选择",
     "file": "cursors/astra/32/Pin.ani",
     "hotspot": [
-      10,
-      18
+      3,
+      8
     ],
     "frames": 6,
     "jiffies": 8,
@@ -246,8 +246,8 @@
     "label": "人员选择",
     "file": "cursors/astra/32/Person.ani",
     "hotspot": [
-      10,
-      5
+      4,
+      2
     ],
     "frames": 4,
     "jiffies": 8,
@@ -261,8 +261,8 @@
     "label": "正常选择",
     "file": "cursors/astra/48/Arrow.ani",
     "hotspot": [
-      3,
-      3
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 12,
@@ -276,8 +276,8 @@
     "label": "帮助选择",
     "file": "cursors/astra/48/Help.ani",
     "hotspot": [
-      3,
-      3
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 8,
@@ -291,8 +291,8 @@
     "label": "后台运行",
     "file": "cursors/astra/48/AppStarting.ani",
     "hotspot": [
-      3,
-      3
+      1,
+      1
     ],
     "frames": 8,
     "jiffies": 6,
@@ -306,8 +306,8 @@
     "label": "忙碌",
     "file": "cursors/astra/48/Wait.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 6,
@@ -321,8 +321,8 @@
     "label": "精确选择",
     "file": "cursors/astra/48/Crosshair.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 6,
     "jiffies": 8,
@@ -336,8 +336,8 @@
     "label": "文本选择",
     "file": "cursors/astra/48/IBeam.ani",
     "hotspot": [
-      12,
-      15
+      3,
+      7
     ],
     "frames": 6,
     "jiffies": 8,
@@ -351,8 +351,8 @@
     "label": "手写",
     "file": "cursors/astra/48/NWPen.ani",
     "hotspot": [
-      4,
-      26
+      1,
+      13
     ],
     "frames": 6,
     "jiffies": 8,
@@ -366,8 +366,8 @@
     "label": "不可用",
     "file": "cursors/astra/48/No.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -381,8 +381,8 @@
     "label": "垂直调整",
     "file": "cursors/astra/48/SizeNS.ani",
     "hotspot": [
-      14,
-      14
+      3,
+      7
     ],
     "frames": 5,
     "jiffies": 8,
@@ -396,8 +396,8 @@
     "label": "水平调整",
     "file": "cursors/astra/48/SizeWE.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      3
     ],
     "frames": 8,
     "jiffies": 8,
@@ -411,8 +411,8 @@
     "label": "对角调整1",
     "file": "cursors/astra/48/SizeNWSE.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -426,8 +426,8 @@
     "label": "对角调整2",
     "file": "cursors/astra/48/SizeNESW.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -441,8 +441,8 @@
     "label": "移动",
     "file": "cursors/astra/48/SizeAll.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -456,8 +456,8 @@
     "label": "候选选择",
     "file": "cursors/astra/48/UpArrow.ani",
     "hotspot": [
-      14,
-      3
+      6,
+      1
     ],
     "frames": 5,
     "jiffies": 8,
@@ -471,8 +471,8 @@
     "label": "链接选择",
     "file": "cursors/astra/48/Hand.ani",
     "hotspot": [
-      10,
-      3
+      4,
+      1
     ],
     "frames": 4,
     "jiffies": 8,
@@ -486,8 +486,8 @@
     "label": "位置选择",
     "file": "cursors/astra/48/Pin.ani",
     "hotspot": [
-      14,
-      26
+      5,
+      13
     ],
     "frames": 6,
     "jiffies": 8,
@@ -501,8 +501,8 @@
     "label": "人员选择",
     "file": "cursors/astra/48/Person.ani",
     "hotspot": [
-      14,
-      8
+      6,
+      3
     ],
     "frames": 4,
     "jiffies": 8,
@@ -516,8 +516,8 @@
     "label": "正常选择",
     "file": "cursors/astra/64/Arrow.ani",
     "hotspot": [
-      4,
-      4
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 12,
@@ -531,8 +531,8 @@
     "label": "帮助选择",
     "file": "cursors/astra/64/Help.ani",
     "hotspot": [
-      4,
-      4
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 8,
@@ -546,8 +546,8 @@
     "label": "后台运行",
     "file": "cursors/astra/64/AppStarting.ani",
     "hotspot": [
-      4,
-      4
+      1,
+      1
     ],
     "frames": 8,
     "jiffies": 6,
@@ -561,8 +561,8 @@
     "label": "忙碌",
     "file": "cursors/astra/64/Wait.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 6,
@@ -576,8 +576,8 @@
     "label": "精确选择",
     "file": "cursors/astra/64/Crosshair.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 6,
     "jiffies": 8,
@@ -591,8 +591,8 @@
     "label": "文本选择",
     "file": "cursors/astra/64/IBeam.ani",
     "hotspot": [
-      16,
-      20
+      4,
+      9
     ],
     "frames": 6,
     "jiffies": 8,
@@ -606,8 +606,8 @@
     "label": "手写",
     "file": "cursors/astra/64/NWPen.ani",
     "hotspot": [
-      5,
-      34
+      1,
+      17
     ],
     "frames": 6,
     "jiffies": 8,
@@ -621,8 +621,8 @@
     "label": "不可用",
     "file": "cursors/astra/64/No.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -636,8 +636,8 @@
     "label": "垂直调整",
     "file": "cursors/astra/64/SizeNS.ani",
     "hotspot": [
-      19,
-      19
+      4,
+      9
     ],
     "frames": 5,
     "jiffies": 8,
@@ -651,8 +651,8 @@
     "label": "水平调整",
     "file": "cursors/astra/64/SizeWE.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      3
     ],
     "frames": 8,
     "jiffies": 8,
@@ -666,8 +666,8 @@
     "label": "对角调整1",
     "file": "cursors/astra/64/SizeNWSE.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -681,8 +681,8 @@
     "label": "对角调整2",
     "file": "cursors/astra/64/SizeNESW.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -696,8 +696,8 @@
     "label": "移动",
     "file": "cursors/astra/64/SizeAll.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -711,8 +711,8 @@
     "label": "候选选择",
     "file": "cursors/astra/64/UpArrow.ani",
     "hotspot": [
-      19,
-      4
+      8,
+      1
     ],
     "frames": 5,
     "jiffies": 8,
@@ -726,8 +726,8 @@
     "label": "链接选择",
     "file": "cursors/astra/64/Hand.ani",
     "hotspot": [
-      14,
-      4
+      5,
+      1
     ],
     "frames": 4,
     "jiffies": 8,
@@ -741,8 +741,8 @@
     "label": "位置选择",
     "file": "cursors/astra/64/Pin.ani",
     "hotspot": [
-      19,
-      35
+      7,
+      17
     ],
     "frames": 6,
     "jiffies": 8,
@@ -756,8 +756,8 @@
     "label": "人员选择",
     "file": "cursors/astra/64/Person.ani",
     "hotspot": [
-      19,
-      10
+      8,
+      4
     ],
     "frames": 4,
     "jiffies": 8,
@@ -771,8 +771,8 @@
     "label": "正常选择",
     "file": "cursors/astra/128/Arrow.ani",
     "hotspot": [
-      8,
-      8
+      2,
+      2
     ],
     "frames": 6,
     "jiffies": 12,
@@ -786,8 +786,8 @@
     "label": "帮助选择",
     "file": "cursors/astra/128/Help.ani",
     "hotspot": [
-      8,
-      8
+      2,
+      2
     ],
     "frames": 6,
     "jiffies": 8,
@@ -801,8 +801,8 @@
     "label": "后台运行",
     "file": "cursors/astra/128/AppStarting.ani",
     "hotspot": [
-      8,
-      8
+      2,
+      2
     ],
     "frames": 8,
     "jiffies": 6,
@@ -816,8 +816,8 @@
     "label": "忙碌",
     "file": "cursors/astra/128/Wait.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 6,
@@ -831,8 +831,8 @@
     "label": "精确选择",
     "file": "cursors/astra/128/Crosshair.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 6,
     "jiffies": 8,
@@ -846,8 +846,8 @@
     "label": "文本选择",
     "file": "cursors/astra/128/IBeam.ani",
     "hotspot": [
-      32,
-      40
+      9,
+      18
     ],
     "frames": 6,
     "jiffies": 8,
@@ -861,8 +861,8 @@
     "label": "手写",
     "file": "cursors/astra/128/NWPen.ani",
     "hotspot": [
-      10,
-      68
+      2,
+      33
     ],
     "frames": 6,
     "jiffies": 8,
@@ -876,8 +876,8 @@
     "label": "不可用",
     "file": "cursors/astra/128/No.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -891,8 +891,8 @@
     "label": "垂直调整",
     "file": "cursors/astra/128/SizeNS.ani",
     "hotspot": [
-      38,
-      38
+      7,
+      18
     ],
     "frames": 5,
     "jiffies": 8,
@@ -906,8 +906,8 @@
     "label": "水平调整",
     "file": "cursors/astra/128/SizeWE.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -921,8 +921,8 @@
     "label": "对角调整1",
     "file": "cursors/astra/128/SizeNWSE.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -936,8 +936,8 @@
     "label": "对角调整2",
     "file": "cursors/astra/128/SizeNESW.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -951,8 +951,8 @@
     "label": "移动",
     "file": "cursors/astra/128/SizeAll.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -966,8 +966,8 @@
     "label": "候选选择",
     "file": "cursors/astra/128/UpArrow.ani",
     "hotspot": [
-      38,
-      8
+      15,
+      2
     ],
     "frames": 5,
     "jiffies": 8,
@@ -981,8 +981,8 @@
     "label": "链接选择",
     "file": "cursors/astra/128/Hand.ani",
     "hotspot": [
-      28,
-      8
+      11,
+      2
     ],
     "frames": 4,
     "jiffies": 8,
@@ -996,8 +996,8 @@
     "label": "位置选择",
     "file": "cursors/astra/128/Pin.ani",
     "hotspot": [
-      38,
-      70
+      14,
+      34
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1011,8 +1011,8 @@
     "label": "人员选择",
     "file": "cursors/astra/128/Person.ani",
     "hotspot": [
-      38,
-      20
+      16,
+      8
     ],
     "frames": 4,
     "jiffies": 8,
@@ -1026,8 +1026,8 @@
     "label": "正常选择",
     "file": "cursors/astra/256/Arrow.ani",
     "hotspot": [
-      16,
-      16
+      4,
+      4
     ],
     "frames": 6,
     "jiffies": 12,
@@ -1041,8 +1041,8 @@
     "label": "帮助选择",
     "file": "cursors/astra/256/Help.ani",
     "hotspot": [
-      16,
-      16
+      4,
+      5
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1056,8 +1056,8 @@
     "label": "后台运行",
     "file": "cursors/astra/256/AppStarting.ani",
     "hotspot": [
-      16,
-      16
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1071,8 +1071,8 @@
     "label": "忙碌",
     "file": "cursors/astra/256/Wait.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1086,8 +1086,8 @@
     "label": "精确选择",
     "file": "cursors/astra/256/Crosshair.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1101,8 +1101,8 @@
     "label": "文本选择",
     "file": "cursors/astra/256/IBeam.ani",
     "hotspot": [
-      64,
-      80
+      17,
+      36
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1116,8 +1116,8 @@
     "label": "手写",
     "file": "cursors/astra/256/NWPen.ani",
     "hotspot": [
-      20,
-      136
+      5,
+      67
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1131,8 +1131,8 @@
     "label": "不可用",
     "file": "cursors/astra/256/No.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1146,8 +1146,8 @@
     "label": "垂直调整",
     "file": "cursors/astra/256/SizeNS.ani",
     "hotspot": [
-      76,
-      76
+      14,
+      36
     ],
     "frames": 5,
     "jiffies": 8,
@@ -1161,8 +1161,8 @@
     "label": "水平调整",
     "file": "cursors/astra/256/SizeWE.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      14
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1176,8 +1176,8 @@
     "label": "对角调整1",
     "file": "cursors/astra/256/SizeNWSE.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1191,8 +1191,8 @@
     "label": "对角调整2",
     "file": "cursors/astra/256/SizeNESW.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1206,8 +1206,8 @@
     "label": "移动",
     "file": "cursors/astra/256/SizeAll.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      35
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1221,8 +1221,8 @@
     "label": "候选选择",
     "file": "cursors/astra/256/UpArrow.ani",
     "hotspot": [
-      76,
-      16
+      30,
+      4
     ],
     "frames": 5,
     "jiffies": 8,
@@ -1236,8 +1236,8 @@
     "label": "链接选择",
     "file": "cursors/astra/256/Hand.ani",
     "hotspot": [
-      56,
-      16
+      22,
+      4
     ],
     "frames": 4,
     "jiffies": 8,
@@ -1251,8 +1251,8 @@
     "label": "位置选择",
     "file": "cursors/astra/256/Pin.ani",
     "hotspot": [
-      76,
-      140
+      28,
+      67
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1266,8 +1266,8 @@
     "label": "人员选择",
     "file": "cursors/astra/256/Person.ani",
     "hotspot": [
-      76,
-      40
+      33,
+      16
     ],
     "frames": 4,
     "jiffies": 8,
@@ -1281,8 +1281,8 @@
     "label": "正常选择",
     "file": "cursors/sol/32/Arrow.ani",
     "hotspot": [
-      2,
-      2
+      0,
+      1
     ],
     "frames": 6,
     "jiffies": 12,
@@ -1296,8 +1296,8 @@
     "label": "帮助选择",
     "file": "cursors/sol/32/Help.ani",
     "hotspot": [
-      2,
-      2
+      0,
+      1
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1311,8 +1311,8 @@
     "label": "后台运行",
     "file": "cursors/sol/32/AppStarting.ani",
     "hotspot": [
-      2,
-      2
+      0,
+      1
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1326,8 +1326,8 @@
     "label": "忙碌",
     "file": "cursors/sol/32/Wait.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1341,8 +1341,8 @@
     "label": "精确选择",
     "file": "cursors/sol/32/Crosshair.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1356,8 +1356,8 @@
     "label": "文本选择",
     "file": "cursors/sol/32/IBeam.ani",
     "hotspot": [
-      8,
-      10
+      2,
+      4
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1371,8 +1371,8 @@
     "label": "手写",
     "file": "cursors/sol/32/NWPen.ani",
     "hotspot": [
-      2,
-      17
+      1,
+      8
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1386,8 +1386,8 @@
     "label": "不可用",
     "file": "cursors/sol/32/No.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1401,8 +1401,8 @@
     "label": "垂直调整",
     "file": "cursors/sol/32/SizeNS.ani",
     "hotspot": [
-      10,
-      10
+      2,
+      4
     ],
     "frames": 5,
     "jiffies": 8,
@@ -1416,8 +1416,8 @@
     "label": "水平调整",
     "file": "cursors/sol/32/SizeWE.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      2
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1431,8 +1431,8 @@
     "label": "对角调整1",
     "file": "cursors/sol/32/SizeNWSE.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1446,8 +1446,8 @@
     "label": "对角调整2",
     "file": "cursors/sol/32/SizeNESW.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1461,8 +1461,8 @@
     "label": "移动",
     "file": "cursors/sol/32/SizeAll.ani",
     "hotspot": [
-      10,
-      10
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1476,8 +1476,8 @@
     "label": "候选选择",
     "file": "cursors/sol/32/UpArrow.ani",
     "hotspot": [
-      10,
-      2
+      4,
+      1
     ],
     "frames": 5,
     "jiffies": 8,
@@ -1491,8 +1491,8 @@
     "label": "链接选择",
     "file": "cursors/sol/32/Hand.ani",
     "hotspot": [
-      7,
-      2
+      3,
+      0
     ],
     "frames": 4,
     "jiffies": 8,
@@ -1506,8 +1506,8 @@
     "label": "位置选择",
     "file": "cursors/sol/32/Pin.ani",
     "hotspot": [
-      10,
-      18
+      3,
+      8
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1521,8 +1521,8 @@
     "label": "人员选择",
     "file": "cursors/sol/32/Person.ani",
     "hotspot": [
-      10,
-      5
+      4,
+      2
     ],
     "frames": 4,
     "jiffies": 8,
@@ -1536,8 +1536,8 @@
     "label": "正常选择",
     "file": "cursors/sol/48/Arrow.ani",
     "hotspot": [
-      3,
-      3
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 12,
@@ -1551,8 +1551,8 @@
     "label": "帮助选择",
     "file": "cursors/sol/48/Help.ani",
     "hotspot": [
-      3,
-      3
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1566,8 +1566,8 @@
     "label": "后台运行",
     "file": "cursors/sol/48/AppStarting.ani",
     "hotspot": [
-      3,
-      3
+      1,
+      1
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1581,8 +1581,8 @@
     "label": "忙碌",
     "file": "cursors/sol/48/Wait.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1596,8 +1596,8 @@
     "label": "精确选择",
     "file": "cursors/sol/48/Crosshair.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1611,8 +1611,8 @@
     "label": "文本选择",
     "file": "cursors/sol/48/IBeam.ani",
     "hotspot": [
-      12,
-      15
+      3,
+      7
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1626,8 +1626,8 @@
     "label": "手写",
     "file": "cursors/sol/48/NWPen.ani",
     "hotspot": [
-      4,
-      26
+      1,
+      13
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1641,8 +1641,8 @@
     "label": "不可用",
     "file": "cursors/sol/48/No.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1656,8 +1656,8 @@
     "label": "垂直调整",
     "file": "cursors/sol/48/SizeNS.ani",
     "hotspot": [
-      14,
-      14
+      3,
+      7
     ],
     "frames": 5,
     "jiffies": 8,
@@ -1671,8 +1671,8 @@
     "label": "水平调整",
     "file": "cursors/sol/48/SizeWE.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      3
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1686,8 +1686,8 @@
     "label": "对角调整1",
     "file": "cursors/sol/48/SizeNWSE.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1701,8 +1701,8 @@
     "label": "对角调整2",
     "file": "cursors/sol/48/SizeNESW.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1716,8 +1716,8 @@
     "label": "移动",
     "file": "cursors/sol/48/SizeAll.ani",
     "hotspot": [
-      14,
-      14
+      7,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1731,8 +1731,8 @@
     "label": "候选选择",
     "file": "cursors/sol/48/UpArrow.ani",
     "hotspot": [
-      14,
-      3
+      6,
+      1
     ],
     "frames": 5,
     "jiffies": 8,
@@ -1746,8 +1746,8 @@
     "label": "链接选择",
     "file": "cursors/sol/48/Hand.ani",
     "hotspot": [
-      10,
-      3
+      4,
+      1
     ],
     "frames": 4,
     "jiffies": 8,
@@ -1761,8 +1761,8 @@
     "label": "位置选择",
     "file": "cursors/sol/48/Pin.ani",
     "hotspot": [
-      14,
-      26
+      5,
+      13
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1776,8 +1776,8 @@
     "label": "人员选择",
     "file": "cursors/sol/48/Person.ani",
     "hotspot": [
-      14,
-      8
+      6,
+      3
     ],
     "frames": 4,
     "jiffies": 8,
@@ -1791,8 +1791,8 @@
     "label": "正常选择",
     "file": "cursors/sol/64/Arrow.ani",
     "hotspot": [
-      4,
-      4
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 12,
@@ -1806,8 +1806,8 @@
     "label": "帮助选择",
     "file": "cursors/sol/64/Help.ani",
     "hotspot": [
-      4,
-      4
+      1,
+      1
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1821,8 +1821,8 @@
     "label": "后台运行",
     "file": "cursors/sol/64/AppStarting.ani",
     "hotspot": [
-      4,
-      4
+      1,
+      1
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1836,8 +1836,8 @@
     "label": "忙碌",
     "file": "cursors/sol/64/Wait.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 6,
@@ -1851,8 +1851,8 @@
     "label": "精确选择",
     "file": "cursors/sol/64/Crosshair.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1866,8 +1866,8 @@
     "label": "文本选择",
     "file": "cursors/sol/64/IBeam.ani",
     "hotspot": [
-      16,
-      20
+      4,
+      9
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1881,8 +1881,8 @@
     "label": "手写",
     "file": "cursors/sol/64/NWPen.ani",
     "hotspot": [
-      5,
-      34
+      1,
+      17
     ],
     "frames": 6,
     "jiffies": 8,
@@ -1896,8 +1896,8 @@
     "label": "不可用",
     "file": "cursors/sol/64/No.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1911,8 +1911,8 @@
     "label": "垂直调整",
     "file": "cursors/sol/64/SizeNS.ani",
     "hotspot": [
-      19,
-      19
+      4,
+      9
     ],
     "frames": 5,
     "jiffies": 8,
@@ -1926,8 +1926,8 @@
     "label": "水平调整",
     "file": "cursors/sol/64/SizeWE.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      3
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1941,8 +1941,8 @@
     "label": "对角调整1",
     "file": "cursors/sol/64/SizeNWSE.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1956,8 +1956,8 @@
     "label": "对角调整2",
     "file": "cursors/sol/64/SizeNESW.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1971,8 +1971,8 @@
     "label": "移动",
     "file": "cursors/sol/64/SizeAll.ani",
     "hotspot": [
-      19,
-      19
+      9,
+      9
     ],
     "frames": 8,
     "jiffies": 8,
@@ -1986,8 +1986,8 @@
     "label": "候选选择",
     "file": "cursors/sol/64/UpArrow.ani",
     "hotspot": [
-      19,
-      4
+      8,
+      1
     ],
     "frames": 5,
     "jiffies": 8,
@@ -2001,8 +2001,8 @@
     "label": "链接选择",
     "file": "cursors/sol/64/Hand.ani",
     "hotspot": [
-      14,
-      4
+      5,
+      1
     ],
     "frames": 4,
     "jiffies": 8,
@@ -2016,8 +2016,8 @@
     "label": "位置选择",
     "file": "cursors/sol/64/Pin.ani",
     "hotspot": [
-      19,
-      35
+      7,
+      17
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2031,8 +2031,8 @@
     "label": "人员选择",
     "file": "cursors/sol/64/Person.ani",
     "hotspot": [
-      19,
-      10
+      8,
+      4
     ],
     "frames": 4,
     "jiffies": 8,
@@ -2046,8 +2046,8 @@
     "label": "正常选择",
     "file": "cursors/sol/128/Arrow.ani",
     "hotspot": [
-      8,
-      8
+      2,
+      2
     ],
     "frames": 6,
     "jiffies": 12,
@@ -2061,8 +2061,8 @@
     "label": "帮助选择",
     "file": "cursors/sol/128/Help.ani",
     "hotspot": [
-      8,
-      8
+      2,
+      2
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2076,8 +2076,8 @@
     "label": "后台运行",
     "file": "cursors/sol/128/AppStarting.ani",
     "hotspot": [
-      8,
-      8
+      2,
+      2
     ],
     "frames": 8,
     "jiffies": 6,
@@ -2091,8 +2091,8 @@
     "label": "忙碌",
     "file": "cursors/sol/128/Wait.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 6,
@@ -2106,8 +2106,8 @@
     "label": "精确选择",
     "file": "cursors/sol/128/Crosshair.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2121,8 +2121,8 @@
     "label": "文本选择",
     "file": "cursors/sol/128/IBeam.ani",
     "hotspot": [
-      32,
-      40
+      9,
+      18
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2136,8 +2136,8 @@
     "label": "手写",
     "file": "cursors/sol/128/NWPen.ani",
     "hotspot": [
-      10,
-      68
+      2,
+      33
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2151,8 +2151,8 @@
     "label": "不可用",
     "file": "cursors/sol/128/No.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2166,8 +2166,8 @@
     "label": "垂直调整",
     "file": "cursors/sol/128/SizeNS.ani",
     "hotspot": [
-      38,
-      38
+      7,
+      18
     ],
     "frames": 5,
     "jiffies": 8,
@@ -2181,8 +2181,8 @@
     "label": "水平调整",
     "file": "cursors/sol/128/SizeWE.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      7
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2196,8 +2196,8 @@
     "label": "对角调整1",
     "file": "cursors/sol/128/SizeNWSE.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2211,8 +2211,8 @@
     "label": "对角调整2",
     "file": "cursors/sol/128/SizeNESW.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2226,8 +2226,8 @@
     "label": "移动",
     "file": "cursors/sol/128/SizeAll.ani",
     "hotspot": [
-      38,
-      38
+      18,
+      18
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2241,8 +2241,8 @@
     "label": "候选选择",
     "file": "cursors/sol/128/UpArrow.ani",
     "hotspot": [
-      38,
-      8
+      15,
+      2
     ],
     "frames": 5,
     "jiffies": 8,
@@ -2256,8 +2256,8 @@
     "label": "链接选择",
     "file": "cursors/sol/128/Hand.ani",
     "hotspot": [
-      28,
-      8
+      11,
+      2
     ],
     "frames": 4,
     "jiffies": 8,
@@ -2271,8 +2271,8 @@
     "label": "位置选择",
     "file": "cursors/sol/128/Pin.ani",
     "hotspot": [
-      38,
-      70
+      14,
+      34
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2286,8 +2286,8 @@
     "label": "人员选择",
     "file": "cursors/sol/128/Person.ani",
     "hotspot": [
-      38,
-      20
+      16,
+      8
     ],
     "frames": 4,
     "jiffies": 8,
@@ -2301,8 +2301,8 @@
     "label": "正常选择",
     "file": "cursors/sol/256/Arrow.ani",
     "hotspot": [
-      16,
-      16
+      4,
+      4
     ],
     "frames": 6,
     "jiffies": 12,
@@ -2316,8 +2316,8 @@
     "label": "帮助选择",
     "file": "cursors/sol/256/Help.ani",
     "hotspot": [
-      16,
-      16
+      4,
+      5
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2331,8 +2331,8 @@
     "label": "后台运行",
     "file": "cursors/sol/256/AppStarting.ani",
     "hotspot": [
-      16,
-      16
+      4,
+      4
     ],
     "frames": 8,
     "jiffies": 6,
@@ -2346,8 +2346,8 @@
     "label": "忙碌",
     "file": "cursors/sol/256/Wait.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 6,
@@ -2361,8 +2361,8 @@
     "label": "精确选择",
     "file": "cursors/sol/256/Crosshair.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2376,8 +2376,8 @@
     "label": "文本选择",
     "file": "cursors/sol/256/IBeam.ani",
     "hotspot": [
-      64,
-      80
+      17,
+      36
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2391,8 +2391,8 @@
     "label": "手写",
     "file": "cursors/sol/256/NWPen.ani",
     "hotspot": [
-      20,
-      136
+      5,
+      67
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2406,8 +2406,8 @@
     "label": "不可用",
     "file": "cursors/sol/256/No.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2421,8 +2421,8 @@
     "label": "垂直调整",
     "file": "cursors/sol/256/SizeNS.ani",
     "hotspot": [
-      76,
-      76
+      14,
+      36
     ],
     "frames": 5,
     "jiffies": 8,
@@ -2436,8 +2436,8 @@
     "label": "水平调整",
     "file": "cursors/sol/256/SizeWE.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      14
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2451,8 +2451,8 @@
     "label": "对角调整1",
     "file": "cursors/sol/256/SizeNWSE.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2466,8 +2466,8 @@
     "label": "对角调整2",
     "file": "cursors/sol/256/SizeNESW.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      36
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2481,8 +2481,8 @@
     "label": "移动",
     "file": "cursors/sol/256/SizeAll.ani",
     "hotspot": [
-      76,
-      76
+      36,
+      35
     ],
     "frames": 8,
     "jiffies": 8,
@@ -2496,8 +2496,8 @@
     "label": "候选选择",
     "file": "cursors/sol/256/UpArrow.ani",
     "hotspot": [
-      76,
-      16
+      30,
+      4
     ],
     "frames": 5,
     "jiffies": 8,
@@ -2511,8 +2511,8 @@
     "label": "链接选择",
     "file": "cursors/sol/256/Hand.ani",
     "hotspot": [
-      56,
-      16
+      22,
+      4
     ],
     "frames": 4,
     "jiffies": 8,
@@ -2526,8 +2526,8 @@
     "label": "位置选择",
     "file": "cursors/sol/256/Pin.ani",
     "hotspot": [
-      76,
-      140
+      28,
+      67
     ],
     "frames": 6,
     "jiffies": 8,
@@ -2541,8 +2541,8 @@
     "label": "人员选择",
     "file": "cursors/sol/256/Person.ani",
     "hotspot": [
-      76,
-      40
+      33,
+      16
     ],
     "frames": 4,
     "jiffies": 8,

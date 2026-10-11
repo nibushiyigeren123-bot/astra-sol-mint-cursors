@@ -39,8 +39,10 @@ def render(t):
   anim_frame=int(phase*1000/entry['frame_ms'])%entry['frames']
   name='Astra 姐姐' if c=='astra' else 'sol 妹妹'
   text(d,(105,295),name,40,'#baf3d4')
-  pose=builder.action_frame(c,role,anim_frame).resize((320,400),Image.Resampling.LANCZOS)
-  im.paste(pose,(110,390),pose)
+  pose=builder.action_frame(c,role,anim_frame)
+  factor=min(320/pose.width,400/pose.height)
+  pose=pose.resize((round(pose.width*factor),round(pose.height*factor)),Image.Resampling.LANCZOS)
+  im.paste(pose,(110+(320-pose.width)//2,390+400-pose.height),pose)
   d.rounded_rectangle((545,300,1805,847),24,fill='#edf7f0')
   text(d,(588,333),'工作台的一点薄荷绿',32,'#245342')
   d.rounded_rectangle((600,420,1200,510),14,fill='#d3eadc')
@@ -85,12 +87,12 @@ def render(t):
     a=cursor(c,'Arrow',size)
     im.paste(a,(x+(276-size)//2,y+(256-size)//2),a)
     text(d,(x+87,y+252),f'{size} px',20,'#26513f')
-  text(d,(500,945),'按实际像素展示 · 新增 128 px / 256 px 大尺寸',24,'#a4cdb8')
+  text(d,(500,945),'五档均放大全身形象 · 按实际像素展示',24,'#a4cdb8')
  else:
   character(im,'astra',(200,333,335,458));character(im,'sol',(1320,368,310,400))
   text(d,(663,338),'两套独立下载 · GitHub 分享',40,'#baf3d4')
-  text(d,(680,445),'安装后在「鼠标 → 指针」中选择',28)
-  text(d,(707,520),'Astra Mint  /  sol Mint',32,'#b5dfc8')
+  text(d,(680,445),'安装一档后开启「尺寸保持」',28)
+  text(d,(707,520),'换大小：点对应尺寸的应用 CMD',32,'#b5dfc8')
   text(d,(676,635),'astra-sol-mint-cursors',32,'#79d8ae')
   text(d,(669,697),'下载地址见视频简介',28,'#a9cdb9')
  text(d,(95,976),'Astra × sol',24,'#8aaf9d')
@@ -104,7 +106,7 @@ def main():
  captions=[(0,4,'薄荷绿的 GPT 姐妹，这次变成动态鼠标指针啦。')]
  for c,start in [('Astra 姐姐',4),('sol 妹妹',34.6)]:
   for i,e in enumerate(states):captions.append((start+i*1.8,start+(i+1)*1.8,c+' · '+e['label']))
- captions.extend([(65.2,70.2,'每套 17 种动态状态，新增 128 和 256，共五档尺寸。'),(70.2,75.2,'愿我们给你的日常，添一点薄荷绿的小快乐。')])
+ captions.extend([(65.2,70.2,'两位姐妹各17种状态，五档均放大全身形象。'),(70.2,75.2,'愿我们给你的日常，添一点薄荷绿的小快乐。')])
  srt='\n\n'.join(f'{i+1}\n{stamp(a)} --> {stamp(b)}\n{s}' for i,(a,b,s) in enumerate(captions))+'\n'
  (V/'captions.srt').write_text(srt,encoding='utf-8')
  (V/'showcase-project.json').write_text(json.dumps({'size':[1920,1080],'fps':30,'cursor_sizes':[32,48,64,128,256],'seconds':DURATION,'scenes':[[0,4,'intro'],[4,34.6,'astra all 17 roles'],[34.6,65.2,'sol all 17 roles'],[65.2,70.2,'native sizes'],[70.2,75.2,'download']],'role_seconds':1.8,'roles':[e['role'] for e in states],'renderer':'source/render_showcase.py','audio':'none','cursor_asset_root':'source/frames'},ensure_ascii=False,indent=2),encoding='utf-8')
