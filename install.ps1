@@ -24,6 +24,12 @@ if(-not ('MintCursorNative' -as [type])){
 using System;
 using System.Runtime.InteropServices;
 public static class MintCursorNative {
+ [StructLayout(LayoutKind.Sequential)] private struct IconInfo {
+  public int isIcon; public uint x,y; public IntPtr mask,color;
+ }
+ [StructLayout(LayoutKind.Sequential)] private struct BitmapInfo {
+  public int type,width,height,widthBytes; public ushort planes,bits; public IntPtr pixels;
+ }
  [DllImport("user32.dll", SetLastError=true)]
  public static extern bool SystemParametersInfo(uint action,uint parameter,IntPtr value,uint flags);
  [DllImport("user32.dll", CharSet=CharSet.Unicode, SetLastError=true)]
@@ -32,6 +38,27 @@ public static class MintCursorNative {
  private static extern bool SetSystemCursor(IntPtr cursor,uint id);
  [DllImport("user32.dll")]
  private static extern bool DestroyCursor(IntPtr cursor);
+ [DllImport("user32.dll", EntryPoint="LoadCursorW", SetLastError=true)]
+ private static extern IntPtr CurrentSystemCursor(IntPtr module,IntPtr id);
+ [DllImport("user32.dll", SetLastError=true)]
+ private static extern bool GetIconInfo(IntPtr cursor,out IconInfo info);
+ [DllImport("gdi32.dll", EntryPoint="GetObjectW")]
+ private static extern int GetBitmapInfo(IntPtr bitmap,int bytes,out BitmapInfo info);
+ [DllImport("gdi32.dll")]
+ private static extern bool DeleteObject(IntPtr bitmap);
+ public static bool HasExactSize(uint id,int size) {
+  IntPtr cursor=CurrentSystemCursor(IntPtr.Zero,new IntPtr((long)id));IconInfo icon;
+  if(cursor==IntPtr.Zero || !GetIconInfo(cursor,out icon)) return false;
+  try {
+   BitmapInfo bitmap;
+   if(GetBitmapInfo(icon.color!=IntPtr.Zero?icon.color:icon.mask,Marshal.SizeOf(typeof(BitmapInfo)),out bitmap)==0) return false;
+   int height=icon.color!=IntPtr.Zero?bitmap.height:bitmap.height/2;
+   return bitmap.width==size && height==size;
+  } finally {
+   if(icon.mask!=IntPtr.Zero) DeleteObject(icon.mask);
+   if(icon.color!=IntPtr.Zero) DeleteObject(icon.color);
+  }
+ }
  public static bool ApplyExactSize(string path,uint id,int size) {
   IntPtr cursor=LoadImageW(IntPtr.Zero,path,2,size,size,16);
   if(cursor==IntPtr.Zero) return false;
@@ -56,7 +83,7 @@ if($Restore){
  if(-not $backups){throw 'No saved cursor settings found.'}
  $saved=Get-Content -LiteralPath $backups[0].FullName -Raw -Encoding UTF8 | ConvertFrom-Json
  Restore-MintSavedValues $saved
- if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,3)){throw 'Windows cursor refresh failed.'}
+ if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0)){throw 'Windows cursor refresh failed.'}
  Write-Output "Restored settings saved in $($backups[0].Name)";return
 }
 [void](New-Item -ItemType Directory -Path $destination -Force)
@@ -95,12 +122,15 @@ if($Apply){
   $reg.SetValue('Scheme Source',1,[Microsoft.Win32.RegistryValueKind]::DWord)
   $reg.SetValue('CursorBaseSize',$Size,[Microsoft.Win32.RegistryValueKind]::DWord)
  }finally{$reg.Close()}
- if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,3)){throw "Windows refresh failed. Backup: $backup"}
+ if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0)){throw "Windows refresh failed. Backup: $backup"}
  $systemIds=@{Arrow=32512;Help=32651;AppStarting=32650;Wait=32514;Crosshair=32515;IBeam=32513;NWPen=32631;No=32648;SizeNS=32645;SizeWE=32644;SizeNWSE=32642;SizeNESW=32643;SizeAll=32646;UpArrow=32516;Hand=32649;Pin=32671;Person=32672}
  foreach($role in $roles){
   $entry=$manifest | Where-Object { $_.character -eq $Character -and $_.size -eq $Size -and $_.role -eq $role }
   if(-not[MintCursorNative]::ApplyExactSize((Join-Path $destination $entry.file),$systemIds[$role],$Size)){
    throw "Could not apply exact cursor size for $role. Backup: $backup"
+  }
+  if(-not[MintCursorNative]::HasExactSize($systemIds[$role],$Size)){
+   throw "Windows did not retain the selected size for $role. Backup: $backup"
   }
  }
  }catch{
@@ -108,10 +138,10 @@ if($Apply){
   if($saved){
    try{
     Restore-MintSavedValues $saved
-    if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,3)){throw 'Rollback cursor refresh failed.'}
+    if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0)){throw 'Rollback cursor refresh failed.'}
    }catch{throw "Apply failed: $($applyError.Exception.Message) Rollback failed: $($_.Exception.Message) Use -Restore. Backup: $backup"}
   }
   throw "Apply failed; previous cursor settings and size restored. $($applyError.Exception.Message)"
  }
- Write-Output "Applied $Character $Size px. Previous settings: $backup"
+ Write-Output "Applied $Character $Size px. All 17 live system cursor sizes verified. Previous settings: $backup"
 }else{Write-Output 'Installed cursor schemes. Open Control Panel > Mouse > Pointers to choose a Mint scheme.'}

@@ -1,0 +1,2372 @@
+{
+  "actual_installer_applied": true,
+  "tested_windows_build": 26300,
+  "successful_cursor_reload_flags": 0,
+  "schemes": 10,
+  "live_system_states": 170,
+  "sizes": [
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "checks": [
+    "actual shared cursor dimensions",
+    "actual shared cursor hotspot",
+    "all animation frame colors",
+    "at least 3 distinct animation frames for every role"
+  ],
+  "records": [
+    {
+      "character": "astra",
+      "size": 32,
+      "validation": {
+        "character": "astra",
+        "size": 32,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              2
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              2
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              2
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              8,
+              10
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              17
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              2
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              7,
+              2
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              18
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              5
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "astra",
+      "size": 48,
+      "validation": {
+        "character": "astra",
+        "size": 48,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              3,
+              3
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              3,
+              3
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              3,
+              3
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              12,
+              15
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              4,
+              26
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              3
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              10,
+              3
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              26
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              8
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "astra",
+      "size": 64,
+      "validation": {
+        "character": "astra",
+        "size": 64,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              4,
+              4
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              4,
+              4
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              4,
+              4
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              16,
+              20
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              5,
+              34
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              4
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              14,
+              4
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              35
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              10
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "astra",
+      "size": 128,
+      "validation": {
+        "character": "astra",
+        "size": 128,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              8,
+              8
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              8,
+              8
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              8,
+              8
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              32,
+              40
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              10,
+              68
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              8
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              28,
+              8
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              70
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              20
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "astra",
+      "size": 256,
+      "validation": {
+        "character": "astra",
+        "size": 256,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              16,
+              16
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              16,
+              16
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              16,
+              16
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              64,
+              80
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              20,
+              136
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              16
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              56,
+              16
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              140
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              40
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "sol",
+      "size": 32,
+      "validation": {
+        "character": "sol",
+        "size": 32,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              2
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              2
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              2
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              8,
+              10
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              2,
+              17
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              10
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              2
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              7,
+              2
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              18
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              32,
+              32
+            ],
+            "hotspot": [
+              10,
+              5
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "sol",
+      "size": 48,
+      "validation": {
+        "character": "sol",
+        "size": 48,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              3,
+              3
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              3,
+              3
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              3,
+              3
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              12,
+              15
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              4,
+              26
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              14
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              3
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              10,
+              3
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              26
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              48,
+              48
+            ],
+            "hotspot": [
+              14,
+              8
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "sol",
+      "size": 64,
+      "validation": {
+        "character": "sol",
+        "size": 64,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              4,
+              4
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              4,
+              4
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              4,
+              4
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              16,
+              20
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              5,
+              34
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              19
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              4
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              14,
+              4
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              35
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              64,
+              64
+            ],
+            "hotspot": [
+              19,
+              10
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "sol",
+      "size": 128,
+      "validation": {
+        "character": "sol",
+        "size": 128,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              8,
+              8
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              8,
+              8
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              8,
+              8
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              32,
+              40
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              10,
+              68
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              38
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              8
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              28,
+              8
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              70
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              128,
+              128
+            ],
+            "hotspot": [
+              38,
+              20
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    },
+    {
+      "character": "sol",
+      "size": 256,
+      "validation": {
+        "character": "sol",
+        "size": 256,
+        "actual_system_shared_cursors_verified": true,
+        "roles": 17,
+        "native_frame_color_checks": true,
+        "all_animations_have_at_least_three_distinct_frames": true,
+        "records": [
+          {
+            "role": "Arrow",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              16,
+              16
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Help",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              16,
+              16
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "AppStarting",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              16,
+              16
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Wait",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "Crosshair",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "IBeam",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              64,
+              80
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "NWPen",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              20,
+              136
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "No",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 8
+          },
+          {
+            "role": "SizeNS",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "SizeWE",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNWSE",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeNESW",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "SizeAll",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              76
+            ],
+            "native_animation_steps": 8,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "UpArrow",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              16
+            ],
+            "native_animation_steps": 5,
+            "distinct_native_frames": 5
+          },
+          {
+            "role": "Hand",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              56,
+              16
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          },
+          {
+            "role": "Pin",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              140
+            ],
+            "native_animation_steps": 6,
+            "distinct_native_frames": 6
+          },
+          {
+            "role": "Person",
+            "size": [
+              256,
+              256
+            ],
+            "hotspot": [
+              76,
+              40
+            ],
+            "native_animation_steps": 4,
+            "distinct_native_frames": 4
+          }
+        ]
+      }
+    }
+  ]
+}
