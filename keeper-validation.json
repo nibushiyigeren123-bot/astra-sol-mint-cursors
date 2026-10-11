@@ -1,0 +1,82 @@
+{
+  "version": "v1.0.3",
+  "keeper_source_sha256": "cd755285314202019b076279f742a6f49f78b08256d09235a85e3a745f8f43cf",
+  "controller_sha256": "e1bb25f5898d1c87c6e2316cd23eff54a1297162a2e59788e2550c0a6767e63c",
+  "source_compiled_on_user_machine": true,
+  "default_inf_does_not_enable_keeper": true,
+  "tested_cursor_installation": "current user LocalAppData paths; Windows INF directory allowlist implemented, not separately live tested",
+  "windows_build": 26300,
+  "live_schemes_verified": 10,
+  "roles_in_all_size_cases": 170,
+  "control_panel_ui_cases": 11,
+  "color_animation_and_hotspots_verified": true,
+  "stop_restart_duplicate_and_rapid_switch_checks": [
+    {
+      "test": "same-size-character-color-switch",
+      "character": "astra",
+      "size": 64,
+      "repaired_within_seconds": 0.975
+    },
+    {
+      "test": "same-size-character-color-switch",
+      "character": "sol",
+      "size": 64,
+      "repaired_within_seconds": 0.732
+    },
+    {
+      "test": "same-size-character-color-switch",
+      "character": "astra",
+      "size": 64,
+      "repaired_within_seconds": 0.813
+    },
+    {
+      "test": "same-size-character-color-switch",
+      "character": "sol",
+      "size": 64,
+      "repaired_within_seconds": 0.733
+    },
+    {
+      "test": "same-scheme-native-reload",
+      "repaired_within_seconds": 0.244
+    },
+    {
+      "test": "non-Mint-native-scheme-left-untouched",
+      "arrow_render_unchanged": true,
+      "no_keeper_application": true
+    },
+    {
+      "test": "mixed-role-paths-left-untouched",
+      "no_keeper_application": true
+    },
+    {
+      "test": "stop-removes-startup-and-does-not-reapply",
+      "no_reapply_after_reload": true,
+      "native_size_after_reload": 32
+    },
+    {
+      "test": "restart-and-duplicate-installation",
+      "same_session_pid_preserved": true,
+      "repaired_within_seconds": 1.055
+    },
+    {
+      "test": "rapid-alternating-scheme-changes",
+      "changes": 12,
+      "final_character": "astra",
+      "final_size": 64,
+      "repaired_within_seconds": 1.869
+    }
+  ],
+  "gui_schemes": [
+    "Astra Mint 32px",
+    "Astra Mint 48px",
+    "Astra Mint 64px",
+    "Astra Mint 128px",
+    "Astra Mint 256px",
+    "sol Mint 32px",
+    "sol Mint 48px",
+    "sol Mint 64px",
+    "sol Mint 128px",
+    "sol Mint 256px",
+    "Astra Mint 64px"
+  ]
+}

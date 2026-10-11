@@ -6,40 +6,43 @@ Astra 姐姐和 sol 妹妹各自一套动态指针，沿用此前姐妹的 Q 版
 
 ## 下载与安装
 
-下载 [整个仓库 ZIP](https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/archive/refs/heads/main.zip) 后解压，或下载 `downloads/` 中的单角色 ZIP。打开解压目录，在 PowerShell 中运行：
+v1.0.3 默认采用 **INF 右键安装**。完整包同时包含两位角色的五档文件和十个安装 INF；单角色包包含对应角色的五档和五个 INF。无需拆成五个压缩包。
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
-```
+1. 下载并**完整解压**，保留 INF 与 `cursors/` 文件夹的相对位置。
+2. 右键 `安装_Astra_64px.inf` 或 `安装_sol_64px.inf`，选择“安装”。Windows 11 可能需要先点“显示更多选项”。安装到 Windows 目录时可能需要管理员确认。
+3. 打开“控制面板 → 鼠标 → 指针”，在方案中选择 `Astra Mint 64px` 或 `sol Mint 64px`，点“应用”。
+4. 需要其他档位时，安装对应 INF。可安装多档，再通过鼠标面板切换；无需重复安装已登记的档位。
 
-安装器把文件复制到当前用户 `%LOCALAPPDATA%\AstraSolMintCursors\1.0.0`，登记32、48、64、128、256五档方案，并默认应用64px的全部17种状态，不需要管理员权限。直接右键 `install.ps1` 选择“使用PowerShell运行”即可；也可以运行上面的无参数命令。单角色包自动使用对应角色，完整包优先沿用当前Mint角色，未使用姐妹方案时默认Astra。仅登记方案而不更改当前指针请加 `-RegisterOnly`。
-
-**右键运行PS1即可安装并应用64px。** v1.0.2修复了无参数运行仍只登记方案的入口问题。Windows默认的方案重载在制作机上将五档都显示为32px；在“鼠标 → 指针”里更换方案后，请再运行安装器，或使用 `-Character sol -Size 128` 等参数选择角色和尺寸。现在安装器按指定像素应用全部17种状态，并逐项读取生效后的系统位图尺寸确认。32px为原来的大小，48px为1.5倍宽高，64px为2倍，128px为4倍，256px为8倍；日常可以先试64px。
-
-完整包给姐妹各提供32、48、64、128、256px五份独立安装CMD，共10份。双击 `应用_Astra_32px.cmd`、`应用_Astra_48px.cmd`、`应用_Astra_64px.cmd`、`应用_Astra_128px.cmd` 或 `应用_Astra_256px.cmd` 安装并应用对应尺寸；妹妹对应 `应用_sol_32px.cmd` 等五份。单角色包包含本角色五份CMD。日常推荐64px，请保持CMD与install.ps1及cursors文件夹在同一解压目录。此步骤会改当前指针和指针大小，原设置及尺寸一起备份。若原生替换请求或实际尺寸检查失败，会恢复原设置并报出失败状态；恢复自身失败时给出备份路径。重新登录或其他软件重置指针后，可再次双击应用脚本。
-
-| 尺寸 | Astra 姐姐安装CMD | sol 妹妹安装CMD |
+| 文件分辨率 | Astra INF | sol INF |
 |---|---|---|
-| 32px | `应用_Astra_32px.cmd` | `应用_sol_32px.cmd` |
-| 48px | `应用_Astra_48px.cmd` | `应用_sol_48px.cmd` |
-| 64px（日常推荐） | `应用_Astra_64px.cmd` | `应用_sol_64px.cmd` |
-| 128px | `应用_Astra_128px.cmd` | `应用_sol_128px.cmd` |
-| 256px | `应用_Astra_256px.cmd` | `应用_sol_256px.cmd` |
+| 32px | `安装_Astra_32px.inf` | `安装_sol_32px.inf` |
+| 48px | `安装_Astra_48px.inf` | `安装_sol_48px.inf` |
+| 64px | `安装_Astra_64px.inf` | `安装_sol_64px.inf` |
+| 128px | `安装_Astra_128px.inf` | `安装_sol_128px.inf` |
+| 256px | `安装_Astra_256px.inf` | `安装_sol_256px.inf` |
 
-也可以直接指定角色和尺寸并应用：
+**尺寸限制须知：** 上表是 ANI 文件分辨率。纯 INF 只复制文件并登记方案；Windows 决定重载后的实际显示尺寸。在制作机 Windows 26300 上，直接通过鼠标面板重载这五档动画均为32px，不能保证五个方案名会产生五种实际大小。拆分压缩包也不会改变加载行为。可像 P5 参考包的作者建议一样，在 Windows“设置 → 辅助功能 → 鼠标指针和触控”尝试调整大小；系统滑块控制的是全局大小，不等于按五个方案名锁定五种像素，具体动画效果需在自己的系统确认。INF 版保留全部动画，没有把五档文件分辨率当成五档实际尺寸修复。
+
+默认 INF 安装不启动常驻组件、不运行 PowerShell、不改登录启动、不附预编译 EXE。INF 本身不能保证所有电脑没有安装权限或系统策略提示。它只把本包17个 ANI 复制到 `%WINDIR%\Cursors\AstraSolMintCursors\cursors\角色\尺寸`，并登记所选方案；不修改当前活动指针。安装后需在鼠标面板选择并点应用。切回原 Windows 方案即可停止使用本包指针。
+
+### 可选：指定像素的应用脚本
+
+`应用_Astra_32px.cmd` 等十个 CMD，以及 `install.ps1` 保留为可选工具。它们复制到当前用户 `%LOCALAPPDATA%\AstraSolMintCursors\1.0.0`、登记方案、按指定像素加载并核验全部17状态，不需要管理员权限。直接右键 `install.ps1` 选择“使用 PowerShell 运行”默认应用64px；完整包优先沿用当前姐妹角色，单角色包使用本角色。
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Character astra -Size 128 -Apply
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Character sol -Size 256 -Apply
 ```
 
-`-Apply` 会在复制目录的 `backup/` 保存当前指针注册表值。恢复最近一次应用前的设置：
+此步骤仅保证此次应用的实际像素。之后 Windows 鼠标面板、登录或其他软件重载指针时，仍可能缩回系统默认尺寸。应用脚本默认**不安装或开启**尺寸保持组件。`-RegisterOnly` 仅登记；`-VerifyOnly` 仅检查包内文件；`-Restore` 停止可选组件并恢复最近一次脚本应用前的设置，备份保存在当前用户目录 `backup/`。INF 安装不产生该脚本备份。
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Restore
-```
+### 可选：尺寸保持组件
 
-不运行脚本时，可在鼠标的“指针”页逐项浏览 `cursors/astra/48/` 或 `cursors/sol/48/` 的文件并保存方案。
+确实需要在鼠标面板切换五档实际像素时，先安装所需 INF 或应用脚本，再运行 `尺寸保持_开启.cmd`。它使用 Windows 自带 .NET Framework C# 编译器，从 `source/MintCursorKeeper.cs` **在使用者本机生成**组件；分发包没有预编译 EXE。本机生成不等于可信代码签名，不保证安全软件或系统策略不提示；无需关闭系统保护或安装自签名根证书。
+
+组件保存在当前用户目录，不联网、不需管理员权限；开启后登记 `HKCU\Software\Microsoft\Windows\CurrentVersion\Run` 中 `AstraSolMintCursorKeeper` 以随登录启动，每个会话仅一个实例。每500ms检查一次，选择稳定后恢复全部17状态，通常约1秒；操作前重新核对方案和全部路径。只处理完整的本包方案：支持 INF 的 Windows 目录或脚本的当前用户目录；其他主题、任意混合方案不干预。未安装某档文件时不替换。
+
+`尺寸保持_关闭.cmd` 停止并取消登录启动，保留当前指针；`尺寸保持_卸载.cmd` 另移除组件文件，保留素材与方案。诊断：`powershell -NoProfile -ExecutionPolicy Bypass -File .\keeper.ps1 -Action Status`；日志位于安装目录 `keeper/keeper.log`。普通 INF 安装以及普通应用脚本均不自动运行此组件。
 
 ## 内容
 
@@ -76,7 +79,7 @@ python source/render_showcase.py
 
 源码生成器使用 Windows 自带字体，视频生成器需要 FFmpeg。文件校验器检查所有ANI的二进制边界、透明像素、动画差异，并用Windows `LoadImageW`、`GetIconInfo`、`DrawIconEx` 实际加载文件、检查热点、绘制动画步骤及比较颜色。`validation.json` 是文件验收记录，`checksums.json` 为分发文件SHA-256。
 
-v1.0.2另通过25项隔离入口检查：实际启动全部10份CMD子进程、无参数PS1、保留当前角色、单角色包、显式尺寸、仅登记/仅验证和六种开关冲突；隔离测试的原生调用使用stub，没有改当前系统指针。参见 `default-install-validation.json`。
+v1.0.3另通过25项隔离入口检查：实际启动全部10份CMD子进程、无参数PS1、保留当前角色、单角色包、显式尺寸、仅登记/仅验证和六种开关冲突；隔离测试的原生调用使用stub，没有改当前系统指针。参见 `default-install-validation.json`。
 
 修复版已在制作机通过真实安装器逐一应用两位角色的五档尺寸，检查170个已生效的系统状态及各动画帧，大小、热点、颜色和动画变化全部匹配。参见 `live-application-validation.json`。另外在隔离注册表中检查方案登记、备份恢复和两个实际触发的失败回退分支；失败注入使用模拟原生调用。修复了制作机上带广播标志的指针重载返回失败、导致应用提前回退的问题；重载采用flags=0，随后明确加载尺寸并核对实际系统结果。不同DPI、远程桌面和各类游戏环境仍需实际使用验证。
 

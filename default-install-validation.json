@@ -1,9 +1,11 @@
 {
-  "installer_sha256": "1b6129e93c945d41c03d0786152273f4611bbee9886c701e63809985e0d76b26",
+  "version": "v1.0.3",
+  "installer_sha256": "a0195890bc533ce2ef2282f7fd44609f7e3e728cf8907301f9789589039654d0",
   "entry_tests": 25,
   "independent_cmd_files": 10,
   "system_pointer_changed": false,
-  "native_api": "stubbed for entry-point tests; earlier live native application is recorded separately in live-application-validation.json",
+  "native_api_stubbed": true,
+  "default_does_not_enable_keeper": true,
   "records": [
     {
       "entry": "plain PS1 complete package",

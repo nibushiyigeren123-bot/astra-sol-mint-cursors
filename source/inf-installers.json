@@ -1,0 +1,39 @@
+{
+  "version": "1.0.3",
+  "default_installation": "INF",
+  "schemes": [
+    "安装_Astra_32px.inf",
+    "安装_Astra_48px.inf",
+    "安装_Astra_64px.inf",
+    "安装_Astra_128px.inf",
+    "安装_Astra_256px.inf",
+    "安装_sol_32px.inf",
+    "安装_sol_48px.inf",
+    "安装_sol_64px.inf",
+    "安装_sol_128px.inf",
+    "安装_sol_256px.inf"
+  ],
+  "roles_in_each_scheme": [
+    "Arrow",
+    "Help",
+    "AppStarting",
+    "Wait",
+    "Crosshair",
+    "IBeam",
+    "NWPen",
+    "No",
+    "SizeNS",
+    "SizeWE",
+    "SizeNWSE",
+    "SizeNESW",
+    "SizeAll",
+    "UpArrow",
+    "Hand",
+    "Pin",
+    "Person"
+  ],
+  "changes_active_cursors": false,
+  "requires_login_startup": false,
+  "contains_executable_hooks": false,
+  "file_size_is_not_guaranteed_runtime_size": true
+}

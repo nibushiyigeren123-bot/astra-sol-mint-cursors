@@ -98,6 +98,7 @@ if($Restore){
  $backups=Get-ChildItem -LiteralPath (Join-Path $destination 'backup') -Filter '*.json' | Sort-Object Name -Descending
  if(-not $backups){throw 'No saved cursor settings found.'}
  $saved=Get-Content -LiteralPath $backups[0].FullName -Raw -Encoding UTF8 | ConvertFrom-Json
+ & (Join-Path $packageRoot 'keeper.ps1') -Action Stop
  Restore-MintSavedValues $saved
  if(-not[MintCursorNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0)){throw 'Windows cursor refresh failed.'}
  Write-Output "Restored settings saved in $($backups[0].Name)";return
