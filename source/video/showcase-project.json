@@ -1,0 +1,58 @@
+{
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "seconds": 75.2,
+  "scenes": [
+    [
+      0,
+      4,
+      "intro"
+    ],
+    [
+      4,
+      34.6,
+      "astra all 17 roles"
+    ],
+    [
+      34.6,
+      65.2,
+      "sol all 17 roles"
+    ],
+    [
+      65.2,
+      70.2,
+      "native sizes"
+    ],
+    [
+      70.2,
+      75.2,
+      "download"
+    ]
+  ],
+  "role_seconds": 1.8,
+  "roles": [
+    "Arrow",
+    "Help",
+    "AppStarting",
+    "Wait",
+    "Crosshair",
+    "IBeam",
+    "NWPen",
+    "No",
+    "SizeNS",
+    "SizeWE",
+    "SizeNWSE",
+    "SizeNESW",
+    "SizeAll",
+    "UpArrow",
+    "Hand",
+    "Pin",
+    "Person"
+  ],
+  "renderer": "source/render_showcase.py",
+  "audio": "none",
+  "cursor_asset_root": "source/frames"
+}
