@@ -2368,5 +2368,7 @@
         ]
       }
     }
-  ]
+  ],
+  "applied_installer_release": "v1.0.1",
+  "native_helper_unchanged_in_v1_0_2": true
 }

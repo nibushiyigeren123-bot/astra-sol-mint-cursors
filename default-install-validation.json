@@ -1,0 +1,253 @@
+{
+  "installer_sha256": "1b6129e93c945d41c03d0786152273f4611bbee9886c701e63809985e0d76b26",
+  "entry_tests": 25,
+  "independent_cmd_files": 10,
+  "system_pointer_changed": false,
+  "native_api": "stubbed for entry-point tests; earlier live native application is recorded separately in live-application-validation.json",
+  "records": [
+    {
+      "entry": "plain PS1 complete package",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 64,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "plain PS1 preserve current sol",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 64,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "plain PS1 reject invalid scheme match",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 64,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "explicit astra and 48 override current sol",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 48,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "explicit 32 without Apply switch",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 32,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_Astra_32px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 32,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_Astra_48px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 48,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_Astra_64px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 64,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_Astra_128px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 128,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_Astra_256px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 256,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "plain PS1 astra single package",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "astra",
+      "size": 64,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_sol_32px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 32,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_sol_48px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 48,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_sol_64px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 64,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_sol_128px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 128,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "应用_sol_256px.cmd",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 256,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "plain PS1 sol single package",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "character": "sol",
+      "size": 64,
+      "all_17_native_apply_requests": true,
+      "all_17_size_checks": true
+    },
+    {
+      "entry": "RegisterOnly does not apply",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true,
+      "native_apply_requests": 0
+    },
+    {
+      "entry": "VerifyOnly does not install or apply",
+      "exit_code": 0,
+      "expected_failure": false,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true
+    },
+    {
+      "entry": "reject Apply+Restore",
+      "exit_code": 1,
+      "expected_failure": true,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true
+    },
+    {
+      "entry": "reject Apply+VerifyOnly",
+      "exit_code": 1,
+      "expected_failure": true,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true
+    },
+    {
+      "entry": "reject Apply+RegisterOnly",
+      "exit_code": 1,
+      "expected_failure": true,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true
+    },
+    {
+      "entry": "reject Restore+VerifyOnly",
+      "exit_code": 1,
+      "expected_failure": true,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true
+    },
+    {
+      "entry": "reject Restore+RegisterOnly",
+      "exit_code": 1,
+      "expected_failure": true,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true
+    },
+    {
+      "entry": "reject VerifyOnly+RegisterOnly",
+      "exit_code": 1,
+      "expected_failure": true,
+      "system_pointer_changed": false,
+      "native_calls_stubbed": true
+    }
+  ]
+}

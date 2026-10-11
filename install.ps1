@@ -1,8 +1,8 @@
 ﻿[CmdletBinding()]
 param(
  [ValidateSet('all','astra','sol')][string]$Character='all',
- [ValidateSet(32,48,64,128,256)][int]$Size=48,
- [switch]$Apply,[switch]$Restore,[switch]$VerifyOnly
+ [ValidateSet(32,48,64,128,256)][int]$Size=64,
+ [switch]$Apply,[switch]$Restore,[switch]$VerifyOnly,[switch]$RegisterOnly
 )
 $ErrorActionPreference='Stop'
 $packageRoot=$PSScriptRoot
@@ -13,10 +13,26 @@ foreach($entry in $manifest){
  $file=Join-Path $packageRoot $entry.file
  if(-not(Test-Path -LiteralPath $file -PathType Leaf)){throw "Missing cursor: $file"}
 }
-if($Apply -and $Restore){throw 'Choose Apply or Restore.'}
-if($Apply -and $Character -eq 'all'){throw 'Use -Character astra or sol with -Apply.'}
+if(([int][bool]$Restore+[int][bool]$VerifyOnly+[int][bool]$RegisterOnly) -gt 1 -or ($Apply -and ($Restore -or $VerifyOnly -or $RegisterOnly))){throw 'Choose installation, RegisterOnly, Restore, or VerifyOnly separately.'}
 if($Character -ne 'all' -and $Character -notin $characters){throw "This package does not contain $Character."}
 if($VerifyOnly){Write-Output "Verified $($manifest.Count) cursor files. No installation changes.";return}
+# The ordinary right-click / no-argument entry point installs and applies 64px.
+# RegisterOnly is the explicit opt-in for installing schemes without changing cursors.
+if(-not $Restore -and -not $RegisterOnly){
+ $Apply=$true
+ if($Character -eq 'all'){
+  $Character=$characters[0]
+  $selectionKey=[Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors')
+  if($selectionKey){
+   try{
+    $previousScheme=[string]$selectionKey.GetValue('')
+    foreach($candidate in $characters){
+     if($previousScheme -match ('^'+[regex]::Escape($candidate)+' Mint (32|48|64|128|256)px$')){$Character=$candidate;break}
+    }
+   }finally{$selectionKey.Close()}
+  }
+ }
+}
 $destination=Join-Path $env:LOCALAPPDATA 'AstraSolMintCursors\1.0.0'
 $cursorKey='HKCU:\Control Panel\Cursors'
 if(-not ('MintCursorNative' -as [type])){
@@ -144,4 +160,4 @@ if($Apply){
   throw "Apply failed; previous cursor settings and size restored. $($applyError.Exception.Message)"
  }
  Write-Output "Applied $Character $Size px. All 17 live system cursor sizes verified. Previous settings: $backup"
-}else{Write-Output 'Installed cursor schemes. Open Control Panel > Mouse > Pointers to choose a Mint scheme.'}
+}else{Write-Output 'Registered cursor schemes only (-RegisterOnly). Run install.ps1 without arguments to apply the default 64px size.'}
