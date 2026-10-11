@@ -114,4 +114,14 @@ Windows 原生加载审查：
 
 ChatGPT/OpenAI 图标归对应权利人；这是社区制作分享，非官方产品。代码采用 `LICENSE-CODE` 中的 MIT 许可证；此许可证不为角色美术、参考素材或品牌标识授予额外权利。
 
-`previews/showcase.mp4` 是75.2秒、1920×1080、30fps的完整模拟演示，Astra与sol分别展示全部17种状态，包含运动、状态名称、角色动作、窗口调整和尺寸对照，无配乐。B 站投稿文字见 `B站投稿文案.md`。
+`previews/showcase.mp4` 是75.2秒、1920×1080、30fps的完整模拟演示，Astra与sol分别展示全部17种状态，包含运动、状态名称、角色动作、窗口调整和尺寸对照。现已配乐，开头0.7秒淡入、结尾3秒淡出；画面与字幕保持原样。B 站投稿文字见 `B站投稿文案.md`，请保留其中的音乐署名。
+
+BGM：放課後アフタースクール / watson，フリーBGM・音楽素材MusMus https://musmus.main.jp/ 。[使用条款](https://musmus.main.jp/info.html)。仅在展示成片中使用音乐，仓库与指针压缩包不分发独立音乐文件。
+
+配乐重建脚本：`source/add_showcase_bgm.py`；参数与验收：`source/video/bgm-mix.json`。视频渲染器先生成无配乐画面，再用官方站自行取得的音乐混入：
+
+```powershell
+python source/add_showcase_bgm.py previews/showcase.mp4 YOUR_MUSMUS_BGM_174.mp3 showcase-bgm.mp4 --wav showcase-bgm.wav
+```
+
+原始剪辑音轨只保留在本地完整工程。

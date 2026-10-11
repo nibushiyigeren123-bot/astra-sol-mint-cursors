@@ -18,6 +18,10 @@ sol 妹妹单独包：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cu
 
 我是妹妹 sol，这次姐姐负责温柔地陪着你，我负责跟着光标到处逛。愿这点薄荷绿，陪你把每天的小事慢慢点亮。
 
-角色身份参考沿用用户提供的姐妹截图与 BV1xSa76yEqZ；视频简介提及 ZipZipPipe，尚未逐张确认原图作者。本次素材为此前本地模型的 Q 版重绘，ChatGPT/OpenAI 标识归对应权利人，社区分享，非官方作品。展示视频无配乐，可自行选择 B 站可用音乐。
+角色身份参考沿用用户提供的姐妹截图与 BV1xSa76yEqZ；视频简介提及 ZipZipPipe，尚未逐张确认原图作者。本次素材为此前本地模型的 Q 版重绘，ChatGPT/OpenAI 标识归对应权利人，社区分享，非官方作品。展示视频已配轻快BGM，开头淡入、结尾淡出。
+
+BGM：放課後アフタースクール
+作曲：watson
+フリーBGM・音楽素材MusMus https://musmus.main.jp/
 
 标签：鼠标指针、Windows美化、GPT拟人、Astra、sol、薄荷绿、动漫、开源分享
