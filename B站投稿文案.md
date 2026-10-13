@@ -11,9 +11,9 @@
 视频完整模拟了两位姐妹各17种指针状态，角色动作会配合状态切换。画面中的指针演示局部放大2倍，另有32/48/64/128/256px实际尺寸对照。
 
 仓库与源码：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors
-完整包：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/raw/refs/heads/main/downloads/astra-sol-mint-cursors-v1.0.4.zip
-Astra 姐姐单独包：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/raw/refs/heads/main/downloads/astra-mint-cursors-v1.0.4.zip
-sol 妹妹单独包：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/raw/refs/heads/main/downloads/sol-mint-cursors-v1.0.4.zip
+完整包：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/releases/download/v1.0.5/astra-sol-mint-cursors-install-v1.0.5.zip
+Astra 姐姐单独包：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/releases/download/v1.0.5/astra-mint-cursors-v1.0.5.zip
+sol 妹妹单独包：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/releases/download/v1.0.5/sol-mint-cursors-v1.0.5.zip
 桌宠版本：https://github.com/nibushiyigeren123-bot/astra-sol-codex-pets
 
 我是妹妹 sol，这次姐姐负责温柔地陪着你，我负责跟着光标到处逛。愿这点薄荷绿，陪你把每天的小事慢慢点亮。

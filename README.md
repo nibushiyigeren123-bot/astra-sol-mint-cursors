@@ -1,5 +1,8 @@
 # Astra & sol · 薄荷绿 GPT 姐妹 Windows 指针
 
+> **v1.0.5 安装兼容修复**：[完整安装包](https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/releases/download/v1.0.5/astra-sol-mint-cursors-install-v1.0.5.zip) · [可编辑源码](https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/releases/download/v1.0.5/astra-sol-mint-cursors-source-v1.0.5.zip) · [PNG帧](https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/releases/download/v1.0.5/astra-sol-mint-cursors-png-frames-v1.0.5.zip)。升级步骤和旧系统说明见 [兼容修复说明](WIN10_COMPATIBILITY.md)。
+
+
 Astra 姐姐和 sol 妹妹各自一套动态指针，沿用此前姐妹的 Q 版定稿和已制作的动作。姐姐是薄荷绿长卷发、白裙和蝴蝶结；妹妹是浅绿短发、绿开衫和水手领。两套独立选择，角色会随指针状态改变动作。v1.0.4把32、48、64、128、256px五档全部改为角色优先布局：保留完整全身动作，减少留白，缩小功能符号；各档均从原始动作图集重新生成。32px的像素有限，优先保证轮廓、发型与动作可辨认，细节仍以更大尺寸为准。
 
 ![两套指针总览](previews/cursor-overview.png)
@@ -87,7 +90,7 @@ INF 只复制文件并登记方案，右键安装后还要选择方案并点应�
 
 ## 可编辑源与校验
 
-`source/characters/`保存透明角色定稿和两张九状态动作图集；`source/build_cursors.py`保存符号绘制、尺寸、热点和ANI编码逻辑，可从原始图集重新生成全部170个ANI及1100张PNG。完整安装包包含两位角色五档指针、原始图集、生成器与视频编辑脚本；为适应GitHub上传接口限制，已生成的1100张原始透明PNG单独提供为可选的[编辑帧包](https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/raw/refs/heads/main/downloads/astra-sol-editable-frames-v1.0.4.zip)。普通安装仅需完整安装包；直接编辑输出帧时，把编辑帧包解压到完整包的同一目录并合并`source/frames/`。也可运行生成器自行重建PNG，无需下载编辑帧包。原始PNG、全部源码和版本历史另完整保存在本地工程存档。
+`source/characters/`保存透明角色定稿和两张九状态动作图集；`source/build_cursors.py`保存符号绘制、尺寸、热点和ANI编码逻辑，可从原始图集重新生成全部170个ANI及1100张PNG。完整安装包包含两位角色五档指针、原始图集、生成器与视频编辑脚本；为适应GitHub上传接口限制，已生成的1100张原始透明PNG单独提供为可选的[编辑帧包](https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors/releases/download/v1.0.5/astra-sol-mint-cursors-png-frames-v1.0.5.zip)。普通安装仅需完整安装包；直接编辑输出帧时，把编辑帧包解压到完整包的同一目录并合并`source/frames/`。也可运行生成器自行重建PNG，无需下载编辑帧包。原始PNG、全部源码和版本历史另完整保存在本地工程存档。
 
 以下重建命令用于完整包或仓库源码；单角色包提供安装所需文件。
 
