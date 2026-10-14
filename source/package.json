@@ -3,7 +3,7 @@
   "title": "Astra & sol 薄荷绿",
   "namespace": "AstraSolMintCursors",
   "accent": "#55b99c",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "default_character": "astra",
   "characters": [
     {
@@ -17,5 +17,8 @@
       "reference_page": null
     }
   ],
-  "installation_slot_version": "1.0.0"
+  "installation_slot_version": "1.0.0",
+  "keeper_runtime_version": "1.1.0",
+  "edition": "original",
+  "loader": "CreateIconFromResourceEx for ANI"
 }

@@ -1,5 +1,5 @@
 @echo off
 setlocal
 set "PSModulePath="
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0install.ps1" -Character astra -Size 256 -Apply
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0apply-updated.ps1" -Character astra -Size 256
 if errorlevel 1 pause
