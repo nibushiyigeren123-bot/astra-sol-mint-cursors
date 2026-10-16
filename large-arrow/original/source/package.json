@@ -3,7 +3,7 @@
   "title": "Astra & sol 薄荷绿",
   "namespace": "AstraSolMintCursors",
   "accent": "#55b99c",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "default_character": "astra",
   "characters": [
     {
@@ -18,7 +18,29 @@
     }
   ],
   "installation_slot_version": "1.0.0",
-  "keeper_runtime_version": "1.1.0",
+  "keeper_runtime_version": "1.2.0",
   "edition": "original",
-  "loader": "CreateIconFromResourceEx for ANI"
+  "loader": "CreateIconFromResourceEx for ANI",
+  "baseline_sizes": [
+    32,
+    48,
+    64,
+    96,
+    128,
+    256
+  ],
+  "render_sizes": {
+    "32": 32,
+    "48": 48,
+    "64": 64,
+    "96": 96,
+    "128": 128,
+    "256": 256
+  },
+  "display_names": {
+    "astra": "Astra",
+    "sol": "sol"
+  },
+  "scheme_suffix": " Mint ",
+  "keeper_run_name": "AstraSolMintCursorKeeper"
 }

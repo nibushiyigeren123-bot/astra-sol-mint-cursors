@@ -12,247 +12,10 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/astra/32/Help.ani",
-    "hotspot": [
-      0,
-      1
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/astra/32/AppStarting.ani",
-    "hotspot": [
-      0,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/astra/32/Wait.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/astra/32/Crosshair.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/astra/32/IBeam.ani",
-    "hotspot": [
-      2,
-      4
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/astra/32/NWPen.ani",
-    "hotspot": [
-      1,
-      8
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/astra/32/No.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/astra/32/SizeNS.ani",
-    "hotspot": [
-      2,
-      4
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/astra/32/SizeWE.ani",
-    "hotspot": [
-      4,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/astra/32/SizeNWSE.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/astra/32/SizeNESW.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/astra/32/SizeAll.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/astra/32/UpArrow.ani",
-    "hotspot": [
-      4,
-      1
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/astra/32/Hand.ani",
-    "hotspot": [
-      3,
-      0
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/astra/32/Pin.ani",
-    "hotspot": [
-      3,
-      8
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 32,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/astra/32/Person.ani",
-    "hotspot": [
-      4,
-      2
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "884109f23d96960066a3dfe20d6606db17dc1aef17650ff3ed7f776cc692fff3"
   },
   {
     "character": "astra",
@@ -267,247 +30,10 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/astra/48/Help.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/astra/48/AppStarting.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/astra/48/Wait.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/astra/48/Crosshair.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/astra/48/IBeam.ani",
-    "hotspot": [
-      3,
-      7
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/astra/48/NWPen.ani",
-    "hotspot": [
-      1,
-      13
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/astra/48/No.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/astra/48/SizeNS.ani",
-    "hotspot": [
-      3,
-      7
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/astra/48/SizeWE.ani",
-    "hotspot": [
-      7,
-      3
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/astra/48/SizeNWSE.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/astra/48/SizeNESW.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/astra/48/SizeAll.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/astra/48/UpArrow.ani",
-    "hotspot": [
-      6,
-      1
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/astra/48/Hand.ani",
-    "hotspot": [
-      4,
-      1
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/astra/48/Pin.ani",
-    "hotspot": [
-      5,
-      13
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 48,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/astra/48/Person.ani",
-    "hotspot": [
-      6,
-      3
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "daa6ae78e40527dc9babb81083bac39e60bec8537bf2245aad3a7154d98a7591"
   },
   {
     "character": "astra",
@@ -522,247 +48,28 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
+    "action": "idle",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "8980fe07c5c4378c55ce6ff16c97955ed818b68a15c54dcd944374c38cba45dc"
   },
   {
     "character": "astra",
-    "size": 64,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/astra/64/Help.ani",
+    "size": 96,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/astra/96/Arrow.ani",
     "hotspot": [
       1,
-      1
+      2
     ],
     "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/astra/64/AppStarting.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/astra/64/Wait.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/astra/64/Crosshair.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/astra/64/IBeam.ani",
-    "hotspot": [
-      4,
-      9
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/astra/64/NWPen.ani",
-    "hotspot": [
-      1,
-      17
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/astra/64/No.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/astra/64/SizeNS.ani",
-    "hotspot": [
-      4,
-      9
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/astra/64/SizeWE.ani",
-    "hotspot": [
-      9,
-      3
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/astra/64/SizeNWSE.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/astra/64/SizeNESW.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/astra/64/SizeAll.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/astra/64/UpArrow.ani",
-    "hotspot": [
-      8,
-      1
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/astra/64/Hand.ani",
-    "hotspot": [
-      5,
-      1
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/astra/64/Pin.ani",
-    "hotspot": [
-      7,
-      17
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 64,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/astra/64/Person.ani",
-    "hotspot": [
-      8,
-      4
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "908d9e25e1d6950ab6740ce85079924dcb4a2a248103d265777fa2af99aefab5"
   },
   {
     "character": "astra",
@@ -777,247 +84,10 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/astra/128/Help.ani",
-    "hotspot": [
-      2,
-      2
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/astra/128/AppStarting.ani",
-    "hotspot": [
-      2,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/astra/128/Wait.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/astra/128/Crosshair.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/astra/128/IBeam.ani",
-    "hotspot": [
-      9,
-      18
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/astra/128/NWPen.ani",
-    "hotspot": [
-      2,
-      33
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/astra/128/No.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/astra/128/SizeNS.ani",
-    "hotspot": [
-      7,
-      18
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/astra/128/SizeWE.ani",
-    "hotspot": [
-      18,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/astra/128/SizeNWSE.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/astra/128/SizeNESW.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/astra/128/SizeAll.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/astra/128/UpArrow.ani",
-    "hotspot": [
-      15,
-      2
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/astra/128/Hand.ani",
-    "hotspot": [
-      11,
-      2
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/astra/128/Pin.ani",
-    "hotspot": [
-      14,
-      34
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "astra",
-    "size": 128,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/astra/128/Person.ani",
-    "hotspot": [
-      16,
-      8
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "4d77cbc48553cd8a649a7fcb2c904f2c82b388b53857acb1130d82d70fd5caea"
   },
   {
     "character": "astra",
@@ -1032,7 +102,100 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
+    "action": "idle",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "840db4a85665f89de187a3bb32df052996525012e55155b7b4d9bd14b6fb1dd4"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/32/Help.ani",
+    "hotspot": [
+      0,
+      1
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "29b0f09415aa9051d3c4dbbb199db6d73b58cbbb64ddfdb804dab90c7dec50d7"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/48/Help.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "5ae118d12059c39dbb56b4f063d71a4103e9b731cac3e607b1b0ebf4cf9194b1"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/64/Help.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "ea138db920cff506e5378671d0b561900eff3100cdd4f4821dee789d5b4ca957"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/96/Help.ani",
+    "hotspot": [
+      1,
+      2
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "701f3dfd3f223f338b63a494855261dadd98c44029fa90c38cc1d80ab80580fc"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/128/Help.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "23236582c60a22e32476bba0c671cc625727dcd0b4381f5881bf7303b30379d2"
   },
   {
     "character": "astra",
@@ -1047,7 +210,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "8f8dd357faf91b12b65633a4726e9bcc5eb88d1f56d66744a2dcf954b436dbd7"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/32/AppStarting.ani",
+    "hotspot": [
+      0,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "c1405560c60dbc188c103e63787a2594fe8c9f95d126305bcc8634968140ac02"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/48/AppStarting.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "fb4cc1bd6d86dd16606c7ea9be8721038d05fdb42f6dbe8ef0cc56504f4aac86"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/64/AppStarting.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "dcab1a0911e15593374ef94ce14a4530dda0b6748ec76e5498b82dbee75b7448"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/96/AppStarting.ani",
+    "hotspot": [
+      1,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "2fdb25e6c37c0dfe6ad6b89c49a2934a61ad45a157d47ab06fdf50d724eb116c"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/128/AppStarting.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "732bc1d7a71e7986fe9cb00ebe9d886e7fc85e6ec192f642dd6b1c97ddd62e0c"
   },
   {
     "character": "astra",
@@ -1062,7 +318,100 @@
     "frames": 8,
     "jiffies": 6,
     "frame_ms": 100.0,
-    "action": "waiting"
+    "action": "waiting",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "d148e72f6df6c08c9306c9c578b516ccaab295638643cd07b4f3ce5332e06521"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/32/Wait.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "3c034db565be96c80cd196ade76c0f98881978961b08026624abc32e73d4e4f2"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/48/Wait.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "00c434acd4f179c2b5853a459ef7ac2a698c9be2927b9a1b74045c32f00ef977"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/64/Wait.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "b4334549953fa88ba15a424f2c5cfe5f0a12549f68e07a027ae50af009c71464"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/96/Wait.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "e22323186cc4d96027f4cac138a445bf53f9ac383185206ca76604473bb53cf5"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/128/Wait.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "607ac7566a540f6ca72fca0505d622e8779dcede93288da839d05e045fcd6617"
   },
   {
     "character": "astra",
@@ -1077,7 +426,100 @@
     "frames": 8,
     "jiffies": 6,
     "frame_ms": 100.0,
-    "action": "working"
+    "action": "working",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "fe5e4ecadc43b9bb9bd11478feefe5f5f8249070e0f1c71564c45aef0a17f619"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/32/Crosshair.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "468f2106f930772ab035d3c0ebd521ad7797faca87c4cc9c29f37d8d7d8d4287"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/48/Crosshair.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "0f2427544ad9e9edbc3ec3c4031825c8fd9effde6498081636ba942738e4a74e"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/64/Crosshair.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "f8b32be4f53778b15c7af6312dfd571dc969e43ee34eae226deda9168c55c290"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/96/Crosshair.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ad61e0b853c6af49579ad1de1d6fc6ee0eeae55291e4bf5e14c0f59552341136"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/128/Crosshair.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "eb5979f6f4f21855baaf1eca414edbc22bc37fa12a4cfa58d24c78fc9480685b"
   },
   {
     "character": "astra",
@@ -1092,7 +534,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "6d766ff45f6939f49438ffc1dee4f12aa6de244c113ac184f923e55fa3dda2c4"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/32/IBeam.ani",
+    "hotspot": [
+      2,
+      4
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "c86ccbb2ce9907dfd5c954bfc25313f09f37ea88c6ae71e41260b6a1cd4963c0"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/48/IBeam.ani",
+    "hotspot": [
+      3,
+      7
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "ef2e9292631d150f1caf9f710d929412c05b1fd8241c089452cea7bf9ca72431"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/64/IBeam.ani",
+    "hotspot": [
+      4,
+      9
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "c33caa3f4a15d17e48bdb0c3239c9c5f7c005e3488916bdb21cf4c6c37267c79"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/96/IBeam.ani",
+    "hotspot": [
+      7,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "2898eecfe2b6e07153929dedb7f59c170b8dc3bd4b039f492de1dc5eefd5d116"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/128/IBeam.ani",
+    "hotspot": [
+      9,
+      18
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "8a3e8362a9df57bb70f67ae320d936a5c25af6ca61dfca5a6f1adeb08cd92891"
   },
   {
     "character": "astra",
@@ -1107,7 +642,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "working"
+    "action": "working",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "4f9a9d7e84a1f382d5716f96fc427bb20ee3645ded8c34a193d0dff4c26c70ef"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/32/NWPen.ani",
+    "hotspot": [
+      1,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "5b7e05ff9a0dbfe4884a12caf3ea905348d4ecdf3875f5a3fd58fe11d7cd25c0"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/48/NWPen.ani",
+    "hotspot": [
+      1,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "d749651d3af2f0f2f2f2fc1d8d79009f316396a2907d15d908bf259033ef7fca"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/64/NWPen.ani",
+    "hotspot": [
+      1,
+      17
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "9e41217d963378535806df0d63cc268f873eb08b22cde47eef4540f2f981ad56"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/96/NWPen.ani",
+    "hotspot": [
+      2,
+      25
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "aa68eba041e4383bf30d08d87080a0038239ce36f5e685456483876bb002ff78"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/128/NWPen.ani",
+    "hotspot": [
+      2,
+      33
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "2a2d4eef5b878491e8c8992530924144896cf712625ecce028af00fd3e5a3a45"
   },
   {
     "character": "astra",
@@ -1122,7 +750,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "9db946682d8663f2084bd14de2842a62c50dc0131bcc4a86965b869fcfe0376b"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/32/No.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "3243816300f19daf06a423c0ed6370d4af2fefb65c4f1c6e73b12996c94343c0"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/48/No.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "70c37632b2340b310d9be966e54ec8b1539552f05385da92dc12fbbab5225c93"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/64/No.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "ce83e6c1ac61335d8f7588081bd6d21ee37758dc606347f9cb2e29c305c972c3"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/96/No.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "2a029a7c5ee26cebd3a6331b537b27b5299643235c90f6ff8c09a20c32ea3200"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/128/No.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "f32e174cba7571e99b53d7b6a7b9820d136931d7abb526d2c077e7a907a0e986"
   },
   {
     "character": "astra",
@@ -1137,7 +858,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "failed"
+    "action": "failed",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "38c42b5724901297d824ab21fd8f336d5e810f8d3d1090540a45855a795cec26"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/32/SizeNS.ani",
+    "hotspot": [
+      2,
+      4
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "0759b14a83f2bb4eb4e24959c33600c8f1ed0d3e693c9a7baed0a78641a594cb"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/48/SizeNS.ani",
+    "hotspot": [
+      3,
+      7
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "236d7d7687e25cbd5a71e77c8f1b7a2e1e4b38f3b95d71fc39c775d99afc01a9"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/64/SizeNS.ani",
+    "hotspot": [
+      4,
+      9
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "811df05cfda9d7b56315dd003a4b042b1bef94e4f4af03c03ffbb0e3f1ceffd1"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/96/SizeNS.ani",
+    "hotspot": [
+      5,
+      13
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "1952f2b9c64ad28627c41ef3c4d384f4e4c65697e86f2c3cd29cdb4afac68114"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/128/SizeNS.ani",
+    "hotspot": [
+      7,
+      18
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "0b266bbb3fbd553486523e9a94ad789547b32ee2a526fd0f8094226da2f0bdc1"
   },
   {
     "character": "astra",
@@ -1152,7 +966,100 @@
     "frames": 5,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "jumping"
+    "action": "jumping",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "dd3ac7a52dda7624bf46550e25c4088e225cb58448a141cba839414e6de93ec1"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/32/SizeWE.ani",
+    "hotspot": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "61d2a80e617f767deab51d0df3170a63c859ce05c2e56823dcd2c0550f859800"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/48/SizeWE.ani",
+    "hotspot": [
+      7,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "f9fd1a8cb6550dbbede9cb1b13d6f499549e6297470c377322d8ffad30ec0472"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/64/SizeWE.ani",
+    "hotspot": [
+      9,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "51f9338fe604bcd6b0f73ad3f869e0e6fdc37a8a984a63b38f978a16097b6c1c"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/96/SizeWE.ani",
+    "hotspot": [
+      13,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "e03348c2903a544dc9379dc99b45c5188e2f1223f2e753e704bc255165e9ce63"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/128/SizeWE.ani",
+    "hotspot": [
+      18,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "8a22abac5c7fe8e1c261e4b48cb5aaece388bd0cdee4531c07deb1120aaecf56"
   },
   {
     "character": "astra",
@@ -1167,7 +1074,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-right"
+    "action": "running-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "d33fbc6d88d38ff82d0877fc6c2d8512093ed8847255d2a01382f8782d2c6f10"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/32/SizeNWSE.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "96b1f2f8c2622591a7761edfdd0820ce7dfa07f5e3dd5009e09b851718f34718"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/48/SizeNWSE.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "6b6e3dfcd8c9431bf49a3b448284f4578fdd8a6708e5cc53d42f55772690af94"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/64/SizeNWSE.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "d4dec985641b403b9260fa92af7d6a33e6c9e865a0c7505a6916eb50c24aa8c4"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/96/SizeNWSE.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "1f05f8432f0061097d9b6c4558312a2fb3242e337e125da4bc2bcc6a45c0be88"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/128/SizeNWSE.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "3719c2f6df435618d7c35de82643d18d34e91e4c3cced1cf1d9f4c5425a0e29d"
   },
   {
     "character": "astra",
@@ -1182,7 +1182,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-right"
+    "action": "running-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "6fb3e458ffba79a2e69b57e3fa184408598943db01168d9018ed41b52c80ab0c"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/32/SizeNESW.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "eea625b5bf4b8b180f25fba6e5a1410c190f8fc09fdb18f7c6501c68c06cd7c8"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/48/SizeNESW.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "36f3c3712b167c1dc9b21510a9c641eaf1743217ee5320b496103653ad049d53"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/64/SizeNESW.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "87222443a9631ad99d0c6bfa20bda44b497c3f612d176c74a6a0062ea287a8d4"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/96/SizeNESW.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "2ddff2dd289414370fc894224946da020079516535707e5aa99ff23c54142b87"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/128/SizeNESW.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "9a80b8893f8e3a0b8bcf3ac42c0d38e388d361d6cb09ac79860eea0bab005d5c"
   },
   {
     "character": "astra",
@@ -1197,7 +1290,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-left"
+    "action": "running-left",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "f3bffd39d6fe0e6096c0254da5a118e94155c3f8c7002ada0b96af74d0b6a10a"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/32/SizeAll.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "3145f702b3fdc9a9bcac6b89047dcbd3a2542d9813e60f9a06eb974df579c5e9"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/48/SizeAll.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "526683f5fbca1a687daef04d9df6d258ed72b922c2d1236a8f1f2ad4044eb04d"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/64/SizeAll.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "f30fd71318a729596b88286531ec5ebf0bbefc51b8f1d012409b46e45dd9e536"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/96/SizeAll.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "c63412c2acf0c814f937abe26d09324813393639d1507cdbfa15272b21092d95"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/128/SizeAll.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "e8665f888a279308afac30f35fdb7f83361fbdfc658d571118fb8ebb531a430a"
   },
   {
     "character": "astra",
@@ -1212,7 +1398,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-right"
+    "action": "running-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "21cab61952229a5a86612cac164d4688fee2701afb0203df182cdbf1d628e6a6"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/32/UpArrow.ani",
+    "hotspot": [
+      4,
+      1
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "86eae046354ae9bf8deac4f8a692ea6172818a9688476f4cdb7cf1bb96b0d4e5"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/48/UpArrow.ani",
+    "hotspot": [
+      6,
+      1
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "3c7de7010adef4ca9788140a96c87cc1f22ee26f9c735fa63515fd3b0ca6b7fa"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/64/UpArrow.ani",
+    "hotspot": [
+      8,
+      1
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "1d309677cb87f4a5591ee842ddc771ae8ba1bdbe9038f9c930a27639becda4c8"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/96/UpArrow.ani",
+    "hotspot": [
+      11,
+      2
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "a7f49736d9b51b010392ca3319921ea6a94eecb1bbf43e1d07526d411194db64"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/128/UpArrow.ani",
+    "hotspot": [
+      15,
+      2
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "f4aa8244f96f73c830909349e0d5f9f05f52301565c8d2555c9df98d7d34100e"
   },
   {
     "character": "astra",
@@ -1227,7 +1506,100 @@
     "frames": 5,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "jumping"
+    "action": "jumping",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "8eaddb61705ebfa9fc2ced4970f6828e18284ac5b59e61e5547b6afdbaec6250"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/32/Hand.ani",
+    "hotspot": [
+      3,
+      0
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "fd8dadadc33b714e40995cc2de7389172a63c8975d6544ff6e351b327a935abc"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/48/Hand.ani",
+    "hotspot": [
+      4,
+      1
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "5ccb44cd05267f3c138b8b10d51c1c5c1b97102d8ca7cbd6ccec26680a6d57e0"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/64/Hand.ani",
+    "hotspot": [
+      5,
+      1
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "3b7cf5f95ff6865f8500fbb0477ce235a9ff9c99c94f5b908e0d91dd062b7434"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/96/Hand.ani",
+    "hotspot": [
+      8,
+      1
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "b16ed19765eb1e63bb2f6083bd082d119475984859d05cd7485aa9c22bdb95f5"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/128/Hand.ani",
+    "hotspot": [
+      11,
+      2
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "e686a4998241c744c12f8177eac7c817497252d5601198e276e54017d8431cae"
   },
   {
     "character": "astra",
@@ -1242,7 +1614,100 @@
     "frames": 4,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "waving",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "98cf862f0a8bc3eeb51a711fd8fac6fdf93a0dac1ab8e588fbdda3c26f3b4d94"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/32/Pin.ani",
+    "hotspot": [
+      3,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "c26db0fa1651540af37987937135a518e646aae3628613b01df40c6b334bd749"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/48/Pin.ani",
+    "hotspot": [
+      5,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "5ae47ce4fcb1f6e5d00e9fa9a2699e2369f54524765ada255ce9ee814c2ee5d7"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/64/Pin.ani",
+    "hotspot": [
+      7,
+      17
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "da57a93e0d97c3675a4670924cf44514e487b5217882a9155fdcc8e3551f34bc"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/96/Pin.ani",
+    "hotspot": [
+      10,
+      25
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "46a9fb63c6e1150741014415f068d96a2cd3f3b5a40cf42d636a58bb0c81b063"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/128/Pin.ani",
+    "hotspot": [
+      14,
+      34
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "a6be96b81c19a10652569c34d0316b94ca19abf2832092d1cc19b79bf8503798"
   },
   {
     "character": "astra",
@@ -1257,7 +1722,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waiting"
+    "action": "waiting",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "d996ee1d7190d5902ab24d781769c1cb48fc664a6fb239a9ef19e6113c7e0303"
+  },
+  {
+    "character": "astra",
+    "size": 32,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/32/Person.ani",
+    "hotspot": [
+      4,
+      2
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "9d463635f8caeac9d601623d4da9298f9e1ea2a39d57df7024df30b46a86b0c6"
+  },
+  {
+    "character": "astra",
+    "size": 48,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/48/Person.ani",
+    "hotspot": [
+      6,
+      3
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "9caaa5dc06311365b41e2ac5ab701eb4e2c592221ad5d6548bf9e7e2e4f8d3be"
+  },
+  {
+    "character": "astra",
+    "size": 64,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/64/Person.ani",
+    "hotspot": [
+      8,
+      4
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "0d726796a96814a8700f7b4ed7bf7a274d696c53304c66b57870c8e7c56548fe"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/96/Person.ani",
+    "hotspot": [
+      12,
+      6
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "91c2841e0349cb56d0fc597d01cb53011f0bd67d0823307cee435c608cc8d97e"
+  },
+  {
+    "character": "astra",
+    "size": 128,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/128/Person.ani",
+    "hotspot": [
+      16,
+      8
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "09db1c2a857856ef8d0bf3ee96c6e32c1490cc27872400135d6d30348c89bf6e"
   },
   {
     "character": "astra",
@@ -1272,7 +1830,10 @@
     "frames": 4,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "waving",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "99d18e17dd33509ab4d5472f8512af804e4bfbc3edbbf885eea5e9ac5db9076c"
   },
   {
     "character": "sol",
@@ -1287,247 +1848,10 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/sol/32/Help.ani",
-    "hotspot": [
-      0,
-      1
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/sol/32/AppStarting.ani",
-    "hotspot": [
-      0,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/sol/32/Wait.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/sol/32/Crosshair.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/sol/32/IBeam.ani",
-    "hotspot": [
-      2,
-      4
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/sol/32/NWPen.ani",
-    "hotspot": [
-      1,
-      8
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/sol/32/No.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/sol/32/SizeNS.ani",
-    "hotspot": [
-      2,
-      4
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/sol/32/SizeWE.ani",
-    "hotspot": [
-      4,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/sol/32/SizeNWSE.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/sol/32/SizeNESW.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/sol/32/SizeAll.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/sol/32/UpArrow.ani",
-    "hotspot": [
-      4,
-      1
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/sol/32/Hand.ani",
-    "hotspot": [
-      3,
-      0
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/sol/32/Pin.ani",
-    "hotspot": [
-      3,
-      8
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 32,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/sol/32/Person.ani",
-    "hotspot": [
-      4,
-      2
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "77c96ae2e203a5ef1191ed04ca5e4c14af9abeaa61bbe854e2b57f4804602448"
   },
   {
     "character": "sol",
@@ -1542,247 +1866,10 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/sol/48/Help.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/sol/48/AppStarting.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/sol/48/Wait.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/sol/48/Crosshair.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/sol/48/IBeam.ani",
-    "hotspot": [
-      3,
-      7
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/sol/48/NWPen.ani",
-    "hotspot": [
-      1,
-      13
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/sol/48/No.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/sol/48/SizeNS.ani",
-    "hotspot": [
-      3,
-      7
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/sol/48/SizeWE.ani",
-    "hotspot": [
-      7,
-      3
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/sol/48/SizeNWSE.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/sol/48/SizeNESW.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/sol/48/SizeAll.ani",
-    "hotspot": [
-      7,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/sol/48/UpArrow.ani",
-    "hotspot": [
-      6,
-      1
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/sol/48/Hand.ani",
-    "hotspot": [
-      4,
-      1
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/sol/48/Pin.ani",
-    "hotspot": [
-      5,
-      13
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 48,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/sol/48/Person.ani",
-    "hotspot": [
-      6,
-      3
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "bf5376df18adf63889cfbbb8bba8c640cde5fb7797d21364ddadfdc951de1862"
   },
   {
     "character": "sol",
@@ -1797,247 +1884,28 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
+    "action": "idle",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "73cac1bb33a323954981c4a9fdb34907054faf71ff120fe2b3a7f259d969972f"
   },
   {
     "character": "sol",
-    "size": 64,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/sol/64/Help.ani",
+    "size": 96,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/sol/96/Arrow.ani",
     "hotspot": [
       1,
-      1
+      2
     ],
     "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/sol/64/AppStarting.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/sol/64/Wait.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/sol/64/Crosshair.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/sol/64/IBeam.ani",
-    "hotspot": [
-      4,
-      9
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/sol/64/NWPen.ani",
-    "hotspot": [
-      1,
-      17
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/sol/64/No.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/sol/64/SizeNS.ani",
-    "hotspot": [
-      4,
-      9
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/sol/64/SizeWE.ani",
-    "hotspot": [
-      9,
-      3
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/sol/64/SizeNWSE.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/sol/64/SizeNESW.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/sol/64/SizeAll.ani",
-    "hotspot": [
-      9,
-      9
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/sol/64/UpArrow.ani",
-    "hotspot": [
-      8,
-      1
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/sol/64/Hand.ani",
-    "hotspot": [
-      5,
-      1
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/sol/64/Pin.ani",
-    "hotspot": [
-      7,
-      17
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 64,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/sol/64/Person.ani",
-    "hotspot": [
-      8,
-      4
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "f2a1ec5639de3adc28624c06d5cc5c73eb83b3288a01c3aa45b8de46cd2c65b3"
   },
   {
     "character": "sol",
@@ -2052,247 +1920,10 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/sol/128/Help.ani",
-    "hotspot": [
-      2,
-      2
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/sol/128/AppStarting.ani",
-    "hotspot": [
-      2,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/sol/128/Wait.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 6,
-    "frame_ms": 100.0,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/sol/128/Crosshair.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/sol/128/IBeam.ani",
-    "hotspot": [
-      9,
-      18
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/sol/128/NWPen.ani",
-    "hotspot": [
-      2,
-      33
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/sol/128/No.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/sol/128/SizeNS.ani",
-    "hotspot": [
-      7,
-      18
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/sol/128/SizeWE.ani",
-    "hotspot": [
-      18,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/sol/128/SizeNWSE.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/sol/128/SizeNESW.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-left"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/sol/128/SizeAll.ani",
-    "hotspot": [
-      18,
-      18
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "running-right"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/sol/128/UpArrow.ani",
-    "hotspot": [
-      15,
-      2
-    ],
-    "frames": 5,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/sol/128/Hand.ani",
-    "hotspot": [
-      11,
-      2
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/sol/128/Pin.ani",
-    "hotspot": [
-      14,
-      34
-    ],
-    "frames": 6,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "sol",
-    "size": 128,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/sol/128/Person.ani",
-    "hotspot": [
-      16,
-      8
-    ],
-    "frames": 4,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "0f8085d27a4a1879b23b39fcea041b969af3998581dc75cb1a1b5209479e42ca"
   },
   {
     "character": "sol",
@@ -2307,7 +1938,100 @@
     "frames": 6,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
+    "action": "idle",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "0280727b7fc9ca5df0bf8d78eb5660771894497d6d319efea98497f58bfa0aa8"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/32/Help.ani",
+    "hotspot": [
+      0,
+      1
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "faeb5fd8d6274e843a63b528f7e12e9f8ae84dcf612dd944b67c017ac7fec27a"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/48/Help.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "f7d6c241569d6979ace592a2dda62934f42ee8d83da4d157dbc1b8ba8579cf58"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/64/Help.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "1614a406c5a2c011f9cc37e57fac2421d7cd3f89daec50435de8f19bf53af554"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/96/Help.ani",
+    "hotspot": [
+      1,
+      2
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ee14c8e7d1ba5421ef75eefc0dc7ce29242755331c4a8d38d440c2bc757a8eca"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/128/Help.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "0ce684bf5e4e46f29d7acc846e2a8ae286dcabac2876f5877f2992aaa9a69e15"
   },
   {
     "character": "sol",
@@ -2322,7 +2046,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "d708b2ccfc569760f5b1e37f8a5ba3e1469bcad08a145bbec0f171604bd9e427"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/32/AppStarting.ani",
+    "hotspot": [
+      0,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "20fc6e3548a34d14e468fb75befbe274c82ed67edb19e9e740ca8e597cf32c56"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/48/AppStarting.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "6b458b7574d7d405a85b46c1490e833140cf64b50f60e484783a8079d59b1e8d"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/64/AppStarting.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "82e9a643ddff88682912814b6ac75379a48073e6f0ea9b462b43b1c4a2351bac"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/96/AppStarting.ani",
+    "hotspot": [
+      1,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "0b068814d34ec251a3710e11706d98cbb5622741c051f87c55ba5043f4742a92"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/128/AppStarting.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "8375bf596d27c41a2a9df734b2f8aa236659b479f121469839ec758df831c48f"
   },
   {
     "character": "sol",
@@ -2337,7 +2154,100 @@
     "frames": 8,
     "jiffies": 6,
     "frame_ms": 100.0,
-    "action": "waiting"
+    "action": "waiting",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "24d3c589c8b02508d712447ed9daa6b0fb6ae5f76514aabe21259684358cce43"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/32/Wait.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "57f041332257274ae2b8a19076ba642c8081c7b7c1a10629de1a6126d411a6de"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/48/Wait.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "6a75d755a2c9ba70d92b514d9e04f4ef9976155039749119fdfe6e09b41e889e"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/64/Wait.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "3c7650ce7d2c2bf19ea564ae9f70a5697ecf5111b5a97366e4835fc4f2c4a51e"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/96/Wait.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "c7307d9a839f9b0de9980f9cd5cd95643c1b2445a8b1ba30c343a91041526f4a"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/128/Wait.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "13495e6489752623f18d054eedecb0d00b39132616ce88a346efba94d2172b0d"
   },
   {
     "character": "sol",
@@ -2352,7 +2262,100 @@
     "frames": 8,
     "jiffies": 6,
     "frame_ms": 100.0,
-    "action": "working"
+    "action": "working",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "0f9134ecd9aa9da28744d800a6c448fa21035a7a14e077a2a9340fcd63c72900"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/32/Crosshair.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "0371d5916c8dc8cd16a498ee983c5de2df5c136c06d97647db97b10134efeb2e"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/48/Crosshair.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "815ca396e53db113177eb031a7cec638c540b7f1d82ba61737fa2891c41f78c6"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/64/Crosshair.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "6d296d77984aa95d0aced6f7b74583e2048f9b1d5597666ca60409fc5d2a2813"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/96/Crosshair.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ecec2a54d23a4bc2beca3bd75f4057921a347002905c5afcccbdf67cd4c7e0ef"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/128/Crosshair.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "37f17bb431763698829a0a8a1397ed616fa6dfd1c9af1a0ffaf8bb7ea47d2247"
   },
   {
     "character": "sol",
@@ -2367,7 +2370,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "579bf12e22bb525aa15817c30f92bc8ad47d37449605692b60c529ccd83bbe35"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/32/IBeam.ani",
+    "hotspot": [
+      2,
+      4
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "9432bf9fd401e2bdafdb56549da7c06577f3aadc505850131fbe5f956c17781e"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/48/IBeam.ani",
+    "hotspot": [
+      3,
+      7
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "8355ce02b8aa91fd43b12064d2b67f2bb4a001e0a7b7e042c930b415c01cf2c8"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/64/IBeam.ani",
+    "hotspot": [
+      4,
+      9
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "cbbf82772c9a1fe30520cb74a3f0691d1869ff1a18eb29bf26d6a2e4449b746e"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/96/IBeam.ani",
+    "hotspot": [
+      7,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "a5bfe72c9a1d78e27854c2d74bc1f4342878327f14032f4ae3fddb32a4e15bc1"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/128/IBeam.ani",
+    "hotspot": [
+      9,
+      18
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "a13c378dd934d37896f4272b1790834ecc1c226904816da6a899f3ef05a97e4d"
   },
   {
     "character": "sol",
@@ -2382,7 +2478,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "working"
+    "action": "working",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "05ac7bad2236afc9dbd4436859cd4d36ce250656904a6d00ab28c08b7977cb51"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/32/NWPen.ani",
+    "hotspot": [
+      1,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "5ea30d94cf499c4812c6c1346336f608e494425ebd33c4ca26a6f43fe74829e1"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/48/NWPen.ani",
+    "hotspot": [
+      1,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "7eb767d38e3cc3f7def39932188e82232ad076dbc95b3ad3c0d302d153357621"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/64/NWPen.ani",
+    "hotspot": [
+      1,
+      17
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "a5258f89ce3860e3f457d73613d60d23891d55875add9ab4ba146e6e01a008ed"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/96/NWPen.ani",
+    "hotspot": [
+      2,
+      25
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ce60b5c35ef886642f431b123edffc22ae76e7d2381e76c96a308372bd75cca0"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/128/NWPen.ani",
+    "hotspot": [
+      2,
+      33
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "1f7c6b787648560ba905af04c2b8a060b0e9a62cc64baac78ba49919859c8629"
   },
   {
     "character": "sol",
@@ -2397,7 +2586,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "5256ecf2db28edf39f1450017e2747338948df9b4feea1f197584273577fd57e"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/32/No.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "f84cb500d4a0f773418c4a25ba225283c75620a4802b2b685a3ac5fc0dec92bb"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/48/No.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "27c06752e47c45665feabb690a587037ef1d3a0ea7365b48beaa1f896e0f8b58"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/64/No.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "621ff94a146fbcac6d84baec3f67fd30662d5f28c768dc8a1806185394084d7c"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/96/No.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "a42d150ac89618dc5910b66d9c20ab08a2733b34a4d29424d638e811b22e5e88"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/128/No.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "ed5bc06862cc8cecd33c57609a916bb21fa026f55aa533dda2b83093229896cf"
   },
   {
     "character": "sol",
@@ -2412,7 +2694,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "failed"
+    "action": "failed",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "fb78094295f5144c4c824fc56e4b01caab5805527c10d0a6ff05473d6a1d3873"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/32/SizeNS.ani",
+    "hotspot": [
+      2,
+      4
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "d6f4031679b73503ebbe5c8d799a6f5fa99d8505b14e2ca7db8668b46d5a5bb1"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/48/SizeNS.ani",
+    "hotspot": [
+      3,
+      7
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "b124c883f7013cc57206d0dcc1d805b0ba9f1e3a5512eba4d89e0d6116afe075"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/64/SizeNS.ani",
+    "hotspot": [
+      4,
+      9
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "b2869d5b0769452b7d0da39070c720fc061bd8ef3e7406d49a840e7e9c737f21"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/96/SizeNS.ani",
+    "hotspot": [
+      5,
+      13
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "4bbf1dbcd76fcc44183d8865953ff1570c097367914bfe8ce3c3e6dcbea3e2b2"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/128/SizeNS.ani",
+    "hotspot": [
+      7,
+      18
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "337480482e72dd948272422c50ece32dc3e69f1bd93444e2829649400ed114b6"
   },
   {
     "character": "sol",
@@ -2427,7 +2802,100 @@
     "frames": 5,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "jumping"
+    "action": "jumping",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "8873a6bdb93411b44280da855d308f518964606760c22d31bce1b58783313280"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/32/SizeWE.ani",
+    "hotspot": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "75653a0b558509f12dfbf8f5eb6d01cb0ac31213f6f7bf3839cbabbff4fe881f"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/48/SizeWE.ani",
+    "hotspot": [
+      7,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "cf3af1522c161a3eb8298505a766b017be610a2cb6f05f12dd47403f5c3e25a8"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/64/SizeWE.ani",
+    "hotspot": [
+      9,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "336ab9cf67d67700f4e2004fed3202bce2f191d896de47ea01e735065b30647a"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/96/SizeWE.ani",
+    "hotspot": [
+      13,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "0647f3b7fa8aba1cd8dabf8f950e00a153b0ba4f68cfed09cdccd23ffd801321"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/128/SizeWE.ani",
+    "hotspot": [
+      18,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "50455181f195816aee6311ba5585f29b9e743f8dde4fae5de08306f7b9f13ddf"
   },
   {
     "character": "sol",
@@ -2442,7 +2910,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-right"
+    "action": "running-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "aec3b6ffa598425150f504ad335f5700eeb8acaf6e3329bc157fd46a7ee61835"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/32/SizeNWSE.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "904b96ef778dbbb3af7fe6152c3a65dcf67637131e138a1294a6cff017f9ebbb"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/48/SizeNWSE.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "e63a58014ccc0a47f89cccd65b7babe53d69115a42223b691f9c05612cc8656f"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/64/SizeNWSE.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "fd6d926fa189ff24484770fba732588210cffa20d4881d1f8b949868d8d98295"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/96/SizeNWSE.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ecc41470c4f9d38903475522459104d69b35446c1a89eb0c675af51b7a4f5267"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/128/SizeNWSE.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "b07a3adc06823de30c878675f3009422301ace2e5611242b5885bfebfc5950ed"
   },
   {
     "character": "sol",
@@ -2457,7 +3018,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-right"
+    "action": "running-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "9c80d3a6b8e47f9438d7d026a56d78aa082b2307940a73f5ab828aeb79c40c00"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/32/SizeNESW.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "aa2a510988888f74b3d28a00f7d9d4e84a6aeed4d6c99e7599cf0c65eb664b2a"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/48/SizeNESW.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "a4f426186bc9819f8aeb73f0aa24ad670ac49bb6cc4a19b4738117c1aee9d4dc"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/64/SizeNESW.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "6ea6e21ff927c53ead070fbfaeb3158b885472ca8b07e022278194d2b941ad9c"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/96/SizeNESW.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "82793daef02e499288a78344e51bf004b74f1633e10eb9f6133fa7029ff94c2b"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/128/SizeNESW.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "451dcd01d238816e04be0ea9d382a9dabacde9c7078e430bb7704e1fe2ae2687"
   },
   {
     "character": "sol",
@@ -2472,7 +3126,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-left"
+    "action": "running-left",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "3824d6c243674add355c99ade5a5d95ff1177b3e3348aea0db0b4102e754fa1c"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/32/SizeAll.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "84b197e85fb8221d443d5436df3ca0bb6709824304710634cb7e6692974e1ab3"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/48/SizeAll.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "241461022549582738328cb462cda686b4e9fd8edc08dc5d5c759fb55d46bf12"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/64/SizeAll.ani",
+    "hotspot": [
+      9,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "49a3e642053551f6891aae8afd3f11a01a37755cbe2ba51705cea7710615f546"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/96/SizeAll.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ececb5bcd2cdac1fa4e2bb90e145f7ab1f4ae7a3ce42244db4f6843316f4dcaa"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/128/SizeAll.ani",
+    "hotspot": [
+      18,
+      18
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "6fb362d7de4c86ba0102f1dac2086114f8f5a2713db35e045c1665c0c3fa4f52"
   },
   {
     "character": "sol",
@@ -2487,7 +3234,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "running-right"
+    "action": "running-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "26093f55442a9ba9c2427346f0ec334ec6e4a65ed7a87cb8879ca53c6685766b"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/32/UpArrow.ani",
+    "hotspot": [
+      4,
+      1
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "df73b3458cb00e186738e85619c01da223987b7c845af9b23e2183fb7d0fc744"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/48/UpArrow.ani",
+    "hotspot": [
+      6,
+      1
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "5a2c393dc318c478f1b6b38c2362d716d721aa406ba4c2dc71b8fd55303bdf15"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/64/UpArrow.ani",
+    "hotspot": [
+      8,
+      1
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "1dc024145f3fc80425b86806acf7bdcadbcac2a12bf8b966e7a2d26340382330"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/96/UpArrow.ani",
+    "hotspot": [
+      11,
+      2
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "34f42341d2ac338eb959f46540f8139b369546bd3b763f4fa2e4c6120c5ff497"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/128/UpArrow.ani",
+    "hotspot": [
+      15,
+      2
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "17ff49c447ad6c5e54655d1ea99a3f19a8076548d050418243191f531082873c"
   },
   {
     "character": "sol",
@@ -2502,7 +3342,100 @@
     "frames": 5,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "jumping"
+    "action": "jumping",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "4fe24781361816ed39be675007647cced5fd1e28bab0985ecac85fc3f3ae2818"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/32/Hand.ani",
+    "hotspot": [
+      3,
+      0
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "107d40d04ce259ea736cbdbbc843cb9ab981ceb3431c46ad18fa98c480445e39"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/48/Hand.ani",
+    "hotspot": [
+      4,
+      1
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "8c1bb79d3ffbcdb13b7103ceda738f6c7fd37d45adf14e8698ef7d8a7d71aebc"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/64/Hand.ani",
+    "hotspot": [
+      5,
+      1
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "9922dfe42e7ae5df8e88ad67df696396ac1a83fa59c9a05ca7027b2cd930e8c1"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/96/Hand.ani",
+    "hotspot": [
+      8,
+      1
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "400c99af858b01b5993ce4e40f2e1fb8582ae71cdc1c0968692e7a009b005dc6"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/128/Hand.ani",
+    "hotspot": [
+      11,
+      2
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "f0f871977fbd7119f904eb70a154685e677078f7ff0a3d5e95012d3a768d7e6d"
   },
   {
     "character": "sol",
@@ -2517,7 +3450,100 @@
     "frames": 4,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "waving",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "35008d0d5b14dabc5c14f04aec0ec549e7a5ff25658aa38b8d569d0662d2cae2"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/32/Pin.ani",
+    "hotspot": [
+      3,
+      8
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "3a1c8c2338a56aa591eceb7d47bd5f111b668d8c06d682c90f16bfec0524ef78"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/48/Pin.ani",
+    "hotspot": [
+      5,
+      13
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "70c2d5b8fd4ffb7569d7a2748bafe936132bae4c60d10494906b288b2ed070dd"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/64/Pin.ani",
+    "hotspot": [
+      7,
+      17
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "eae77832cc24419a372eb68265bedb7e4ef3c4b341cb95eb8d9272e2731cf66f"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/96/Pin.ani",
+    "hotspot": [
+      10,
+      25
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "177e272ae60ab1f84726e7160f03b2d3867dd6991d6cd5e24c1bdce9de1570a4"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/128/Pin.ani",
+    "hotspot": [
+      14,
+      34
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "b40ec2dda750447a767364201fc9c26c65dfb6ec3f2108dcb4bdda3fc165302c"
   },
   {
     "character": "sol",
@@ -2532,7 +3558,100 @@
     "frames": 6,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waiting"
+    "action": "waiting",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "9b587c86b74816b922eb92b0a861a3caa4ee6a569702c211c2d7529886503ec0"
+  },
+  {
+    "character": "sol",
+    "size": 32,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/32/Person.ani",
+    "hotspot": [
+      4,
+      2
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "a1f72ef22cf10ffc3ded7c999d12696dbdf91c5762636982da6160f50844f368"
+  },
+  {
+    "character": "sol",
+    "size": 48,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/48/Person.ani",
+    "hotspot": [
+      6,
+      3
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "b784078b8b5e66ad5a95aefd4194efea78b6fdcd888c5c85fdd18c8a1c806f03"
+  },
+  {
+    "character": "sol",
+    "size": 64,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/64/Person.ani",
+    "hotspot": [
+      8,
+      4
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "fbfce6e6192100fc552903176f1a57bb92858141091bec1d6d88eefde199a39c"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/96/Person.ani",
+    "hotspot": [
+      12,
+      6
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "b929642d544a84a5eec1dd72b3ee1688dbc77de0099b337c2370701e5de5439c"
+  },
+  {
+    "character": "sol",
+    "size": 128,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/128/Person.ani",
+    "hotspot": [
+      16,
+      8
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "edbacba261d6a904cec4807227bd39af5e234cce66031d2dcb55ab5e925046b7"
   },
   {
     "character": "sol",
@@ -2547,6 +3666,9 @@
     "frames": 4,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "waving",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "39fbc92d1f449ebd6865d1032ba41dded9a23d5920bb6c3a8dca59d5be85ff6e"
   }
 ]

@@ -22,7 +22,7 @@ function Stop-MintKeeper {
  $controlExe=if(Test-Path -LiteralPath $installedExe){$installedExe}else{$null}
  if($controlExe){if((Invoke-KeeperControl $controlExe '--stop') -ne 0){throw 'Could not stop the registered cursor size keeper.'}}
  $reg=[Microsoft.Win32.Registry]::CurrentUser.OpenSubKey($runPath,$true)
- if($reg){try{$value=[string]$reg.GetValue($runName);if($value -in @(('"'+$installedExe+'"'),('"'+(Join-Path $keeperDir 'MintCursorKeeper-v1.0.3.exe')+'"'))){$reg.DeleteValue($runName,$false)}}finally{$reg.Close()}}
+ if($reg){try{$value=[string]$reg.GetValue($runName);if($value -in @(('"'+$installedExe+'"'),('"'+(Join-Path $keeperDir 'MintCursorKeeper-v1.0.0.exe')+'"'))){$reg.DeleteValue($runName,$false)}}finally{$reg.Close()}}
 }
 if($Action -eq 'Status'){
  if(-not(Test-Path -LiteralPath $installedExe)){Write-Output 'Cursor size keeper is not installed.';return}
@@ -33,7 +33,7 @@ if($Action -eq 'Status'){
 if($Action -in @('Stop','Uninstall')){
  Stop-MintKeeper
  if($Action -eq 'Uninstall'){
-  foreach($name in @($exeName,'MintCursorKeeper-v1.0.3.exe','MintCursorKeeper.cs','build.json','status.txt','keeper.log','keeper.log.previous','disabled.flag')){
+  foreach($name in @($exeName,'MintCursorKeeper-v1.0.0.exe','MintCursorKeeper.cs','build.json','status.txt','keeper.log','keeper.log.previous','disabled.flag')){
    $file=Join-Path $keeperDir $name
    if(Test-Path -LiteralPath $file){Remove-Item -LiteralPath $file -Force}
   }
@@ -62,7 +62,7 @@ if(-not $reuse){
   Stop-MintKeeper
   Move-Item -LiteralPath $staged -Destination $installedExe -Force
   Copy-Item -LiteralPath $sourceCode -Destination (Join-Path $keeperDir 'MintCursorKeeper.cs') -Force
-  $build=[ordered]@{version='1.1.0';source_sha256=$sourceHash;binary_sha256=(Get-FileHash -LiteralPath $installedExe -Algorithm SHA256).Hash;compiler=$compiler;generated_locally=$true}
+  $build=[ordered]@{version='1.2.0';source_sha256=$sourceHash;binary_sha256=(Get-FileHash -LiteralPath $installedExe -Algorithm SHA256).Hash;compiler=$compiler;generated_locally=$true}
   [IO.File]::WriteAllText($buildFile,($build | ConvertTo-Json),[Text.UTF8Encoding]::new($false))
  }finally{if(Test-Path -LiteralPath $staged){Remove-Item -LiteralPath $staged -Force}}
 }

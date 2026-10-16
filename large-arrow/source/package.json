@@ -3,7 +3,7 @@
   "title": "Astra & sol 薄荷绿 放大指针版",
   "namespace": "AstraOriginalPixelsLargeArrowCursors",
   "accent": "#55b99c",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "default_character": "astra",
   "characters": [
     {
@@ -18,7 +18,7 @@
     }
   ],
   "installation_slot_version": "1.0.0",
-  "keeper_runtime_version": "1.1.0",
+  "keeper_runtime_version": "1.2.0",
   "edition": "large-arrow",
   "loader": "CreateIconFromResourceEx for ANI",
   "actual_canvas_sizes": [
@@ -29,5 +29,30 @@
     128,
     256
   ],
-  "default_native_size": 72
+  "default_native_size": 72,
+  "baseline_sizes": [
+    32,
+    48,
+    64,
+    72,
+    96,
+    128,
+    256
+  ],
+  "render_sizes": {
+    "32": 64,
+    "48": 64,
+    "64": 96,
+    "72": 96,
+    "96": 128,
+    "128": 192,
+    "256": 352
+  },
+  "display_names": {
+    "astra": "Astra",
+    "sol": "sol"
+  },
+  "scheme_suffix": " OriginalPixels LargeArrow ",
+  "keeper_run_name": "AstraOriginalPixelsLargeArrowCursorsKeeper",
+  "keeper_object_prefix": "AstraOriginalPixelsLargeArrowCursorsKeeper"
 }

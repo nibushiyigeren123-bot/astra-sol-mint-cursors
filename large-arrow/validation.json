@@ -1,0 +1,104 @@
+{
+  "version": "1.2.0",
+  "success": true,
+  "fileVerification": {
+    "repository": "astra-sol-mint-cursors",
+    "aniFiles": 442,
+    "decodedFrames": 2860,
+    "characterIdentityFrames": 1540,
+    "maxGapError": 0.986552161178718,
+    "rawSourceFilesUnchanged": 8,
+    "paletteChecks": [
+      {
+        "character": "astra",
+        "edition": "original",
+        "size": 96,
+        "outline": "#173e35",
+        "verified": true
+      },
+      {
+        "character": "astra",
+        "edition": "original",
+        "size": 256,
+        "outline": "#173e35",
+        "verified": true
+      },
+      {
+        "character": "sol",
+        "edition": "original",
+        "size": 96,
+        "outline": "#173e35",
+        "verified": true
+      },
+      {
+        "character": "sol",
+        "edition": "original",
+        "size": 256,
+        "outline": "#173e35",
+        "verified": true
+      },
+      {
+        "character": "astra",
+        "edition": "plus",
+        "size": 96,
+        "outline": "#173e35",
+        "verified": true
+      },
+      {
+        "character": "astra",
+        "edition": "plus",
+        "size": 256,
+        "outline": "#173e35",
+        "verified": true
+      },
+      {
+        "character": "sol",
+        "edition": "plus",
+        "size": 96,
+        "outline": "#173e35",
+        "verified": true
+      },
+      {
+        "character": "sol",
+        "edition": "plus",
+        "size": 256,
+        "outline": "#173e35",
+        "verified": true
+      }
+    ],
+    "success": true
+  },
+  "actualWindowsAcceptance": {
+    "repository": "astra-sol-mint-cursors",
+    "observations": 58,
+    "sameDefaultCaptures": 28,
+    "nativeCharacterComparisons": [
+      {
+        "character": "astra",
+        "samePhysicalSize": true,
+        "opaquePixelsCompared": 4305,
+        "maxRGBDifference": 0,
+        "ordinaryCompositionPixelsExcluded": 0,
+        "offset": [
+          7,
+          19
+        ]
+      },
+      {
+        "character": "sol",
+        "samePhysicalSize": true,
+        "opaquePixelsCompared": 2768,
+        "maxRGBDifference": 0,
+        "ordinaryCompositionPixelsExcluded": 0,
+        "offset": [
+          13,
+          4
+        ]
+      }
+    ],
+    "success": true
+  },
+  "environment": "Windows11-Lab; interactive LabUser; 96DPI; system preference32 and48",
+  "scope": "This repository: real CMD for every character/tier; all17 native system role sizes; default-scheme pixel identity. Shared edge-case tests: Gemini reboot, user-size48, INF96/256, legacy-backup filtering, cache repair, matching-name foreign paths.",
+  "limitations": "Actual VM acceptance covers this Windows11 build at96DPI; otherWindows versions and DPI combinations are not claimed tested."
+}

@@ -1,6 +1,24 @@
 [
   {
     "character": "astra",
+    "size": 96,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/astra/96/Arrow.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 6,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "e164d8fac73e52678cacc3158c6a3dae12ae0bf94d2fe1c68e676d2df996efa1"
+  },
+  {
+    "character": "astra",
     "size": 32,
     "role": "Arrow",
     "label": "正常选择",
@@ -13,7 +31,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "ba8040e9402bbd60553a1720ff268aea995095efc0f56a5f6b2a59fa0067cbe5"
   },
   {
     "character": "astra",
@@ -29,7 +49,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "528f9102de1cdd10a6592a3c332957c89df7fb654511af08c04eec329e0229b8"
   },
   {
     "character": "astra",
@@ -45,7 +67,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "5e8f4c9b83aa21cd518bca5c743995d6d878b17f108adeb38913728e232202fb"
   },
   {
     "character": "astra",
@@ -61,7 +85,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "783f5706245dd17df14844dd143b8c261c2a45f3b9a5761093798001fde4d50a"
   },
   {
     "character": "astra",
@@ -77,7 +103,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "3961ab4977a68b3fb29af94df791953c20a2f6d2da5b20fbbf6f8e35c4b88a11"
   },
   {
     "character": "astra",
@@ -93,7 +121,27 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "ed8916e34b49d5720f00f1e65f4a785654dc226bc8f0b07665f6aa2de58be1ee"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/astra/96/Help.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "48bf3ad6dac189144b33eb07ec016c2b4d7bde1f52aa2b3f12d2bb3dca78f99d"
   },
   {
     "character": "astra",
@@ -109,7 +157,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "70c23146b08f1955012d314307807626796ec3223fa17174d6c167f566997ad8"
   },
   {
     "character": "astra",
@@ -125,7 +175,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "897af96ca4c737d66deaf1546b329a90d17fa386f4fa768a90b9204ac566224f"
   },
   {
     "character": "astra",
@@ -141,7 +193,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "2c8e795ce8c1e24ccbf77e1a0e6f5ed888992576bc825a188e129512d4c62421"
   },
   {
     "character": "astra",
@@ -157,7 +211,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "ee10a2ae3c7d1bfa6e6515011431337a837d50611c778aaf7d354bd9d8523bd5"
   },
   {
     "character": "astra",
@@ -173,7 +229,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "b786f2d9f8b54a159b58dc5ae9503586a74c653c249f2eadc37e06dbc3362ad1"
   },
   {
     "character": "astra",
@@ -189,7 +247,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "0ca5612f63aae663a62727f9ac376dea62477516d3d6e23cb3ea161e747baa2f"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/astra/96/AppStarting.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "36b5ba3461afff468764a02debfc2c4f8523c399fc72add086e5968861d6265b"
   },
   {
     "character": "astra",
@@ -205,7 +283,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "9cda851a5adc395537dba5ca2cad44fae8f553866bfb11da489d0c3c1affebc2"
   },
   {
     "character": "astra",
@@ -221,7 +301,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "42356da46c7fca71bc5a0bb159c05b2b222d1647ecd8fbeddc4f6440c41e9440"
   },
   {
     "character": "astra",
@@ -237,7 +319,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "e4bf7a4d964a2f13e4cd6e91288f613f3296dd441b18b267070e140b31297e32"
   },
   {
     "character": "astra",
@@ -253,7 +337,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "760be9b5219ac41f8172cfdd54ba79de8a10774380a8fbe1aa33bf17de72f45b"
   },
   {
     "character": "astra",
@@ -269,7 +355,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "1b40f15ac8721c901e3ad28424e5ca8af56e247cac72de01901732cc8381498e"
   },
   {
     "character": "astra",
@@ -285,7 +373,27 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "623c076c2e5f781189d6e489a7d575b844ae3d800292aa108fa68255d0fba11c"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/astra/96/Wait.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "9da7ac1415bc170d804c437672c96f9a9ff4cb69eae20bd5131f1fde6a910d47"
   },
   {
     "character": "astra",
@@ -301,7 +409,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "a4db2dc93f9cd656059b566d2d4f848dd944489fd2a79d67990a3661a81cf04e"
   },
   {
     "character": "astra",
@@ -317,7 +427,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "9ca09e8322847d216e85412e1abb70d3c1d6053c9cc6d82586f9f60530c0099e"
   },
   {
     "character": "astra",
@@ -333,7 +445,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "f2c828012b69e96b255544b117db0f941bd5f99fb6b4c2b450f82fbfd90b7ba1"
   },
   {
     "character": "astra",
@@ -349,7 +463,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "85bf9c7f1d1e49d7108528328bd09c5a4d54e89a70a708d2591c27cf0f57ddbc"
   },
   {
     "character": "astra",
@@ -365,7 +481,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "1ec08b7dd2833cb0365b31751a6e172b72cce2dd9c9b1aa753dc7c69acc5c150"
   },
   {
     "character": "astra",
@@ -381,7 +499,27 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "462c77a87adcc74f4e9b37e41a107c1781e5c23dd715a6ee729f4fc306d1d27a"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/astra/96/Crosshair.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "f4e5c21eb2cd29c5606a5a1477378f85145a63fc81acf8f1c3cb8fc12b686b40"
   },
   {
     "character": "astra",
@@ -397,7 +535,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "c6e5b3aee85324eab5c09c0d25207b11bce21b50203bfdbeb61be76d5b9bb945"
   },
   {
     "character": "astra",
@@ -413,7 +553,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "7d930ad052e08ceb2d319cf63d3d95390157edad946d1bebf1e4bc3df45836de"
   },
   {
     "character": "astra",
@@ -429,7 +571,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "4706d842b884fdde14658b7966e4f3994efa52d53f1948b3bb818e827f71b172"
   },
   {
     "character": "astra",
@@ -445,7 +589,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "64d7e918a28c67fbb7205d4e756a87db472e516d89d1cc79d33fd30ae148a054"
   },
   {
     "character": "astra",
@@ -461,7 +607,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "f6ff3f3c8feaaa85e5ba38b574c2c7f35b27f485558ee7d3240f6266b88eff8a"
   },
   {
     "character": "astra",
@@ -477,7 +625,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "c24815002d262e7fcb2d88eae5f2f26897f39cfeb3287210a5fdfdf404fb445f"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/astra/96/IBeam.ani",
+    "hotspot": [
+      11,
+      19
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "ac85a4491895259073d38a25d78a363e1f49559aa7fa5652ef28b8af387c0759"
   },
   {
     "character": "astra",
@@ -493,7 +661,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "b181e9f293f2419ca80bbbc47d7662231633da01286c0680b6f98e5672acab8a"
   },
   {
     "character": "astra",
@@ -509,7 +679,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "cda6d75ddb2886004656e4b12a8f6934ae8f270e3b563e40683bbb5b7514b71b"
   },
   {
     "character": "astra",
@@ -525,7 +697,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "e9dbf5a12ee945787b2949a02e9c58549b9703e9db71b101f175e8d7dfecacd0"
   },
   {
     "character": "astra",
@@ -541,7 +715,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "951b14508bacfb1309be8adbac8ff9dea052684fe6dec78efd73382253406a12"
   },
   {
     "character": "astra",
@@ -557,7 +733,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "6137647ed72d8417f9afa66899df78531d01b82b0d1d8a307c1a0ab487e4c4b3"
   },
   {
     "character": "astra",
@@ -573,7 +751,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "6e86da984b6675137a1d22979ab69f55570c65a72656bca2d7187fe7d9c40079"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/astra/96/NWPen.ani",
+    "hotspot": [
+      5,
+      33
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "0567a5d3d3ba43d633e72821b63070ee8c8c198af4c74aa5dbf1225095b1b8b5"
   },
   {
     "character": "astra",
@@ -589,7 +787,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "f8672263e03b1edc56a68a86f54fc598fe6356945bab679c873ad611d7f9412e"
   },
   {
     "character": "astra",
@@ -605,7 +805,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "3ad71dd555e795708e0927a3be71482366aff39c013b68095f148f33a612af8d"
   },
   {
     "character": "astra",
@@ -621,7 +823,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "ab1b0d77537370d7bf6ced85ab26b251fad8ec3e3693b448885f06dd21ad4b14"
   },
   {
     "character": "astra",
@@ -637,7 +841,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "7bd4e7c746d5a2f0a1879f91b044d1b2579ea1bd8ea263891b14e5571de19ca1"
   },
   {
     "character": "astra",
@@ -653,7 +859,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "89b3ba71fd27db412592bbfd640d7e2e6256cacef186043409ae8a848f09ce65"
   },
   {
     "character": "astra",
@@ -669,7 +877,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "75e6313cb423c3b66e233f87280dece1c54a5c471bb6677d20e88aac1ef2aadb"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/astra/96/No.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "7a4313cec8e943f659ace8d11b84c29db02129920174bb1d7bf53abe00541765"
   },
   {
     "character": "astra",
@@ -685,7 +913,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "efb1311ed53c778dd0ff80dbc7a9f13ac6a90f8f68db5fbea53c860cb24d005f"
   },
   {
     "character": "astra",
@@ -701,7 +931,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "43dc300b933faa4b0ee63af41ec8b053216d2e9d026640bff8a1fea61a37ae4e"
   },
   {
     "character": "astra",
@@ -717,7 +949,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "3cb816dd34ba5efecf10b71f1e96125b4008c7f069574e179928f9485e4da87d"
   },
   {
     "character": "astra",
@@ -733,7 +967,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "c387c0b178457675038af388d31f9cc74ff838f14a2a294fc3a6239e60b3b7a7"
   },
   {
     "character": "astra",
@@ -749,7 +985,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "9d3632c113adc0f7f3c5a1d24f8f9e831bf8f9a0a6ceb17988d96d5b3d0dbc66"
   },
   {
     "character": "astra",
@@ -765,7 +1003,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "dd230c40f54c7586c5f9731e3a8b848996bbd767e27d73ca03007e5adfe14e76"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/astra/96/SizeNS.ani",
+    "hotspot": [
+      9,
+      19
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "d8da1809d92d5a8b61756053f4e5c718b329f0737b87aee31eb7a24e472d7bd3"
   },
   {
     "character": "astra",
@@ -781,7 +1039,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "0747ae0b30faee1041104ce59014d823c0adeb2205296b5f4bd39fcb3a505a90"
   },
   {
     "character": "astra",
@@ -797,7 +1057,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "f9b171feb315a1e8433226770441abf7a4836a90c839017996f6a3caa3ac3108"
   },
   {
     "character": "astra",
@@ -813,7 +1075,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "bb11a7d375e90b65cc105f6e3aa3e735f2fb0d9f38ddaea8131588a1fd500a86"
   },
   {
     "character": "astra",
@@ -829,7 +1093,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "aa48fea9f73e574277fb9b965eb98aed29279b285375a833ab5f0b2283bd47b0"
   },
   {
     "character": "astra",
@@ -845,7 +1111,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "f3a9902504057370b3025f9125e8bfc2f406794dd7d51092a63afbacbb4e6d44"
   },
   {
     "character": "astra",
@@ -861,7 +1129,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "3954cc412cfdf7b52aa4c074db43c2f67fc2ae23aebc9d43234b1e39a99a9c62"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/astra/96/SizeWE.ani",
+    "hotspot": [
+      19,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "3c402ee6361a64b68e1fbb5639a2338e272e434e3ba1993bcf1373a3a650b791"
   },
   {
     "character": "astra",
@@ -877,7 +1165,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "fed0d4343c5f20000e388d98500b3c1fa3d5ac5c90df9e528d09c654e8484a90"
   },
   {
     "character": "astra",
@@ -893,7 +1183,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "85b6da9e31ed9c6a63967a69f59ea62991b1c2a561f76f54f73182f9eccdd7ed"
   },
   {
     "character": "astra",
@@ -909,7 +1201,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "03208f8b40f51e41cf8f7aa2b3d33edb54f773d72f9936f1238c25c19710d8ef"
   },
   {
     "character": "astra",
@@ -925,7 +1219,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "4745a6d7afccd3288b88a713c3792e38350060cebe56230904b2b5dec6304863"
   },
   {
     "character": "astra",
@@ -941,7 +1237,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "b482ba31ab49385e20155f607a5f3becec73c7c88abeab7deb157022acda5122"
   },
   {
     "character": "astra",
@@ -957,7 +1255,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "0916e1aa8b7412d3b25a3bde8a76a36f86f4879e23977e3bcf5e404948023e3e"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/astra/96/SizeNWSE.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "90b212fafef4c3680c1124cf4282ba59859c3bd92a2a64973a7051f97ead2cab"
   },
   {
     "character": "astra",
@@ -973,7 +1291,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "ff7f2254df797b5543c052cadae7dbd3678cd8d3d213bb9ebbad45c28eb2a8cb"
   },
   {
     "character": "astra",
@@ -989,7 +1309,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "0f2746b29bd22f39731cdb03e4b1d695b39fbf6a533e1c813a46d0a3bd7b71c0"
   },
   {
     "character": "astra",
@@ -1005,7 +1327,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "f99cae9ac63cc47d582a5317acd201e7d5e31194ef7a2ab6ade6282e7e730d99"
   },
   {
     "character": "astra",
@@ -1021,7 +1345,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "11dd5bb08a3ec2cc5595d02cd8ed3d188560172532dd45b910f87adedd0b64de"
   },
   {
     "character": "astra",
@@ -1037,7 +1363,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "9e336eaf0355b7523b64a5d9ec69e7a0909256fde3efeb9779f85f0e0ed5df04"
   },
   {
     "character": "astra",
@@ -1053,7 +1381,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "aabdec361bb8d06925708db098d0cba82b4f1f0c4ef75b3d49bea700b29cba5a"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/astra/96/SizeNESW.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "0f547c1f2b547888ddf06bb2f1d38dc332b0765daedc5d7cfd35b50e4b1c3210"
   },
   {
     "character": "astra",
@@ -1069,7 +1417,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "a081e5e0ceb95a234749b74634d605d21a6582b622d98f5b421b301cb5247d38"
   },
   {
     "character": "astra",
@@ -1085,7 +1435,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "228d9763b3c1c27de0ae01eb7e556908ce4a1dc2edfe13486909cf91d5ceb927"
   },
   {
     "character": "astra",
@@ -1101,7 +1453,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "ca420891a16d53887429a8721461e7f236350db7aa2e4144b96bec8c8b104c63"
   },
   {
     "character": "astra",
@@ -1117,7 +1471,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "0333a229c55ad1549b25962b20fe3430abdd6d3299e041690e78ab1a5354f723"
   },
   {
     "character": "astra",
@@ -1133,7 +1489,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "149cdd7cbd1039775d6a4e02e0ba56a7677180a3252bc4abb46c18c6868206a6"
   },
   {
     "character": "astra",
@@ -1149,7 +1507,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "df6fe01760614461b6ce9e5da61682ca42e8e20a9e400c7892f3f881ab8faf8d"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/astra/96/SizeAll.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "a85cfbdfba9991477d34755a83c8c2436bc134112c2fef46b135ab0d7a739b1d"
   },
   {
     "character": "astra",
@@ -1165,7 +1543,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "ebf246a5ad41bc8fb0caf9409ffd0368c4304394c7471e8e3e4a612f4ed1559c"
   },
   {
     "character": "astra",
@@ -1181,7 +1561,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "a011aa40d0711150f88c0856a8ff593e4e2125e10f9c4d3ddf243ddad975a544"
   },
   {
     "character": "astra",
@@ -1197,7 +1579,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "4a295a81aaaf498ba6323eb6b0158baaa4f641be01ff5e471c402a9f3fe85325"
   },
   {
     "character": "astra",
@@ -1213,7 +1597,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "2a4a5dc9be9eb716fcd2b5a09e1c673c8a41064c3f684bca0bb00af873f80e7a"
   },
   {
     "character": "astra",
@@ -1229,7 +1615,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "e0dba8d986ef3a6811c09dc732e4a508535c53ce3688efb28b359687644de992"
   },
   {
     "character": "astra",
@@ -1245,7 +1633,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "b1fe82d7961d0ccbafd4113965cbc980329c4db8cef443515bedc17b90ff944d"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/astra/96/UpArrow.ani",
+    "hotspot": [
+      17,
+      5
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "00e30b21825539cfebfb234cbd5e917f274c792f1f7c8e01be1af093d9e068cb"
   },
   {
     "character": "astra",
@@ -1261,7 +1669,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "b3822f7c4ffac40952e0a47e34274cf3d1d1e60cee689c211e03d1be89d4ff7a"
   },
   {
     "character": "astra",
@@ -1277,7 +1687,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "754eff576a0bc190e14cf13de9ac7fecfb1a54c1a811a1667395fa10f514c504"
   },
   {
     "character": "astra",
@@ -1293,7 +1705,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "bef6616411a8471cc244329918b52efa41c48653dea38ff3803c6f67637712ff"
   },
   {
     "character": "astra",
@@ -1309,7 +1723,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "d8168d241cec794af13a333d343d932c54529b783b2b5cf5be1170c4940ca098"
   },
   {
     "character": "astra",
@@ -1325,7 +1741,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "4bb72b61a650439e238a99019e6e271e8e0eabaebf375bfc1d64473400122322"
   },
   {
     "character": "astra",
@@ -1341,7 +1759,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "760a5f6e494a634ad6b0f2ae3f6d40177bb11f7b5bb4787edf7ac2f2612abd78"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/astra/96/Hand.ani",
+    "hotspot": [
+      13,
+      5
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "625e7903c9e04db43918adad17ea5259d01c235aa8eb6294bc4033fa793925dd"
   },
   {
     "character": "astra",
@@ -1357,7 +1795,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "19a7059df57d5367805179cf3e51a6b5ebbed69722d6c5a8e3624a654bef0c8e"
   },
   {
     "character": "astra",
@@ -1373,7 +1813,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "30fec9e1de05499b9cd63f4090acd326a02ffa8b9990d98acaeca6d4b901d9e0"
   },
   {
     "character": "astra",
@@ -1389,7 +1831,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "4fbcf715a1b9291d90a440cd647fc12af2c33a085bd0cd6b4967946853a06f58"
   },
   {
     "character": "astra",
@@ -1405,7 +1849,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "1101ca823c1a6abbfc81ccca76cc14e54b469e84f468a32d8b90dc835fe8b15f"
   },
   {
     "character": "astra",
@@ -1421,7 +1867,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "2311e18c720dfdd6631623bde92ba41f3c02a3733349510a04508f3155feb3e5"
   },
   {
     "character": "astra",
@@ -1437,7 +1885,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "78e75fec8d19c30f4188351c0524b35706d2ecab30d758777a03bc4d49825208"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/astra/96/Pin.ani",
+    "hotspot": [
+      16,
+      34
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "89689acfccea7a6e68ea5736048be58d9cf15f48e4659a43b199311dff7f9c59"
   },
   {
     "character": "astra",
@@ -1453,7 +1921,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "f7deb741eefee6b66e7463959eb190e953114d589bd77e415c6c11e7d5d51bb9"
   },
   {
     "character": "astra",
@@ -1469,7 +1939,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "519e093a298ad8e265e935a22c9abd181d2cb629b5847f58978717b4d761ff5e"
   },
   {
     "character": "astra",
@@ -1485,7 +1957,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "5052754e9aa0301541ba8a8563c8f112149f8e97315c506a4c430e9f8f1c4613"
   },
   {
     "character": "astra",
@@ -1501,7 +1975,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "38196dcec68125eaec66bc070236915f55fcd3e30416d7d16b9b8abebb8d0741"
   },
   {
     "character": "astra",
@@ -1517,7 +1993,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "d2f13c854d0a9826526ee5ec9f42783d3db8df5b2be7537b1d7e1b2bf9c11b4e"
   },
   {
     "character": "astra",
@@ -1533,7 +2011,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "5fda891885a6e0dd142a2604d027eeb80a8d4358c1845ab342e39421bebf3e44"
+  },
+  {
+    "character": "astra",
+    "size": 96,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/astra/96/Person.ani",
+    "hotspot": [
+      18,
+      10
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "fc8337a1ec140ca98095bb0f530994e48edd3b4e40dce2fc751401b39531c68a"
   },
   {
     "character": "astra",
@@ -1549,7 +2047,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "953ec72a9531deed3ed4ecee4989f547435ba0b29661e65fcbfd9b6db1158327"
   },
   {
     "character": "astra",
@@ -1565,7 +2065,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "c4cdbc8e4fc4c74531a1415b84e40414ff267fa46b675e8fcc4fa1dad4a4b03a"
   },
   {
     "character": "astra",
@@ -1581,7 +2083,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "48e469e09a7662e3ae830f6ab8e88aeb4ccf4176ae33b505ddf01c62b0c6691a"
   },
   {
     "character": "astra",
@@ -1597,7 +2101,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "345e58427e0482f1c5c6f11b29de6c66826b5f4a53e2c76342d9906184078a47"
   },
   {
     "character": "astra",
@@ -1613,7 +2119,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "30fbcfa471750084eaf042c0daa3cc0e51dd02d9671772b726f57ac8f509a5af"
   },
   {
     "character": "astra",
@@ -1629,7 +2137,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "888b4bae42cd6489bda725a12e0b4889685cd9ea364b4e9255ce78a74b5331b2"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/sol/96/Arrow.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 6,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "c93dcbe7dbf036ff13518825867d438654baa174ec3d2d16b6f3d95bab3437fb"
   },
   {
     "character": "sol",
@@ -1645,7 +2173,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "2cc5bf7745e3f7be6d3946aa4da4aa61c5a3e192cfaf74e5e0c449c2bd4e157e"
   },
   {
     "character": "sol",
@@ -1661,7 +2191,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "520b03602f0ab364c8e4e5a1f5408d9a6196e91580c87e486d41104ae056393e"
   },
   {
     "character": "sol",
@@ -1677,7 +2209,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "ec7cd524370ca800cdd3932ea6819da0b65ab461b540bb47e1cb62dc456a73c1"
   },
   {
     "character": "sol",
@@ -1693,7 +2227,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "eff4b9fc78d81024c6d3a2d29c3285e24be0a74f35774496626e9c2e9a03444e"
   },
   {
     "character": "sol",
@@ -1709,7 +2245,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "880f7b8c786e63444f9b86f6f47ae3abf4bc9c321a579aca54e8fca962bd820a"
   },
   {
     "character": "sol",
@@ -1725,7 +2263,27 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "32054ec994bb4aa1c95549f504a1954c4cb664afdca04b545d3e7eb48b4325c2"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/sol/96/Help.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "45d115fa55a3bb3473bd2768f44d19d6efb2dc2745d30b5f11c7ba35d6ded68c"
   },
   {
     "character": "sol",
@@ -1741,7 +2299,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "76e1cdc7293874c67d76af5f3b430c210477f251a1dc95a82c2ce1119b8b377e"
   },
   {
     "character": "sol",
@@ -1757,7 +2317,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "f56ba49704672dd5b43b44f3abe9b7687e184c74fc21c15841057d922e4d63c6"
   },
   {
     "character": "sol",
@@ -1773,7 +2335,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "666206563db1e4b53f9cfb05e3c031692ab4301cf89165a93da3e92c5d418da5"
   },
   {
     "character": "sol",
@@ -1789,7 +2353,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "f65c1dfc30fe46fdb715b440892e47d82a84833445fc1d9365b3d3466ac0e8c2"
   },
   {
     "character": "sol",
@@ -1805,7 +2371,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "a78622b1438eeecc43c0bb90138426e7501169043fce51a03abf98876ea9d598"
   },
   {
     "character": "sol",
@@ -1821,7 +2389,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "b54d672efc2ddee491c528a5fecea8941b32ee2fe47e9b1adb1bea06276ab604"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/sol/96/AppStarting.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "b5ef30673cf07336e1b5b965e216e2679047a2ae5ba9e7fd73777970cf652f83"
   },
   {
     "character": "sol",
@@ -1837,7 +2425,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "d2b4d8f940054b12a3afd81b72ae4b292caf718115274ebf43a602b37018781b"
   },
   {
     "character": "sol",
@@ -1853,7 +2443,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "8a55ee48be696ffce4f558c8bad26824aa3c68dfa8d0b00620660777c8f453e6"
   },
   {
     "character": "sol",
@@ -1869,7 +2461,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "5d3bdbe46a198301d44ce084d664a4a2c49f30d64b82e791f403cdc5a3780370"
   },
   {
     "character": "sol",
@@ -1885,7 +2479,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "65a692f85ba002263881f8c2f54605ea103b7ce65dd0c232a18c16bdf485cb06"
   },
   {
     "character": "sol",
@@ -1901,7 +2497,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "440d37ca19e0fc72158726c02b9210defa1d3ff8a1a27cbc378641aa0aa53817"
   },
   {
     "character": "sol",
@@ -1917,7 +2515,27 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "waiting",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "f17fb4e3459639543b2419a4456fd9eeb49c4c822e67cc8f7e22c7426136cf32"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/sol/96/Wait.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 6,
+    "frame_ms": 100.0,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "e7c1de5be2f902a65423a0a6c509ae7bd7c2edb1dbb855eccd307b7473af53ed"
   },
   {
     "character": "sol",
@@ -1933,7 +2551,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "472700006b09df60b88c5c39d1f5d6451d3864d6b2638283f612dd9404171f9b"
   },
   {
     "character": "sol",
@@ -1949,7 +2569,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "a40afee646738859fc3dad3668b6cd5247e5dc45636c63ade6eff2072a63d0ed"
   },
   {
     "character": "sol",
@@ -1965,7 +2587,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "15edfe98f0843f8604522bfd004934915af8e509e02ba7003932b0e7f5254d40"
   },
   {
     "character": "sol",
@@ -1981,7 +2605,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "1b9025215ad11f4b401946b42f05be290ff0bc144ac6b1339b2e9032cddcee79"
   },
   {
     "character": "sol",
@@ -1997,7 +2623,9 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "17d6eae381cc3368058c8e62c6ed71a00db531704ca08ccd0b7c8f34479e1998"
   },
   {
     "character": "sol",
@@ -2013,7 +2641,27 @@
     "jiffies": 6,
     "frame_ms": 100.0,
     "action": "working",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "12ac0d11c35c7e836bfc6414e01a738dd76887a3f2fb67e66f47f8df1c6a1c0e"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/sol/96/Crosshair.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "263fdd319bdc83838f108632e55b43e90b54e94213ae79e2f5377c49237b843c"
   },
   {
     "character": "sol",
@@ -2029,7 +2677,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "bd0168e1c48bbaad41924d905c9d2dd4f56834233febfef2541863483fbd3e33"
   },
   {
     "character": "sol",
@@ -2045,7 +2695,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "601cb7d4ba2495e3086cc63cbf6ca88029120854efd73ddeeb7615fd3dc5317a"
   },
   {
     "character": "sol",
@@ -2061,7 +2713,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "53cbc4050024357a1f9581937fb2809c43d08bb29aecfd4938fc7360a5698505"
   },
   {
     "character": "sol",
@@ -2077,7 +2731,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "c2d064939a2a4ce380ebec872b9b6cc48a866d958ab8ee3d905fec94e7185360"
   },
   {
     "character": "sol",
@@ -2093,7 +2749,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "e4878052b680a90a9b3c8c113d2339024b72fc17e131184ac2da3a8c5bac3cf1"
   },
   {
     "character": "sol",
@@ -2109,7 +2767,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "d4230f1724623be396b3beae111fed083c263de387ef59885889950cad54ce8c"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/sol/96/IBeam.ani",
+    "hotspot": [
+      11,
+      19
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "c8aa1f16f6bda774332f41457521ecb94ddb5c6035d47c8e00c0b1a6c1a135f3"
   },
   {
     "character": "sol",
@@ -2125,7 +2803,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "52fd9b34b0cf4f6ce5be1fc8c856fb13882693fcbddcf7445e75826688d4ca70"
   },
   {
     "character": "sol",
@@ -2141,7 +2821,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "fde211f5bc21083292153cd424b51e736d5e6a22097cc41d8d6a42cde6a35af4"
   },
   {
     "character": "sol",
@@ -2157,7 +2839,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "e2399a8dbf937446c7b71c19d6ed5bdd0d345dea4e2c9cd10b179dd7ae59136a"
   },
   {
     "character": "sol",
@@ -2173,7 +2857,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "1b1bc0617de882e787595acc033c9e710b67771ec2fffe5d307bc3b52a4d5304"
   },
   {
     "character": "sol",
@@ -2189,7 +2875,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "5417be163e00c25562cb8cbb0691d6959dd6a40113952cedb8d220816d871726"
   },
   {
     "character": "sol",
@@ -2205,7 +2893,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "13c245f367a220dca6983c92877af96ca4a90aaffb1b7da964c0bb8ce2faf5c1"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/sol/96/NWPen.ani",
+    "hotspot": [
+      5,
+      33
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "ee24851005a693d16e7dcef2a4f5768be0e9e3c8301a23ee55d44c975a7ad99b"
   },
   {
     "character": "sol",
@@ -2221,7 +2929,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "f95c1b6f084fe562c9b094e3ed63ec663fd415488e44b9f6c4d621424561880b"
   },
   {
     "character": "sol",
@@ -2237,7 +2947,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "5a089e97b5481cf6ceb699a6a9dd654a9eb867ab5fdaea892e4c32c9704cf3b4"
   },
   {
     "character": "sol",
@@ -2253,7 +2965,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "1359fa9881b201d6e7ecfac26d3e8976b35814138af6f34f1ef8d6be80c04b12"
   },
   {
     "character": "sol",
@@ -2269,7 +2983,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "d04ea8dd28fe344c4bd440e60a812964046f6d0f417a9a86c1b8fbd42b270b94"
   },
   {
     "character": "sol",
@@ -2285,7 +3001,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "f698eb363d93d05b6d24c0184c0912574be699323f0de5dae50dacd06384e183"
   },
   {
     "character": "sol",
@@ -2301,7 +3019,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "a3225c017b9667d24b38c79eb3e2efbe61053d7eb5564fcad44c7ecb86cf5eba"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/sol/96/No.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "63e4c4b8ca60f2f81807eed1a30352e7527ae4307e76d7d4000edef91aabe036"
   },
   {
     "character": "sol",
@@ -2317,7 +3055,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "2994b40e23d9fb66957a304be7bed8c2051791e98bca38c4e0b291d7430c94f8"
   },
   {
     "character": "sol",
@@ -2333,7 +3073,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "581a2814324411c0d298aca51a4303915b77c332e54d046ef6c6b29b326fcde0"
   },
   {
     "character": "sol",
@@ -2349,7 +3091,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "9f1d17aa06fbef3ad88777772857e1a3770698f4e32f6995b492bf0f22a55b5d"
   },
   {
     "character": "sol",
@@ -2365,7 +3109,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "461242e3708262178c6bdbb827eb4f84eb0e1093ca1d7d599b1c21a59cc335aa"
   },
   {
     "character": "sol",
@@ -2381,7 +3127,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "3587f7971d37a37f82b0976e9215f4f4d2ee7e0db9d71f41870e0da9b4681c81"
   },
   {
     "character": "sol",
@@ -2397,7 +3145,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "3f79b156bda6b909e66904172bffdd2fc4ade1b710ee22f5cb8cc1029f46e929"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/sol/96/SizeNS.ani",
+    "hotspot": [
+      9,
+      19
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "9162094954b5ada52453bbfd370cb4e9377838215350d8f183abc1184ec1b70f"
   },
   {
     "character": "sol",
@@ -2413,7 +3181,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "d4c76a2ae3e01ea0fcede0aa459c1f26fb341cac298d03b4f2bc436d2989256a"
   },
   {
     "character": "sol",
@@ -2429,7 +3199,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "769861d1fd7aa07a69fcdddb6ee65e93a05da71bb39059e5aaefb9c5c6b76fe6"
   },
   {
     "character": "sol",
@@ -2445,7 +3217,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "10927d82d5c2f8e70f9e9cd754a621c33714140ab0eeef6cee0c170eaa69af30"
   },
   {
     "character": "sol",
@@ -2461,7 +3235,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "52f130ea77d788975e6567708d81c9192fc9f16b7b9331be769fa31421f493cd"
   },
   {
     "character": "sol",
@@ -2477,7 +3253,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "de89656be6935f4b464446f034746ed9664d087652c920b148535708f54f668d"
   },
   {
     "character": "sol",
@@ -2493,7 +3271,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "744fc77ff8061a1330123890c83a85372dbcba83a339dc6fb638fa9ea6340fe4"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/sol/96/SizeWE.ani",
+    "hotspot": [
+      19,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "6d99d31935f94bbc35e1bf75ec20993aaefdea4ab09be353a11909bc2dc6a9d5"
   },
   {
     "character": "sol",
@@ -2509,7 +3307,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "8a4e65ec4911796c1dd3562b7205b73abbc560a21888c4e7fd1e20e4c91aaccd"
   },
   {
     "character": "sol",
@@ -2525,7 +3325,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "0e6241b3737cd81f9301827bdbfbd7687456d829ba69210d8b8f218be919e726"
   },
   {
     "character": "sol",
@@ -2541,7 +3343,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "41ac650fa3a595534d22b0c62bc432cbfe8f97868a3cc9624b9632f9a95283dc"
   },
   {
     "character": "sol",
@@ -2557,7 +3361,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "00ebd625ea4295f0c958bf3197e28c478c8855310ac36f597317d2f2d99c25a3"
   },
   {
     "character": "sol",
@@ -2573,7 +3379,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "4718c1a3510cb752df5759f7daefda32452a9e74b063c2792afd3b2252669ba1"
   },
   {
     "character": "sol",
@@ -2589,7 +3397,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "c51821ec66a14139a3ae1a437f7e7c8e07314ddcf960bfc3dd35045b3d79ccce"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/sol/96/SizeNWSE.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "db12239711a727dae31d6bde91795bfdef13e20ec933a6ad67b3ca0c908af7b1"
   },
   {
     "character": "sol",
@@ -2605,7 +3433,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "cd7c7a420023e999a79e397db97fcb2e7589e39105ba0f21f80c02918cd3f103"
   },
   {
     "character": "sol",
@@ -2621,7 +3451,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "57e09493499a0ecd716840049131f78655a02166ff3ea25ecdd672fe6ebdecb9"
   },
   {
     "character": "sol",
@@ -2637,7 +3469,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "7ee8cd24344b55fdf2789b33d3b653f1a888a2636f33f4740efd26e5ca4a757c"
   },
   {
     "character": "sol",
@@ -2653,7 +3487,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "292d6f35524e115c3d97e2a54059ebfa425ec82282692cd2e49b3feb88c0783b"
   },
   {
     "character": "sol",
@@ -2669,7 +3505,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "01c735e637571d0430e3fbcc8406366f039c188cace5d26c5a58f28f66cff334"
   },
   {
     "character": "sol",
@@ -2685,7 +3523,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "1d041929e8e5374cf7d8833b15539f435e931d37a4757a7fee4e72111077841a"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/sol/96/SizeNESW.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "dc73bd3f2cdb53d8386a27e7549b88bf260a28be3f260d242be30f4aa2fc3b49"
   },
   {
     "character": "sol",
@@ -2701,7 +3559,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "832f7ed9c6dd26c053e08bfa8f72814b073eac683a2fb847d6afa5e115e87f8e"
   },
   {
     "character": "sol",
@@ -2717,7 +3577,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "ca4908f457f79e2015c5d1933af368540700e17c4fb52d2f000ae011b3a9d437"
   },
   {
     "character": "sol",
@@ -2733,7 +3595,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "235759409a7ce2c1734348dd2cd68e6394cb1027ae01c0a57125f013fafea236"
   },
   {
     "character": "sol",
@@ -2749,7 +3613,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "45b2f06cd6e63454289f422a98f27564a848ad323b40511b030567f47a664b05"
   },
   {
     "character": "sol",
@@ -2765,7 +3631,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "d1f843d2ad5c67f7142d5d8262d130fd529e76408be47aafd2e251c7ee68f1cb"
   },
   {
     "character": "sol",
@@ -2781,7 +3649,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "3e476f04e9c4bbdafeb5dbbdffda6210546b2745c42eeaf9f13f5db199a25d26"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/sol/96/SizeAll.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "b27cf72c49d6cebc963388813ee959dc4b2bf0c8e801786a21193e001b404af7"
   },
   {
     "character": "sol",
@@ -2797,7 +3685,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "1cde7194e4492ad294f0ad48907f22b876e119d053f1b95a7f2aed2b0e2eaf7b"
   },
   {
     "character": "sol",
@@ -2813,7 +3703,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "b9cb457b14118b68072b8d369292a5f91456ee30e7aced01ec85741c781090b2"
   },
   {
     "character": "sol",
@@ -2829,7 +3721,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "d3366b114283a9b199a413eb2ddb4222fa66fe850d17261c38f63c47d58339c5"
   },
   {
     "character": "sol",
@@ -2845,7 +3739,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "292ca549fb85bccb444c39e8e462ff63b26206e64d47cb6252aa9867ebd7c9a5"
   },
   {
     "character": "sol",
@@ -2861,7 +3757,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "5931017f33429708edf19db64310f3a6e69990e81846cb8dab09cd1daeb93782"
   },
   {
     "character": "sol",
@@ -2877,7 +3775,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "5fb3a9c724f30eaad362ef4402a3555d58b9e947850ae9289ba4fa59f7c52514"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/sol/96/UpArrow.ani",
+    "hotspot": [
+      17,
+      5
+    ],
+    "frames": 5,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "b3abfa72d0f624e0c0e704060da1ebeec78534faa02334d475b3cd46713a43f0"
   },
   {
     "character": "sol",
@@ -2893,7 +3811,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "a9eea66b541acb2f5c498982216c0c0cd6ce79779e3c107c7a380e57d95fb4d9"
   },
   {
     "character": "sol",
@@ -2909,7 +3829,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "ef4884541d564a4dbf86aaec4be1a525c0c554093c85127802f332df3782a686"
   },
   {
     "character": "sol",
@@ -2925,7 +3847,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "693c2997d01157bb7808299e719831486d2758294f0deacd796ed0ce8501b27a"
   },
   {
     "character": "sol",
@@ -2941,7 +3865,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "c3a01eee65eeff95704373be5af3267a6be8eee594af22ef49ca14c1ecad74f6"
   },
   {
     "character": "sol",
@@ -2957,7 +3883,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "cc09ee1707593378dea8c47eeea344d2dc2fa5459ac774bb75fb132548461e59"
   },
   {
     "character": "sol",
@@ -2973,7 +3901,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "ce8a1956f30d33585bf55b1b166873ba15df1c1ecf9f8fdcb69662916aadfe65"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/sol/96/Hand.ani",
+    "hotspot": [
+      13,
+      5
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "e33dbfa4f042d7bbb52190679a058ece8a7eddcb7240db533846d1d7a784dc57"
   },
   {
     "character": "sol",
@@ -2989,7 +3937,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "7d80ab54fb8a3e4f2cde82a29d32a485005140692a9c24d065bee5c2da166b47"
   },
   {
     "character": "sol",
@@ -3005,7 +3955,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "d8b7409ef32fe3f3c1cc58603ac99b5a111aee24d1115692cc264bb38294bd84"
   },
   {
     "character": "sol",
@@ -3021,7 +3973,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "8cd1562247dd031e79a8f602134ddfa47dd080cacf419bf9c9fe47df43d3ecf0"
   },
   {
     "character": "sol",
@@ -3037,7 +3991,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "3355fa5cccbcc443e5c249e737b1fb1653d53d2395999718f1f626ad0e6e08ad"
   },
   {
     "character": "sol",
@@ -3053,7 +4009,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "61d184468c8329c9cbcef4bcf762d3f0cf95001c842a44d1edd81a658bcef9b8"
   },
   {
     "character": "sol",
@@ -3069,7 +4027,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "a70ec5c5704ebb5b78325a897c4aab1fec6f3d67fdce291516b5bab882514a45"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/sol/96/Pin.ani",
+    "hotspot": [
+      16,
+      34
+    ],
+    "frames": 6,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "3363e1ca7693cdaa6e466c826dbb9365dd4e7a2b80c02977c41d2b96dc5a3db7"
   },
   {
     "character": "sol",
@@ -3085,7 +4063,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "58702db5727286d840aa19323919634e0ace3d0a4cc210a11cfe27cee3dca0f6"
   },
   {
     "character": "sol",
@@ -3101,7 +4081,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "41814651568107eb8a2f02814d8a9fd8f17ebdd090b70f2aad40df454134a626"
   },
   {
     "character": "sol",
@@ -3117,7 +4099,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "c83dcc276e1a273c9d23d0e5f1e78a03d6353baf2bfa7da860199a68d6cf8d59"
   },
   {
     "character": "sol",
@@ -3133,7 +4117,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "07fbd0896021705325bba3bd54c375fc2e894d8572cf6b91b34ed139ad3fafa9"
   },
   {
     "character": "sol",
@@ -3149,7 +4135,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "a0a7315080ddcaacce001dbdd4a43db2e06e31e1710a787ce3ab725a18d08d26"
   },
   {
     "character": "sol",
@@ -3165,7 +4153,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "bd6823df144186b4aeb4808b18ef1d9f3e8a760a6b692ee02cdbd0b1949db01d"
+  },
+  {
+    "character": "sol",
+    "size": 96,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/sol/96/Person.ani",
+    "hotspot": [
+      18,
+      10
+    ],
+    "frames": 4,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "96cfc9fd6cbe9e4df2bf04ba3114894d08f030a1d838703bb56c33d4df3f5608"
   },
   {
     "character": "sol",
@@ -3181,7 +4189,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "58ee43fa3989dcc7a0f98ff73b33d306f39059235588ab9d86acf3980bb92fa0"
   },
   {
     "character": "sol",
@@ -3197,7 +4207,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "1877686618c1998c6630086cbcd441b1ee1e7884f28969217f6da9d4c359e842"
   },
   {
     "character": "sol",
@@ -3213,7 +4225,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "7a64af699909857976ca1e0a7d5c7cbe1982957667dae9d64408fa9579473d95"
   },
   {
     "character": "sol",
@@ -3229,7 +4243,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "846db718ba5d6c08a6e35e85513b16f6d92f5a44efe460d08729bdf2a267f4ad"
   },
   {
     "character": "sol",
@@ -3245,7 +4261,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "7fef4be48ad44d49defa8a5b77ac9ce1f1eb8c5c1b94b6bea16d33872b63f72d"
   },
   {
     "character": "sol",
@@ -3261,6 +4279,8 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "c80c3da50d2be601a1577ad817ce7c044b4bdb69a5bcc4aee0932fe483185622"
   }
 ]
