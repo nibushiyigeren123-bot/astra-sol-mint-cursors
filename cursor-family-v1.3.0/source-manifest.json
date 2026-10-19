@@ -1,0 +1,28 @@
+{
+  "version": "v1.3.0",
+  "packages": [
+    {
+      "kind": "non-avoidance",
+      "name": "astra-sol-mint-cursors-non-avoidance-v1.3.0.zip",
+      "sha256": "d27adb91b5b5be7052c0bc3423277504c999292a61b0f1399fcec489a7994632",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "profiles": 26,
+      "characters": [
+        "astra",
+        "sol"
+      ]
+    },
+    {
+      "kind": "avoidance",
+      "name": "astra-sol-mint-cursors-avoidance-v1.3.0.zip",
+      "sha256": "54cfbb34f7e99bfb4e72302259a0300ce9f08e308777bc99997b7c51c8ae9437",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "profiles": 26,
+      "characters": [
+        "astra",
+        "sol"
+      ]
+    }
+  ],
+  "resources": "Complete editable PNG/ANI assets are included in the corresponding installation ZIP."
+}
