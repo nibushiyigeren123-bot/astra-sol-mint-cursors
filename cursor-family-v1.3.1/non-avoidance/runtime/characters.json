@@ -1,0 +1,314 @@
+[
+  {
+    "id": "astra-original-32",
+    "character": "astra",
+    "display": "Astra 普通 32档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra original 32",
+    "edition": "original",
+    "size": 32,
+    "bodyCanvas": [
+      32,
+      32
+    ]
+  },
+  {
+    "id": "astra-original-48",
+    "character": "astra",
+    "display": "Astra 普通 48档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra original 48",
+    "edition": "original",
+    "size": 48,
+    "bodyCanvas": [
+      48,
+      48
+    ]
+  },
+  {
+    "id": "astra-original-64",
+    "character": "astra",
+    "display": "Astra 普通 64档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra original 64",
+    "edition": "original",
+    "size": 64,
+    "bodyCanvas": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "astra-original-96",
+    "character": "astra",
+    "display": "Astra 普通 96档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra original 96",
+    "edition": "original",
+    "size": 96,
+    "bodyCanvas": [
+      96,
+      96
+    ]
+  },
+  {
+    "id": "astra-original-128",
+    "character": "astra",
+    "display": "Astra 普通 128档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra original 128",
+    "edition": "original",
+    "size": 128,
+    "bodyCanvas": [
+      128,
+      128
+    ]
+  },
+  {
+    "id": "astra-original-256",
+    "character": "astra",
+    "display": "Astra 普通 256档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra original 256",
+    "edition": "original",
+    "size": 256,
+    "bodyCanvas": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "astra-plus-32",
+    "character": "astra",
+    "display": "Astra Plus 32档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra plus 32",
+    "edition": "plus",
+    "size": 32,
+    "bodyCanvas": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "astra-plus-48",
+    "character": "astra",
+    "display": "Astra Plus 48档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra plus 48",
+    "edition": "plus",
+    "size": 48,
+    "bodyCanvas": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "astra-plus-64",
+    "character": "astra",
+    "display": "Astra Plus 64档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra plus 64",
+    "edition": "plus",
+    "size": 64,
+    "bodyCanvas": [
+      96,
+      96
+    ]
+  },
+  {
+    "id": "astra-plus-72",
+    "character": "astra",
+    "display": "Astra Plus 72档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra plus 72",
+    "edition": "plus",
+    "size": 72,
+    "bodyCanvas": [
+      96,
+      96
+    ]
+  },
+  {
+    "id": "astra-plus-96",
+    "character": "astra",
+    "display": "Astra Plus 96档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra plus 96",
+    "edition": "plus",
+    "size": 96,
+    "bodyCanvas": [
+      128,
+      128
+    ]
+  },
+  {
+    "id": "astra-plus-128",
+    "character": "astra",
+    "display": "Astra Plus 128档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra plus 128",
+    "edition": "plus",
+    "size": 128,
+    "bodyCanvas": [
+      192,
+      192
+    ]
+  },
+  {
+    "id": "astra-plus-256",
+    "character": "astra",
+    "display": "Astra Plus 256档",
+    "scheme": "AI Family non-avoidance v1.3.1 - astra plus 256",
+    "edition": "plus",
+    "size": 256,
+    "bodyCanvas": [
+      352,
+      352
+    ]
+  },
+  {
+    "id": "sol-original-32",
+    "character": "sol",
+    "display": "sol 普通 32档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol original 32",
+    "edition": "original",
+    "size": 32,
+    "bodyCanvas": [
+      32,
+      32
+    ]
+  },
+  {
+    "id": "sol-original-48",
+    "character": "sol",
+    "display": "sol 普通 48档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol original 48",
+    "edition": "original",
+    "size": 48,
+    "bodyCanvas": [
+      48,
+      48
+    ]
+  },
+  {
+    "id": "sol-original-64",
+    "character": "sol",
+    "display": "sol 普通 64档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol original 64",
+    "edition": "original",
+    "size": 64,
+    "bodyCanvas": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "sol-original-96",
+    "character": "sol",
+    "display": "sol 普通 96档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol original 96",
+    "edition": "original",
+    "size": 96,
+    "bodyCanvas": [
+      96,
+      96
+    ]
+  },
+  {
+    "id": "sol-original-128",
+    "character": "sol",
+    "display": "sol 普通 128档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol original 128",
+    "edition": "original",
+    "size": 128,
+    "bodyCanvas": [
+      128,
+      128
+    ]
+  },
+  {
+    "id": "sol-original-256",
+    "character": "sol",
+    "display": "sol 普通 256档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol original 256",
+    "edition": "original",
+    "size": 256,
+    "bodyCanvas": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "sol-plus-32",
+    "character": "sol",
+    "display": "sol Plus 32档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol plus 32",
+    "edition": "plus",
+    "size": 32,
+    "bodyCanvas": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "sol-plus-48",
+    "character": "sol",
+    "display": "sol Plus 48档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol plus 48",
+    "edition": "plus",
+    "size": 48,
+    "bodyCanvas": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "sol-plus-64",
+    "character": "sol",
+    "display": "sol Plus 64档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol plus 64",
+    "edition": "plus",
+    "size": 64,
+    "bodyCanvas": [
+      96,
+      96
+    ]
+  },
+  {
+    "id": "sol-plus-72",
+    "character": "sol",
+    "display": "sol Plus 72档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol plus 72",
+    "edition": "plus",
+    "size": 72,
+    "bodyCanvas": [
+      96,
+      96
+    ]
+  },
+  {
+    "id": "sol-plus-96",
+    "character": "sol",
+    "display": "sol Plus 96档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol plus 96",
+    "edition": "plus",
+    "size": 96,
+    "bodyCanvas": [
+      128,
+      128
+    ]
+  },
+  {
+    "id": "sol-plus-128",
+    "character": "sol",
+    "display": "sol Plus 128档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol plus 128",
+    "edition": "plus",
+    "size": 128,
+    "bodyCanvas": [
+      192,
+      192
+    ]
+  },
+  {
+    "id": "sol-plus-256",
+    "character": "sol",
+    "display": "sol Plus 256档",
+    "scheme": "AI Family non-avoidance v1.3.1 - sol plus 256",
+    "edition": "plus",
+    "size": 256,
+    "bodyCanvas": [
+      352,
+      352
+    ]
+  }
+]
