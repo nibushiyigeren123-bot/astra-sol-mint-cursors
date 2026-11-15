@@ -1,0 +1,30 @@
+{
+  "version": "v1.4.0",
+  "kind": "full-avoidance",
+  "runtimeSha256": "0e7a173da8c96ac7e1d21386966e90095b0083e2959c9eba4436406a5a20ff23",
+  "assets": [
+    {
+      "name": "astra-sol-mint-cursors-full-avoidance-v1.4.0.zip",
+      "bytes": 56839822,
+      "sha256": "6f61554e43dbdc8126f7fdb7e00c980786ba39bba3acea457a7fc62bbbd4db44"
+    },
+    {
+      "name": "astra-sol-mint-cursors-full-avoidance-source-v1.4.0.zip",
+      "bytes": 456359,
+      "sha256": "60d3a8252ee4906b8cbec7b4289175aa8c86743b315c6f7ce9d4e7076f4a2292"
+    },
+    {
+      "name": "VALIDATION.md",
+      "bytes": 2599,
+      "sha256": "95f05bd4982c9293728ee1447c63c4a783632827f79f985e549ab0632970173f"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 239,
+      "sha256": "c4d5135dcc0fb7b34faee3fb703befa956885f5b4b089a06f82ffe5eb105fa68"
+    }
+  ],
+  "originalCmdInvocationPreserved": true,
+  "cmdWaitingMessageAdded": 26,
+  "originalMediaUnchanged": true
+}

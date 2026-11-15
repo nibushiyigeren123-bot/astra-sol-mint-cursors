@@ -1,0 +1,2637 @@
+[
+  {
+    "role": "Arrow",
+    "frames": 6,
+    "frame_ms": 200.0,
+    "jiffies": 12,
+    "hotspot": [
+      1,
+      1
+    ],
+    "symbol_hotspot": [
+      2,
+      2
+    ],
+    "native_frames": 6,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/Arrow",
+    "body_hashes": [
+      "0324f989cdd04baa6f6e4978505df0b7c6f10a0704e366aa37d1888cbd876bef",
+      "c4947b7dd6ca0002810af90c6ed91d0b7c2aeb3975da7c7a69a3008c9d2de87c",
+      "6518733e62a788d4a95d219c5579920584818cae2c55c0da3ad5a15c50dc9517",
+      "24cb885c936a042b39d844ba8da30b15dd4bcb5bf4206442adf5bf68d7579341",
+      "e96dadd994d9437850070f3e9b7fc6c18ec7696f23130e07154e1e5fd55c81ed",
+      "dd7b0220311d11d012d40123558c941670e95746956efbb575b14bb5f3493904"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "a87b622720360de691feb9e47226e364d7eda6aa3e571557257f2f9771be5349",
+      "dd4055628aea22d6f300284edea4703b4a4917096ca82b89d0b4e7c9b1bc3b5a",
+      "1abfc86018e2137c264ae0df70411a515b812f4ea3bda35ceb96cb1144d61d79",
+      "d3838d67580c3fca4f4275b6d419737f6e668927e8e6a0800f704ed55b53e991",
+      "67f3f586a5edc21195621cc8581f5a8d608a43333bafa051662d0e13b3e5b956",
+      "d2db84eb8cbbe55cf0bfe057ed58e32c5a1535f9195a618d6aa3edbb35b20373"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Arrow-00.png",
+        "frozen_sha256": "a87b622720360de691feb9e47226e364d7eda6aa3e571557257f2f9771be5349",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "0324f989cdd04baa6f6e4978505df0b7c6f10a0704e366aa37d1888cbd876bef",
+        "symbol_rgba_sha256": "f4410864c4984edb0c78e48e14a41e02d10a4d5fa3b4899cdd5f91aab1d4ed4e",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 17,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Arrow-01.png",
+        "frozen_sha256": "dd4055628aea22d6f300284edea4703b4a4917096ca82b89d0b4e7c9b1bc3b5a",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "c4947b7dd6ca0002810af90c6ed91d0b7c2aeb3975da7c7a69a3008c9d2de87c",
+        "symbol_rgba_sha256": "f4410864c4984edb0c78e48e14a41e02d10a4d5fa3b4899cdd5f91aab1d4ed4e",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 18,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Arrow-02.png",
+        "frozen_sha256": "1abfc86018e2137c264ae0df70411a515b812f4ea3bda35ceb96cb1144d61d79",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "6518733e62a788d4a95d219c5579920584818cae2c55c0da3ad5a15c50dc9517",
+        "symbol_rgba_sha256": "f4410864c4984edb0c78e48e14a41e02d10a4d5fa3b4899cdd5f91aab1d4ed4e",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 17,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Arrow-03.png",
+        "frozen_sha256": "d3838d67580c3fca4f4275b6d419737f6e668927e8e6a0800f704ed55b53e991",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "24cb885c936a042b39d844ba8da30b15dd4bcb5bf4206442adf5bf68d7579341",
+        "symbol_rgba_sha256": "f4410864c4984edb0c78e48e14a41e02d10a4d5fa3b4899cdd5f91aab1d4ed4e",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 10,
+        "separate_layers_max_channel_delta": 254,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Arrow-04.png",
+        "frozen_sha256": "67f3f586a5edc21195621cc8581f5a8d608a43333bafa051662d0e13b3e5b956",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "e96dadd994d9437850070f3e9b7fc6c18ec7696f23130e07154e1e5fd55c81ed",
+        "symbol_rgba_sha256": "f4410864c4984edb0c78e48e14a41e02d10a4d5fa3b4899cdd5f91aab1d4ed4e",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 24,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Arrow-05.png",
+        "frozen_sha256": "d2db84eb8cbbe55cf0bfe057ed58e32c5a1535f9195a618d6aa3edbb35b20373",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "dd7b0220311d11d012d40123558c941670e95746956efbb575b14bb5f3493904",
+        "symbol_rgba_sha256": "f4410864c4984edb0c78e48e14a41e02d10a4d5fa3b4899cdd5f91aab1d4ed4e",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 15,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      13,
+      16
+    ]
+  },
+  {
+    "role": "Help",
+    "frames": 6,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      1,
+      1
+    ],
+    "symbol_hotspot": [
+      2,
+      2
+    ],
+    "native_frames": 6,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/Help",
+    "body_hashes": [
+      "1ee6f890a8f6600e4f01f8b6d8fac95ae4406c5c6d8347abd7be284259540970",
+      "748a38d47b28521a59f8e2576a1c6ebcb8a5ef8f46a02a99206a7e866898d547",
+      "73eec6ba41652fc2aa6b6d143cf23a06762f4225f3dd627cf173c417ddb6afe0",
+      "b2cdc4e320ee1cd7790b38d8361e3a76b71d68b12e3a9537c92e073d3d388d30",
+      "1d14f91b36ea375189e034b5ad6bfbeb10451b7fd7e09c08a5581901517ddba7",
+      "d4ad0d0aa0b99017e856f99f2a0d9bb951028a471cad0342b12caab07c990bc1"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "de99658f0178a11bb7b6fc8ece5568133fd03b689d471831e7f8e3902c33da34",
+      "d485e36d18b619d8a21952f160746f6bdfffccb17ce45297e441ef4b719a2e7c",
+      "51572596a77a05542af4f072dc5a03b261c4a13b04c2364cb048341004ceb502",
+      "529ef48250b5afb5eddf921b08dd7325290e4b2e2c77d9d156c954352ebdb188",
+      "687861b7f51c57e0941810748c0459337022a0ea17b03195b4898b060d40c952",
+      "dba87b750128cc2be96efeb48f23273c5228f47c94bb410870583d8b298cc713"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Help-00.png",
+        "frozen_sha256": "de99658f0178a11bb7b6fc8ece5568133fd03b689d471831e7f8e3902c33da34",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1ee6f890a8f6600e4f01f8b6d8fac95ae4406c5c6d8347abd7be284259540970",
+        "symbol_rgba_sha256": "6366d984495966b682f74a3808bf67ce89ee4c4b4af56711a624b03818baae94",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 20,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Help-01.png",
+        "frozen_sha256": "d485e36d18b619d8a21952f160746f6bdfffccb17ce45297e441ef4b719a2e7c",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "748a38d47b28521a59f8e2576a1c6ebcb8a5ef8f46a02a99206a7e866898d547",
+        "symbol_rgba_sha256": "6366d984495966b682f74a3808bf67ce89ee4c4b4af56711a624b03818baae94",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 13,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Help-02.png",
+        "frozen_sha256": "51572596a77a05542af4f072dc5a03b261c4a13b04c2364cb048341004ceb502",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "73eec6ba41652fc2aa6b6d143cf23a06762f4225f3dd627cf173c417ddb6afe0",
+        "symbol_rgba_sha256": "6366d984495966b682f74a3808bf67ce89ee4c4b4af56711a624b03818baae94",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 20,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Help-03.png",
+        "frozen_sha256": "529ef48250b5afb5eddf921b08dd7325290e4b2e2c77d9d156c954352ebdb188",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b2cdc4e320ee1cd7790b38d8361e3a76b71d68b12e3a9537c92e073d3d388d30",
+        "symbol_rgba_sha256": "6366d984495966b682f74a3808bf67ce89ee4c4b4af56711a624b03818baae94",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 7,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Help-04.png",
+        "frozen_sha256": "687861b7f51c57e0941810748c0459337022a0ea17b03195b4898b060d40c952",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1d14f91b36ea375189e034b5ad6bfbeb10451b7fd7e09c08a5581901517ddba7",
+        "symbol_rgba_sha256": "6366d984495966b682f74a3808bf67ce89ee4c4b4af56711a624b03818baae94",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 8,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Help-05.png",
+        "frozen_sha256": "dba87b750128cc2be96efeb48f23273c5228f47c94bb410870583d8b298cc713",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "d4ad0d0aa0b99017e856f99f2a0d9bb951028a471cad0342b12caab07c990bc1",
+        "symbol_rgba_sha256": "6366d984495966b682f74a3808bf67ce89ee4c4b4af56711a624b03818baae94",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 8,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      17,
+      14
+    ]
+  },
+  {
+    "role": "AppStarting",
+    "frames": 8,
+    "frame_ms": 100.0,
+    "jiffies": 6,
+    "hotspot": [
+      1,
+      1
+    ],
+    "symbol_hotspot": [
+      2,
+      2
+    ],
+    "native_frames": 8,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/AppStarting",
+    "body_hashes": [
+      "19d5bea62fc4a9c2b910a2a937a1744f85be21b490ee9ce303f466e912b0e929",
+      "23371d63d11886cee7fa187f206f17b834331c8f15ed03eb5545f46689f9f0bc",
+      "2cc980d460cfef8eea75f88f7d4753ed26bd4c8d97184c1afddca2be9368f138",
+      "77e1f6b96c6d216b3db70bfe49ba076fe917bd6b3dc3a29b48612922ab1eb39b",
+      "c4372fc3fed218f778b61a6a7027c0c33cab4a5166741809d770e4314b38b75d",
+      "0cf7823096e72aeb99e4f3c29160a666d5e50e25a2c072da62fd49f455fecabc",
+      "19d5bea62fc4a9c2b910a2a937a1744f85be21b490ee9ce303f466e912b0e929",
+      "23371d63d11886cee7fa187f206f17b834331c8f15ed03eb5545f46689f9f0bc"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "5a47f4360ee1c26c68395d0d7c0432b350723cd9aa25d5443b4f77c28d4953f3",
+      "3435e60f31e9bdd83f3bf5365657a9a951a11758ab88e0703f09706701b2058e",
+      "12f8def70594ac5f790aa2f61c903c33d5526a5aeda7682aba692d86f2089638",
+      "b99c68d1ea2aa3ab0888ead22e623946833f8ab13fd5483a0b911db99d4969fa",
+      "7b51696e33ff599254ed699cbf5eb7d63abd171414964f95e41fe0e8ea09e1cf",
+      "f7d616d9deb9118e7bc8b95bdb9bd4fe9a6908e8fa2ea07b0159d320e656ddfc",
+      "de62fbe10496e65da738afaa3786766993112602a5d4817aa65a9c408515be3f",
+      "2db24025ba30da08c24414056a6336af139d7e0afd48e1efc48ba30d546646b9"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-00.png",
+        "frozen_sha256": "5a47f4360ee1c26c68395d0d7c0432b350723cd9aa25d5443b4f77c28d4953f3",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "19d5bea62fc4a9c2b910a2a937a1744f85be21b490ee9ce303f466e912b0e929",
+        "symbol_rgba_sha256": "fda6d0bda88eeaed66a97d1ab203d9bfd7b40722a8a067441aca5cc7c9752b30",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 13,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-01.png",
+        "frozen_sha256": "3435e60f31e9bdd83f3bf5365657a9a951a11758ab88e0703f09706701b2058e",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "23371d63d11886cee7fa187f206f17b834331c8f15ed03eb5545f46689f9f0bc",
+        "symbol_rgba_sha256": "43eccd319f3ec404761883a588ce6e784464dba6114b3413485ad0801a3300fa",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 20,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-02.png",
+        "frozen_sha256": "12f8def70594ac5f790aa2f61c903c33d5526a5aeda7682aba692d86f2089638",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2cc980d460cfef8eea75f88f7d4753ed26bd4c8d97184c1afddca2be9368f138",
+        "symbol_rgba_sha256": "f9482f545da25202e61ffa7885e977cc46a4743dc6d6c91d568b4780a11501b0",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 6,
+        "separate_layers_max_channel_delta": 128,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-03.png",
+        "frozen_sha256": "b99c68d1ea2aa3ab0888ead22e623946833f8ab13fd5483a0b911db99d4969fa",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "77e1f6b96c6d216b3db70bfe49ba076fe917bd6b3dc3a29b48612922ab1eb39b",
+        "symbol_rgba_sha256": "6bbb37d75bbec94efebc3b0fea1eaad34af38dea16d5054042a6b22e97fd9eb8",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 15,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-04.png",
+        "frozen_sha256": "7b51696e33ff599254ed699cbf5eb7d63abd171414964f95e41fe0e8ea09e1cf",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "c4372fc3fed218f778b61a6a7027c0c33cab4a5166741809d770e4314b38b75d",
+        "symbol_rgba_sha256": "f266a7e90680ca989b1cc19daa4b1361bbd7817428f73af5332cb1f8d8ec9ea1",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 16,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-05.png",
+        "frozen_sha256": "f7d616d9deb9118e7bc8b95bdb9bd4fe9a6908e8fa2ea07b0159d320e656ddfc",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "0cf7823096e72aeb99e4f3c29160a666d5e50e25a2c072da62fd49f455fecabc",
+        "symbol_rgba_sha256": "94360bf3c63ae26cddeb2641317feace4b7e15bc4e6fcb3ae5e4914844444dda",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 13,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 6,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-06.png",
+        "frozen_sha256": "de62fbe10496e65da738afaa3786766993112602a5d4817aa65a9c408515be3f",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "19d5bea62fc4a9c2b910a2a937a1744f85be21b490ee9ce303f466e912b0e929",
+        "symbol_rgba_sha256": "46578f6c825df860eecd14da175e8d4797f64c76e78bd4dd99eff7ad5b91ae69",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 13,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 7,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\AppStarting-07.png",
+        "frozen_sha256": "2db24025ba30da08c24414056a6336af139d7e0afd48e1efc48ba30d546646b9",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "23371d63d11886cee7fa187f206f17b834331c8f15ed03eb5545f46689f9f0bc",
+        "symbol_rgba_sha256": "60c10af4dff3f83aab99efff220f2dd359b99ba5ec2dbf3ce4e663d16984431b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 20,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      17,
+      14
+    ]
+  },
+  {
+    "role": "Wait",
+    "frames": 8,
+    "frame_ms": 100.0,
+    "jiffies": 6,
+    "hotspot": [
+      7,
+      7
+    ],
+    "symbol_hotspot": [
+      8,
+      8
+    ],
+    "native_frames": 8,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/Wait",
+    "body_hashes": [
+      "24538009a664de075bc63cf5ddccb4921574cab35df58689270e17f746f4b36c",
+      "4ee3428d7815e13c0ec6dd23ae55d6fa129b74f6d73dc1c8bda89522268262d2",
+      "008d7bd5049b1bef0772f929687dbf73073a3fbc63162c4c512bf0964e3e0265",
+      "46f5c47ce442f97c9eb6aa10e962214e129db015f2f4c7da35b4a930938e0383",
+      "77e235ba8a51444885e5320d7e5ac58019eb80ad129ffa94f9141678a1066d2f",
+      "9fb22de4b2ade63e9eccfbaa093b8013f49e700aea7c80e4245bf935c5c08671",
+      "24538009a664de075bc63cf5ddccb4921574cab35df58689270e17f746f4b36c",
+      "4ee3428d7815e13c0ec6dd23ae55d6fa129b74f6d73dc1c8bda89522268262d2"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "182dd52c91bcf08e3ecd0a7bf13f708017d4bdfb23b9b04260832f18f25b1300",
+      "fb232228700a4b65861560d6acc12b7726e63acfadf8396766e77637f2693fd4",
+      "f127e474609aa9c03b401ebd9f366388f5d329ee43df76992c02a102b25a0afb",
+      "fd0024421d099714d2c3ec8babf4298d3e317f80681bff2a603a4f02bad9272f",
+      "71e5f16676becd0258cbfb245199af802eecd148e53b3e67e93c4c5fe4846181",
+      "52b578f9fe6c38a7a9a18cb841d91d084edba1bc18180e30f4f865036e73fbbd",
+      "3f47b4f742a8042794eeea477c39a34c15341a18334373b604081ce587620066",
+      "345108e88460cd607fff132d2e78bd536e039079816b160652b5ae4206f50a49"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-00.png",
+        "frozen_sha256": "182dd52c91bcf08e3ecd0a7bf13f708017d4bdfb23b9b04260832f18f25b1300",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "24538009a664de075bc63cf5ddccb4921574cab35df58689270e17f746f4b36c",
+        "symbol_rgba_sha256": "b1ced290f596297d3ef34989e6e6e007caee6f37f8f703fca6128c426b740343",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 64,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-01.png",
+        "frozen_sha256": "fb232228700a4b65861560d6acc12b7726e63acfadf8396766e77637f2693fd4",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "4ee3428d7815e13c0ec6dd23ae55d6fa129b74f6d73dc1c8bda89522268262d2",
+        "symbol_rgba_sha256": "f64e6e347bc77a30f7ef2c4678a9fc202292822d8fcd5b99d131a6f156c12e04",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 57,
+        "separate_layers_max_channel_delta": 170,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-02.png",
+        "frozen_sha256": "f127e474609aa9c03b401ebd9f366388f5d329ee43df76992c02a102b25a0afb",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "008d7bd5049b1bef0772f929687dbf73073a3fbc63162c4c512bf0964e3e0265",
+        "symbol_rgba_sha256": "5095f5daff67b8a70bb27e355b4213816961924d44ac60af10f7274915fe8ee9",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 58,
+        "separate_layers_max_channel_delta": 252,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-03.png",
+        "frozen_sha256": "fd0024421d099714d2c3ec8babf4298d3e317f80681bff2a603a4f02bad9272f",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "46f5c47ce442f97c9eb6aa10e962214e129db015f2f4c7da35b4a930938e0383",
+        "symbol_rgba_sha256": "d6f96f93907ddaa2c5de46d5efe1c8ce9396a161068978b12829333e1472fb84",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 49,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-04.png",
+        "frozen_sha256": "71e5f16676becd0258cbfb245199af802eecd148e53b3e67e93c4c5fe4846181",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "77e235ba8a51444885e5320d7e5ac58019eb80ad129ffa94f9141678a1066d2f",
+        "symbol_rgba_sha256": "e41933b60dbd12ac1c41045c29a45a14660187808186cc9dab6aa318a6add082",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 62,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-05.png",
+        "frozen_sha256": "52b578f9fe6c38a7a9a18cb841d91d084edba1bc18180e30f4f865036e73fbbd",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "9fb22de4b2ade63e9eccfbaa093b8013f49e700aea7c80e4245bf935c5c08671",
+        "symbol_rgba_sha256": "f94e95e169fda14b71faf576ae14fc1c1f2e5cf0a4ce9150b0533578f777c46b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 61,
+        "separate_layers_max_channel_delta": 170,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 6,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-06.png",
+        "frozen_sha256": "3f47b4f742a8042794eeea477c39a34c15341a18334373b604081ce587620066",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "24538009a664de075bc63cf5ddccb4921574cab35df58689270e17f746f4b36c",
+        "symbol_rgba_sha256": "caa70402a36fc3258146a52ecb52c2e9eada01df6f2cd243c60569e3faad2cb6",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 64,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 7,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Wait-07.png",
+        "frozen_sha256": "345108e88460cd607fff132d2e78bd536e039079816b160652b5ae4206f50a49",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "4ee3428d7815e13c0ec6dd23ae55d6fa129b74f6d73dc1c8bda89522268262d2",
+        "symbol_rgba_sha256": "991d8934926b8e098630de4fd9d7192e1ba46e986d70777c5a1de7365f9e3e76",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 56,
+        "separate_layers_max_channel_delta": 170,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      17,
+      17
+    ]
+  },
+  {
+    "role": "Crosshair",
+    "frames": 6,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      7,
+      7
+    ],
+    "symbol_hotspot": [
+      8,
+      8
+    ],
+    "native_frames": 6,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/Crosshair",
+    "body_hashes": [
+      "1ee6f890a8f6600e4f01f8b6d8fac95ae4406c5c6d8347abd7be284259540970",
+      "748a38d47b28521a59f8e2576a1c6ebcb8a5ef8f46a02a99206a7e866898d547",
+      "73eec6ba41652fc2aa6b6d143cf23a06762f4225f3dd627cf173c417ddb6afe0",
+      "b2cdc4e320ee1cd7790b38d8361e3a76b71d68b12e3a9537c92e073d3d388d30",
+      "1d14f91b36ea375189e034b5ad6bfbeb10451b7fd7e09c08a5581901517ddba7",
+      "d4ad0d0aa0b99017e856f99f2a0d9bb951028a471cad0342b12caab07c990bc1"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "60de729838d13111c71793545c47d9fc75b65475efee988e4b9e22dc40c6b444",
+      "322e9d8b2da2a391c73734c0eaa30b15aa4b3f02702e907a960424b94622a27b",
+      "21fbfcbc47dc14e103a719fff705a0cfd9b48ab0f13a8f662d4267adda31459a",
+      "f8f8f98ad60b0f11515cc441ba90e47fb122c487ee318b25772e2f1c91b0526d",
+      "57401566c076fce47c14fb3ab50911d585013f5ca3f89160e31197ac10d0acb6",
+      "7febc1abe100e7fe9d9d205e82a159e5b5c6408e444a6cd03541524dbd6cd0b8"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Crosshair-00.png",
+        "frozen_sha256": "60de729838d13111c71793545c47d9fc75b65475efee988e4b9e22dc40c6b444",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1ee6f890a8f6600e4f01f8b6d8fac95ae4406c5c6d8347abd7be284259540970",
+        "symbol_rgba_sha256": "62aeb367c72414b9810955acd8ab7e7935bc9d84f36de140fe669bbf28ad55bc",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 39,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Crosshair-01.png",
+        "frozen_sha256": "322e9d8b2da2a391c73734c0eaa30b15aa4b3f02702e907a960424b94622a27b",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "748a38d47b28521a59f8e2576a1c6ebcb8a5ef8f46a02a99206a7e866898d547",
+        "symbol_rgba_sha256": "62aeb367c72414b9810955acd8ab7e7935bc9d84f36de140fe669bbf28ad55bc",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 27,
+        "separate_layers_max_channel_delta": 253,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Crosshair-02.png",
+        "frozen_sha256": "21fbfcbc47dc14e103a719fff705a0cfd9b48ab0f13a8f662d4267adda31459a",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "73eec6ba41652fc2aa6b6d143cf23a06762f4225f3dd627cf173c417ddb6afe0",
+        "symbol_rgba_sha256": "62aeb367c72414b9810955acd8ab7e7935bc9d84f36de140fe669bbf28ad55bc",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 41,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Crosshair-03.png",
+        "frozen_sha256": "f8f8f98ad60b0f11515cc441ba90e47fb122c487ee318b25772e2f1c91b0526d",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b2cdc4e320ee1cd7790b38d8361e3a76b71d68b12e3a9537c92e073d3d388d30",
+        "symbol_rgba_sha256": "62aeb367c72414b9810955acd8ab7e7935bc9d84f36de140fe669bbf28ad55bc",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 25,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Crosshair-04.png",
+        "frozen_sha256": "57401566c076fce47c14fb3ab50911d585013f5ca3f89160e31197ac10d0acb6",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1d14f91b36ea375189e034b5ad6bfbeb10451b7fd7e09c08a5581901517ddba7",
+        "symbol_rgba_sha256": "62aeb367c72414b9810955acd8ab7e7935bc9d84f36de140fe669bbf28ad55bc",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 29,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Crosshair-05.png",
+        "frozen_sha256": "7febc1abe100e7fe9d9d205e82a159e5b5c6408e444a6cd03541524dbd6cd0b8",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "d4ad0d0aa0b99017e856f99f2a0d9bb951028a471cad0342b12caab07c990bc1",
+        "symbol_rgba_sha256": "62aeb367c72414b9810955acd8ab7e7935bc9d84f36de140fe669bbf28ad55bc",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 24,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      17,
+      17
+    ]
+  },
+  {
+    "role": "IBeam",
+    "frames": 6,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      3,
+      7
+    ],
+    "symbol_hotspot": [
+      4,
+      8
+    ],
+    "native_frames": 6,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/IBeam",
+    "body_hashes": [
+      "24538009a664de075bc63cf5ddccb4921574cab35df58689270e17f746f4b36c",
+      "4ee3428d7815e13c0ec6dd23ae55d6fa129b74f6d73dc1c8bda89522268262d2",
+      "008d7bd5049b1bef0772f929687dbf73073a3fbc63162c4c512bf0964e3e0265",
+      "46f5c47ce442f97c9eb6aa10e962214e129db015f2f4c7da35b4a930938e0383",
+      "77e235ba8a51444885e5320d7e5ac58019eb80ad129ffa94f9141678a1066d2f",
+      "9fb22de4b2ade63e9eccfbaa093b8013f49e700aea7c80e4245bf935c5c08671"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "f8729d5d56ae145fd5fde6d34ea88ddac206452aa24ea29ccf901264d2e532b2",
+      "c2875286b09b241ffd1cdb5ae00a19d8a142e97e445e7284db684784e2cc8695",
+      "73836ba638de6df1e710e5c6e9a432846c77c1d635909e4ce37c3e8fef909193",
+      "9287f1713fbd3710e6e7d3f129fbbf6c6c105dbb593a5945295dd530f53ba0fe",
+      "4989abda1907b5bb7165330398ca4df946a57df617eb7bd91070bf561973ffad",
+      "a887675f4b5401a8b07b6b949b7521c397f1af48cf037fdf5ea327a41327a41b"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\IBeam-00.png",
+        "frozen_sha256": "f8729d5d56ae145fd5fde6d34ea88ddac206452aa24ea29ccf901264d2e532b2",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "24538009a664de075bc63cf5ddccb4921574cab35df58689270e17f746f4b36c",
+        "symbol_rgba_sha256": "fb5f1bcdb8dc97ebf175759439ecc587feda2dc8fbf88c385cb509841b8a984b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 7,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\IBeam-01.png",
+        "frozen_sha256": "c2875286b09b241ffd1cdb5ae00a19d8a142e97e445e7284db684784e2cc8695",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "4ee3428d7815e13c0ec6dd23ae55d6fa129b74f6d73dc1c8bda89522268262d2",
+        "symbol_rgba_sha256": "fb5f1bcdb8dc97ebf175759439ecc587feda2dc8fbf88c385cb509841b8a984b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 8,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\IBeam-02.png",
+        "frozen_sha256": "73836ba638de6df1e710e5c6e9a432846c77c1d635909e4ce37c3e8fef909193",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "008d7bd5049b1bef0772f929687dbf73073a3fbc63162c4c512bf0964e3e0265",
+        "symbol_rgba_sha256": "fb5f1bcdb8dc97ebf175759439ecc587feda2dc8fbf88c385cb509841b8a984b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 5,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\IBeam-03.png",
+        "frozen_sha256": "9287f1713fbd3710e6e7d3f129fbbf6c6c105dbb593a5945295dd530f53ba0fe",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "46f5c47ce442f97c9eb6aa10e962214e129db015f2f4c7da35b4a930938e0383",
+        "symbol_rgba_sha256": "fb5f1bcdb8dc97ebf175759439ecc587feda2dc8fbf88c385cb509841b8a984b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 4,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\IBeam-04.png",
+        "frozen_sha256": "4989abda1907b5bb7165330398ca4df946a57df617eb7bd91070bf561973ffad",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "77e235ba8a51444885e5320d7e5ac58019eb80ad129ffa94f9141678a1066d2f",
+        "symbol_rgba_sha256": "fb5f1bcdb8dc97ebf175759439ecc587feda2dc8fbf88c385cb509841b8a984b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 5,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\IBeam-05.png",
+        "frozen_sha256": "a887675f4b5401a8b07b6b949b7521c397f1af48cf037fdf5ea327a41327a41b",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "9fb22de4b2ade63e9eccfbaa093b8013f49e700aea7c80e4245bf935c5c08671",
+        "symbol_rgba_sha256": "fb5f1bcdb8dc97ebf175759439ecc587feda2dc8fbf88c385cb509841b8a984b",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 5,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      10,
+      17
+    ]
+  },
+  {
+    "role": "NWPen",
+    "frames": 6,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      1,
+      13
+    ],
+    "symbol_hotspot": [
+      2,
+      14
+    ],
+    "native_frames": 6,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/NWPen",
+    "body_hashes": [
+      "1ee6f890a8f6600e4f01f8b6d8fac95ae4406c5c6d8347abd7be284259540970",
+      "748a38d47b28521a59f8e2576a1c6ebcb8a5ef8f46a02a99206a7e866898d547",
+      "73eec6ba41652fc2aa6b6d143cf23a06762f4225f3dd627cf173c417ddb6afe0",
+      "b2cdc4e320ee1cd7790b38d8361e3a76b71d68b12e3a9537c92e073d3d388d30",
+      "1d14f91b36ea375189e034b5ad6bfbeb10451b7fd7e09c08a5581901517ddba7",
+      "d4ad0d0aa0b99017e856f99f2a0d9bb951028a471cad0342b12caab07c990bc1"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "104a026d3843053511881aa7f1414a4bcd6215432f4e5207620878df11b233ba",
+      "441e14ccbc474a96ebb9b5b4b7fa355cacb9fd98f4b1a213462407bde8fac71a",
+      "2cd328b8a42650940312b30b5ad92ff083973ee354ef6456e38b2b7bf2f1f499",
+      "91a70b474986f16d4ade8f04aab9de8054c847bee2048e94235ac4773142cc24",
+      "80ddbab661a7faf7407476109a21c915f57378d421233882475696d0090d10df",
+      "decd1dad638bc121a6dbf0d729308d93b531d5b64baaf8ab6288180dd34bef4b"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\NWPen-00.png",
+        "frozen_sha256": "104a026d3843053511881aa7f1414a4bcd6215432f4e5207620878df11b233ba",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1ee6f890a8f6600e4f01f8b6d8fac95ae4406c5c6d8347abd7be284259540970",
+        "symbol_rgba_sha256": "176689435a6dc9152fd59fa7d7a9fb3df37976d140ac287b82524e69f14d1f71",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 17,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\NWPen-01.png",
+        "frozen_sha256": "441e14ccbc474a96ebb9b5b4b7fa355cacb9fd98f4b1a213462407bde8fac71a",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "748a38d47b28521a59f8e2576a1c6ebcb8a5ef8f46a02a99206a7e866898d547",
+        "symbol_rgba_sha256": "176689435a6dc9152fd59fa7d7a9fb3df37976d140ac287b82524e69f14d1f71",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 5,
+        "separate_layers_max_channel_delta": 85,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\NWPen-02.png",
+        "frozen_sha256": "2cd328b8a42650940312b30b5ad92ff083973ee354ef6456e38b2b7bf2f1f499",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "73eec6ba41652fc2aa6b6d143cf23a06762f4225f3dd627cf173c417ddb6afe0",
+        "symbol_rgba_sha256": "176689435a6dc9152fd59fa7d7a9fb3df37976d140ac287b82524e69f14d1f71",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 21,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\NWPen-03.png",
+        "frozen_sha256": "91a70b474986f16d4ade8f04aab9de8054c847bee2048e94235ac4773142cc24",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b2cdc4e320ee1cd7790b38d8361e3a76b71d68b12e3a9537c92e073d3d388d30",
+        "symbol_rgba_sha256": "176689435a6dc9152fd59fa7d7a9fb3df37976d140ac287b82524e69f14d1f71",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 6,
+        "separate_layers_max_channel_delta": 85,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\NWPen-04.png",
+        "frozen_sha256": "80ddbab661a7faf7407476109a21c915f57378d421233882475696d0090d10df",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1d14f91b36ea375189e034b5ad6bfbeb10451b7fd7e09c08a5581901517ddba7",
+        "symbol_rgba_sha256": "176689435a6dc9152fd59fa7d7a9fb3df37976d140ac287b82524e69f14d1f71",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 9,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\NWPen-05.png",
+        "frozen_sha256": "decd1dad638bc121a6dbf0d729308d93b531d5b64baaf8ab6288180dd34bef4b",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "d4ad0d0aa0b99017e856f99f2a0d9bb951028a471cad0342b12caab07c990bc1",
+        "symbol_rgba_sha256": "176689435a6dc9152fd59fa7d7a9fb3df37976d140ac287b82524e69f14d1f71",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 11,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      16,
+      16
+    ]
+  },
+  {
+    "role": "No",
+    "frames": 8,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      7,
+      7
+    ],
+    "symbol_hotspot": [
+      8,
+      8
+    ],
+    "native_frames": 8,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/No",
+    "body_hashes": [
+      "8dc55f3fa97c6abba842bb1dd90c4948a34314720f8a470a277a6bdc8f793ed3",
+      "c082be899a66d194616e4b2c23504a1f66100dbe87ce697d9ce1761de4f0b037",
+      "f0a6b8cbda93d4f4b83b5f04da3280bf3f1b0b407bebdbf095116476f9de056b",
+      "43f8c70a6b83f860585774f02df8ea238d4ff472ab4bd09e68f9159b3980f4db",
+      "9761ddd643beadd726f451206c53508a86a93b91aba2369407c0bb584bc8fbfb",
+      "0af9bfc42ba4b764fec3a4df11ffc5549948fa52af1d4181604f8bc2cc329b5a",
+      "31ab0f279335aec04bcfcf3135ab3920e777881f7acced24e0f9d1b7a18c6d28",
+      "3265779c0e6a8fcdd5755ffdca4ba8402804a7a2c6ead812a458c4dfb53673d1"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "1f5c05cbae85379e59840126d9d03050c6a62b4e96a227167e0b4c1010c0cd4d",
+      "0fb9482984aba5a5a2666dd85387ba4cddd68fd25174416a7529333727e2763b",
+      "9fda851597348871584daedfefe2fbd1f6113a6f3ac7375414765cb675311d69",
+      "21e4a7da21fc63c2ebf15c0dafb76202cbe36b15bdcdc693c157cd956e54a855",
+      "37c10fbebeb3aa18a504951344f5ce7fce5036948c41a9abf614a6ab741c33a0",
+      "9039c73d5bbc350ea73c8177a07b1c5aa786f906f4ac74ab5de7d61f9367de08",
+      "5d22d7ec2ce402d6237ee9eda40930cf4ac3153f6e333156e610bec6a80f4f7b",
+      "f2a83e467d54c6a033c70a69ae97cdc3376cf41803da92d54a5c0887f3ba5129"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-00.png",
+        "frozen_sha256": "1f5c05cbae85379e59840126d9d03050c6a62b4e96a227167e0b4c1010c0cd4d",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "8dc55f3fa97c6abba842bb1dd90c4948a34314720f8a470a277a6bdc8f793ed3",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 60,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-01.png",
+        "frozen_sha256": "0fb9482984aba5a5a2666dd85387ba4cddd68fd25174416a7529333727e2763b",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "c082be899a66d194616e4b2c23504a1f66100dbe87ce697d9ce1761de4f0b037",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 66,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-02.png",
+        "frozen_sha256": "9fda851597348871584daedfefe2fbd1f6113a6f3ac7375414765cb675311d69",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "f0a6b8cbda93d4f4b83b5f04da3280bf3f1b0b407bebdbf095116476f9de056b",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 47,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-03.png",
+        "frozen_sha256": "21e4a7da21fc63c2ebf15c0dafb76202cbe36b15bdcdc693c157cd956e54a855",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "43f8c70a6b83f860585774f02df8ea238d4ff472ab4bd09e68f9159b3980f4db",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 60,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-04.png",
+        "frozen_sha256": "37c10fbebeb3aa18a504951344f5ce7fce5036948c41a9abf614a6ab741c33a0",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "9761ddd643beadd726f451206c53508a86a93b91aba2369407c0bb584bc8fbfb",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 54,
+        "separate_layers_max_channel_delta": 252,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-05.png",
+        "frozen_sha256": "9039c73d5bbc350ea73c8177a07b1c5aa786f906f4ac74ab5de7d61f9367de08",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "0af9bfc42ba4b764fec3a4df11ffc5549948fa52af1d4181604f8bc2cc329b5a",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 58,
+        "separate_layers_max_channel_delta": 170,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 6,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-06.png",
+        "frozen_sha256": "5d22d7ec2ce402d6237ee9eda40930cf4ac3153f6e333156e610bec6a80f4f7b",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "31ab0f279335aec04bcfcf3135ab3920e777881f7acced24e0f9d1b7a18c6d28",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 47,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 7,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\No-07.png",
+        "frozen_sha256": "f2a83e467d54c6a033c70a69ae97cdc3376cf41803da92d54a5c0887f3ba5129",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "3265779c0e6a8fcdd5755ffdca4ba8402804a7a2c6ead812a458c4dfb53673d1",
+        "symbol_rgba_sha256": "c692f0e3fba85bbfdd17e586878c058824184de1854172ca602064eb17de9de2",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 56,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      17,
+      17
+    ]
+  },
+  {
+    "role": "SizeNS",
+    "frames": 5,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      3,
+      7
+    ],
+    "symbol_hotspot": [
+      4,
+      8
+    ],
+    "native_frames": 5,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/SizeNS",
+    "body_hashes": [
+      "1454c275b68ccefe094ff563ada81002862e1292bf8d780e3d35007963fdcbdc",
+      "92c75b2ff6620c1309fef29f35b1a3a274b09451254a226d348ebf7d60501f35",
+      "74c846c0acbc0eb3bcde5a36851bb458b8ecf53852cb0b30683ec813e1b1079b",
+      "fef1358eb6ffad39bf272a251ba716a3996c6e76a00f834e27c8b5cf13598977",
+      "637233489d8d1ade685f2bf43f411b5e22a503e8ac2644934f9cd2b11fa39642"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "3f36ff92015a58bc3d5be0127b236132a8c817d6a412340fb13fea6339214cc4",
+      "b58ad8cc285e8c1c6370607996167a5bdb0002a80e2fd2ad431c52b1510529fb",
+      "b7839cfda88f0f033e4d88325fff135526f17facadc429a2b17d51a4c29c6143",
+      "871a18cff1f94a9dfcc2a7c25a3e3d5da45d6f2c9dec790a14ebd52bba76771a",
+      "934c0cb00b051644d3a618c4fc650c91ec6ceefcd90845032fe8253b2ee06922"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNS-00.png",
+        "frozen_sha256": "3f36ff92015a58bc3d5be0127b236132a8c817d6a412340fb13fea6339214cc4",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1454c275b68ccefe094ff563ada81002862e1292bf8d780e3d35007963fdcbdc",
+        "symbol_rgba_sha256": "79120b920ea8c76a162700de930368806484ccf4df3b3ac71b3f9293f2993819",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNS-01.png",
+        "frozen_sha256": "b58ad8cc285e8c1c6370607996167a5bdb0002a80e2fd2ad431c52b1510529fb",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "92c75b2ff6620c1309fef29f35b1a3a274b09451254a226d348ebf7d60501f35",
+        "symbol_rgba_sha256": "79120b920ea8c76a162700de930368806484ccf4df3b3ac71b3f9293f2993819",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNS-02.png",
+        "frozen_sha256": "b7839cfda88f0f033e4d88325fff135526f17facadc429a2b17d51a4c29c6143",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "74c846c0acbc0eb3bcde5a36851bb458b8ecf53852cb0b30683ec813e1b1079b",
+        "symbol_rgba_sha256": "79120b920ea8c76a162700de930368806484ccf4df3b3ac71b3f9293f2993819",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNS-03.png",
+        "frozen_sha256": "871a18cff1f94a9dfcc2a7c25a3e3d5da45d6f2c9dec790a14ebd52bba76771a",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "fef1358eb6ffad39bf272a251ba716a3996c6e76a00f834e27c8b5cf13598977",
+        "symbol_rgba_sha256": "79120b920ea8c76a162700de930368806484ccf4df3b3ac71b3f9293f2993819",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNS-04.png",
+        "frozen_sha256": "934c0cb00b051644d3a618c4fc650c91ec6ceefcd90845032fe8253b2ee06922",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "637233489d8d1ade685f2bf43f411b5e22a503e8ac2644934f9cd2b11fa39642",
+        "symbol_rgba_sha256": "79120b920ea8c76a162700de930368806484ccf4df3b3ac71b3f9293f2993819",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      8,
+      17
+    ]
+  },
+  {
+    "role": "SizeWE",
+    "frames": 8,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      7,
+      3
+    ],
+    "symbol_hotspot": [
+      8,
+      4
+    ],
+    "native_frames": 8,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/SizeWE",
+    "body_hashes": [
+      "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+      "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+      "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+      "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+      "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+      "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+      "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+      "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "a7c15ef4af9bffeaf0bbcb29906e547a6b8ee0eeed3dbb7aa7d448fcc1960d33",
+      "4d78e7e1ffb0a8db5c55a41260f71f0446efbf0f71758f9cce574b142f165bcb",
+      "efd76c2e112f4a52687596f66a44c05839bbd1cb357b8f0ebaa3397e1fcc2c7d",
+      "24e11447b3926bf5ec65be4dfe078aef041deecd438fdba343eaced9a1819156",
+      "a7c15ef4af9bffeaf0bbcb29906e547a6b8ee0eeed3dbb7aa7d448fcc1960d33",
+      "4d78e7e1ffb0a8db5c55a41260f71f0446efbf0f71758f9cce574b142f165bcb",
+      "efd76c2e112f4a52687596f66a44c05839bbd1cb357b8f0ebaa3397e1fcc2c7d",
+      "24e11447b3926bf5ec65be4dfe078aef041deecd438fdba343eaced9a1819156"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-00.png",
+        "frozen_sha256": "a7c15ef4af9bffeaf0bbcb29906e547a6b8ee0eeed3dbb7aa7d448fcc1960d33",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-01.png",
+        "frozen_sha256": "4d78e7e1ffb0a8db5c55a41260f71f0446efbf0f71758f9cce574b142f165bcb",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-02.png",
+        "frozen_sha256": "efd76c2e112f4a52687596f66a44c05839bbd1cb357b8f0ebaa3397e1fcc2c7d",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 3,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-03.png",
+        "frozen_sha256": "24e11447b3926bf5ec65be4dfe078aef041deecd438fdba343eaced9a1819156",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 2,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-04.png",
+        "frozen_sha256": "a7c15ef4af9bffeaf0bbcb29906e547a6b8ee0eeed3dbb7aa7d448fcc1960d33",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-05.png",
+        "frozen_sha256": "4d78e7e1ffb0a8db5c55a41260f71f0446efbf0f71758f9cce574b142f165bcb",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 6,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-06.png",
+        "frozen_sha256": "efd76c2e112f4a52687596f66a44c05839bbd1cb357b8f0ebaa3397e1fcc2c7d",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 3,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 7,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeWE-07.png",
+        "frozen_sha256": "24e11447b3926bf5ec65be4dfe078aef041deecd438fdba343eaced9a1819156",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+        "symbol_rgba_sha256": "df3eb7d1f674dabcb78423a8947f857e1ea5ea141c408d8b0de7e5a6752d5d95",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 2,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      16,
+      8
+    ]
+  },
+  {
+    "role": "SizeNWSE",
+    "frames": 8,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      7,
+      7
+    ],
+    "symbol_hotspot": [
+      8,
+      8
+    ],
+    "native_frames": 8,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/SizeNWSE",
+    "body_hashes": [
+      "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+      "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+      "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+      "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+      "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+      "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+      "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+      "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "005feec96c88a9bc15eb388eec8d0e6df152d033c6d140a5b827bf3fb1cdc2f3",
+      "dd0d12ff5b4e396b502a934de55f4d83b5ce0221b09cd20caf705bbb85f5219f",
+      "d89f279df8e2fff1b237aa5deffebaadbace665492744ee89bd96545890cb930",
+      "908b00f9a6fc472ff12a02d9646aab2e4babbc27b4bc5d9735474b819f7b6c63",
+      "005feec96c88a9bc15eb388eec8d0e6df152d033c6d140a5b827bf3fb1cdc2f3",
+      "dd0d12ff5b4e396b502a934de55f4d83b5ce0221b09cd20caf705bbb85f5219f",
+      "d89f279df8e2fff1b237aa5deffebaadbace665492744ee89bd96545890cb930",
+      "908b00f9a6fc472ff12a02d9646aab2e4babbc27b4bc5d9735474b819f7b6c63"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-00.png",
+        "frozen_sha256": "005feec96c88a9bc15eb388eec8d0e6df152d033c6d140a5b827bf3fb1cdc2f3",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 37,
+        "separate_layers_max_channel_delta": 128,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-01.png",
+        "frozen_sha256": "dd0d12ff5b4e396b502a934de55f4d83b5ce0221b09cd20caf705bbb85f5219f",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 25,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-02.png",
+        "frozen_sha256": "d89f279df8e2fff1b237aa5deffebaadbace665492744ee89bd96545890cb930",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 36,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-03.png",
+        "frozen_sha256": "908b00f9a6fc472ff12a02d9646aab2e4babbc27b4bc5d9735474b819f7b6c63",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 29,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-04.png",
+        "frozen_sha256": "005feec96c88a9bc15eb388eec8d0e6df152d033c6d140a5b827bf3fb1cdc2f3",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 37,
+        "separate_layers_max_channel_delta": 128,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-05.png",
+        "frozen_sha256": "dd0d12ff5b4e396b502a934de55f4d83b5ce0221b09cd20caf705bbb85f5219f",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 25,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 6,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-06.png",
+        "frozen_sha256": "d89f279df8e2fff1b237aa5deffebaadbace665492744ee89bd96545890cb930",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 36,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 7,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNWSE-07.png",
+        "frozen_sha256": "908b00f9a6fc472ff12a02d9646aab2e4babbc27b4bc5d9735474b819f7b6c63",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+        "symbol_rgba_sha256": "c98ffd3f6b0a3d70192b5010e1919a5157836ca91b1bcf37e4c168b590ec28f4",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 29,
+        "separate_layers_max_channel_delta": 127,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      16,
+      16
+    ]
+  },
+  {
+    "role": "SizeNESW",
+    "frames": 8,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      7,
+      7
+    ],
+    "symbol_hotspot": [
+      8,
+      8
+    ],
+    "native_frames": 8,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/SizeNESW",
+    "body_hashes": [
+      "671062a7d8d93a1f1179a47bab19c6866be4f15b1f95b53abc6511de2250bcff",
+      "8531db026b052aaf29ff78f498b5eabebde930f7ed08a6b9f4a6379ae4432302",
+      "593f653b1845a73ee74bc58ea37e4f3649f6d4331ab01bf9abd1e84f17395265",
+      "35ebcfda6f6770711fabe86369ab09be6265ed1885ba374e819aed04e18c95ba",
+      "671062a7d8d93a1f1179a47bab19c6866be4f15b1f95b53abc6511de2250bcff",
+      "8531db026b052aaf29ff78f498b5eabebde930f7ed08a6b9f4a6379ae4432302",
+      "593f653b1845a73ee74bc58ea37e4f3649f6d4331ab01bf9abd1e84f17395265",
+      "35ebcfda6f6770711fabe86369ab09be6265ed1885ba374e819aed04e18c95ba"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "31a7b36cadfe0ee9a79cc3405096ee8bb24274f3313ee1d6bfee834c4972b8a5",
+      "ecbe83d99076944d042422874d3f665ef92efc69110b76ccb13ad7f8c43ad96f",
+      "1f08306234e8b075b6287e69e5ea2f0d21b9d2d349480b9b5d14d7e8b28fce32",
+      "d9329863155c1f8c66ff8f3d8b067a84a74c0351f3624b9f7859e5c5c4044359",
+      "31a7b36cadfe0ee9a79cc3405096ee8bb24274f3313ee1d6bfee834c4972b8a5",
+      "ecbe83d99076944d042422874d3f665ef92efc69110b76ccb13ad7f8c43ad96f",
+      "1f08306234e8b075b6287e69e5ea2f0d21b9d2d349480b9b5d14d7e8b28fce32",
+      "d9329863155c1f8c66ff8f3d8b067a84a74c0351f3624b9f7859e5c5c4044359"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-00.png",
+        "frozen_sha256": "31a7b36cadfe0ee9a79cc3405096ee8bb24274f3313ee1d6bfee834c4972b8a5",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "671062a7d8d93a1f1179a47bab19c6866be4f15b1f95b53abc6511de2250bcff",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 3,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-01.png",
+        "frozen_sha256": "ecbe83d99076944d042422874d3f665ef92efc69110b76ccb13ad7f8c43ad96f",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "8531db026b052aaf29ff78f498b5eabebde930f7ed08a6b9f4a6379ae4432302",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 15,
+        "separate_layers_max_channel_delta": 252,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-02.png",
+        "frozen_sha256": "1f08306234e8b075b6287e69e5ea2f0d21b9d2d349480b9b5d14d7e8b28fce32",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "593f653b1845a73ee74bc58ea37e4f3649f6d4331ab01bf9abd1e84f17395265",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 8,
+        "separate_layers_max_channel_delta": 254,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-03.png",
+        "frozen_sha256": "d9329863155c1f8c66ff8f3d8b067a84a74c0351f3624b9f7859e5c5c4044359",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "35ebcfda6f6770711fabe86369ab09be6265ed1885ba374e819aed04e18c95ba",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 16,
+        "separate_layers_max_channel_delta": 125,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-04.png",
+        "frozen_sha256": "31a7b36cadfe0ee9a79cc3405096ee8bb24274f3313ee1d6bfee834c4972b8a5",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "671062a7d8d93a1f1179a47bab19c6866be4f15b1f95b53abc6511de2250bcff",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 3,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-05.png",
+        "frozen_sha256": "ecbe83d99076944d042422874d3f665ef92efc69110b76ccb13ad7f8c43ad96f",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "8531db026b052aaf29ff78f498b5eabebde930f7ed08a6b9f4a6379ae4432302",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 15,
+        "separate_layers_max_channel_delta": 252,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 6,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-06.png",
+        "frozen_sha256": "1f08306234e8b075b6287e69e5ea2f0d21b9d2d349480b9b5d14d7e8b28fce32",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "593f653b1845a73ee74bc58ea37e4f3649f6d4331ab01bf9abd1e84f17395265",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 8,
+        "separate_layers_max_channel_delta": 254,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 7,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeNESW-07.png",
+        "frozen_sha256": "d9329863155c1f8c66ff8f3d8b067a84a74c0351f3624b9f7859e5c5c4044359",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "35ebcfda6f6770711fabe86369ab09be6265ed1885ba374e819aed04e18c95ba",
+        "symbol_rgba_sha256": "a5e0ccd43955ae2da3ce40c61a8ee968fbbc206d4484e93b633b8200a16f4a81",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 16,
+        "separate_layers_max_channel_delta": 125,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      16,
+      16
+    ]
+  },
+  {
+    "role": "SizeAll",
+    "frames": 8,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      7,
+      7
+    ],
+    "symbol_hotspot": [
+      8,
+      8
+    ],
+    "native_frames": 8,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/SizeAll",
+    "body_hashes": [
+      "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+      "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+      "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+      "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+      "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+      "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+      "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+      "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "1cfe3db4136b735a2c910a864c04d16e85385e3d0a438cf0c3683e22390d8008",
+      "100088ad9f09fd4e04d97eaec8c3b7a5fdf70474e2e311d30429ddb3233587d2",
+      "351643b9a101c6bbd44f80288219e5a265079d2efd728163b0bcbc88fdde16c7",
+      "8034b665e1f52b12044070032e2dcd0910dad3e46c3cb2958ac7c9e4a8d61c48",
+      "1cfe3db4136b735a2c910a864c04d16e85385e3d0a438cf0c3683e22390d8008",
+      "100088ad9f09fd4e04d97eaec8c3b7a5fdf70474e2e311d30429ddb3233587d2",
+      "351643b9a101c6bbd44f80288219e5a265079d2efd728163b0bcbc88fdde16c7",
+      "8034b665e1f52b12044070032e2dcd0910dad3e46c3cb2958ac7c9e4a8d61c48"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-00.png",
+        "frozen_sha256": "1cfe3db4136b735a2c910a864c04d16e85385e3d0a438cf0c3683e22390d8008",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 28,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-01.png",
+        "frozen_sha256": "100088ad9f09fd4e04d97eaec8c3b7a5fdf70474e2e311d30429ddb3233587d2",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 9,
+        "separate_layers_max_channel_delta": 128,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-02.png",
+        "frozen_sha256": "351643b9a101c6bbd44f80288219e5a265079d2efd728163b0bcbc88fdde16c7",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 22,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-03.png",
+        "frozen_sha256": "8034b665e1f52b12044070032e2dcd0910dad3e46c3cb2958ac7c9e4a8d61c48",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 19,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-04.png",
+        "frozen_sha256": "1cfe3db4136b735a2c910a864c04d16e85385e3d0a438cf0c3683e22390d8008",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "e46c30f3b9f17512a3e568d199c153774d8ffa4b5c726d7973f68a0eb62c79b7",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 28,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-05.png",
+        "frozen_sha256": "100088ad9f09fd4e04d97eaec8c3b7a5fdf70474e2e311d30429ddb3233587d2",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2f5c984f5a0b0408e56b2c6d194de8cb8dcf20f07c81c8462f13ffa09ab03f43",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 9,
+        "separate_layers_max_channel_delta": 128,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 6,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-06.png",
+        "frozen_sha256": "351643b9a101c6bbd44f80288219e5a265079d2efd728163b0bcbc88fdde16c7",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "78d06a2b473c2c30bc7a141b7b8b6323321e9a94f672a1848cfd77e6004dc71c",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 22,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 7,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\SizeAll-07.png",
+        "frozen_sha256": "8034b665e1f52b12044070032e2dcd0910dad3e46c3cb2958ac7c9e4a8d61c48",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "b7941e75cb92259a60728354649ea090957bce9470da0d36e2041bb6e0352e14",
+        "symbol_rgba_sha256": "99b06c4fc1f9ee14b9101a1a16892104d47e8459e29488e1feec6adb4cf05efd",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 19,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      16,
+      16
+    ]
+  },
+  {
+    "role": "UpArrow",
+    "frames": 5,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      6,
+      1
+    ],
+    "symbol_hotspot": [
+      7,
+      2
+    ],
+    "native_frames": 5,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/UpArrow",
+    "body_hashes": [
+      "1454c275b68ccefe094ff563ada81002862e1292bf8d780e3d35007963fdcbdc",
+      "92c75b2ff6620c1309fef29f35b1a3a274b09451254a226d348ebf7d60501f35",
+      "74c846c0acbc0eb3bcde5a36851bb458b8ecf53852cb0b30683ec813e1b1079b",
+      "fef1358eb6ffad39bf272a251ba716a3996c6e76a00f834e27c8b5cf13598977",
+      "637233489d8d1ade685f2bf43f411b5e22a503e8ac2644934f9cd2b11fa39642"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "07362a5304060ffbc1ef20f7c19402fd63ea3e300288b02d4900a349aff0a4a2",
+      "b6e49bd9d8bade60df733687199e6b2c4035ea41f303e90401a83ba4cdef8c80",
+      "84a0b655722c49327586f1e2f9f9f816cdd7f39b24352874664451e6803e7c8b",
+      "4bb40665011d4db5986c38b5780582799d0d58c8df96854e5311a2cc5c020b14",
+      "1e658b152cc6eaba09915578c5765a62a83ed57964b7a021f998e44d9a6e7092"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\UpArrow-00.png",
+        "frozen_sha256": "07362a5304060ffbc1ef20f7c19402fd63ea3e300288b02d4900a349aff0a4a2",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "1454c275b68ccefe094ff563ada81002862e1292bf8d780e3d35007963fdcbdc",
+        "symbol_rgba_sha256": "1e402bc6845f6033dad2c49a36d8947272fdbdedcc3edb021b5d302ab38d4884",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\UpArrow-01.png",
+        "frozen_sha256": "b6e49bd9d8bade60df733687199e6b2c4035ea41f303e90401a83ba4cdef8c80",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "92c75b2ff6620c1309fef29f35b1a3a274b09451254a226d348ebf7d60501f35",
+        "symbol_rgba_sha256": "1e402bc6845f6033dad2c49a36d8947272fdbdedcc3edb021b5d302ab38d4884",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\UpArrow-02.png",
+        "frozen_sha256": "84a0b655722c49327586f1e2f9f9f816cdd7f39b24352874664451e6803e7c8b",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "74c846c0acbc0eb3bcde5a36851bb458b8ecf53852cb0b30683ec813e1b1079b",
+        "symbol_rgba_sha256": "1e402bc6845f6033dad2c49a36d8947272fdbdedcc3edb021b5d302ab38d4884",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 12,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\UpArrow-03.png",
+        "frozen_sha256": "4bb40665011d4db5986c38b5780582799d0d58c8df96854e5311a2cc5c020b14",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "fef1358eb6ffad39bf272a251ba716a3996c6e76a00f834e27c8b5cf13598977",
+        "symbol_rgba_sha256": "1e402bc6845f6033dad2c49a36d8947272fdbdedcc3edb021b5d302ab38d4884",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\UpArrow-04.png",
+        "frozen_sha256": "1e658b152cc6eaba09915578c5765a62a83ed57964b7a021f998e44d9a6e7092",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "637233489d8d1ade685f2bf43f411b5e22a503e8ac2644934f9cd2b11fa39642",
+        "symbol_rgba_sha256": "1e402bc6845f6033dad2c49a36d8947272fdbdedcc3edb021b5d302ab38d4884",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 0,
+        "separate_layers_max_channel_delta": 0,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      14,
+      17
+    ]
+  },
+  {
+    "role": "Hand",
+    "frames": 4,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      4,
+      1
+    ],
+    "symbol_hotspot": [
+      5,
+      2
+    ],
+    "native_frames": 4,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/Hand",
+    "body_hashes": [
+      "cf2bf9d6b59dcab5447517d5be546eef230db6c8cfba3f21792665b6ec7556db",
+      "3c143f43ef2c1ac95cb91956f6bd0ef33a77637d6bbf4ceb23f1d70a01fa99bf",
+      "d710b5685431e043376078ef309993a6bfa4443f7618fc7c9792c3e13376a4d8",
+      "bdbcbb25f4912676035632d54541ef743b70c22333bde700e1e7da4765f6775c"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "4b7be1ecf3397d5959a55551135ab35de1a965b5fc92a8561b10cafe72276699",
+      "6a4a0338b7b5080f531250c2a2c923d730245a7ed63e8340535e6409d04dbafd",
+      "f02631cf928020a2d169da75b101e59bbde8c2e5f1652fd75c6f230d538768b9",
+      "5fd3e507b41b615f7f084e3fa2b93452f99b8d85075c651502b389e018deeb4e"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Hand-00.png",
+        "frozen_sha256": "4b7be1ecf3397d5959a55551135ab35de1a965b5fc92a8561b10cafe72276699",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "cf2bf9d6b59dcab5447517d5be546eef230db6c8cfba3f21792665b6ec7556db",
+        "symbol_rgba_sha256": "2cce48f7dc42f065b13b9561a43240b318f17e5ee556f16c36a5598c3778c306",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 51,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Hand-01.png",
+        "frozen_sha256": "6a4a0338b7b5080f531250c2a2c923d730245a7ed63e8340535e6409d04dbafd",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "3c143f43ef2c1ac95cb91956f6bd0ef33a77637d6bbf4ceb23f1d70a01fa99bf",
+        "symbol_rgba_sha256": "2cce48f7dc42f065b13b9561a43240b318f17e5ee556f16c36a5598c3778c306",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 50,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Hand-02.png",
+        "frozen_sha256": "f02631cf928020a2d169da75b101e59bbde8c2e5f1652fd75c6f230d538768b9",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "d710b5685431e043376078ef309993a6bfa4443f7618fc7c9792c3e13376a4d8",
+        "symbol_rgba_sha256": "2cce48f7dc42f065b13b9561a43240b318f17e5ee556f16c36a5598c3778c306",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 48,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Hand-03.png",
+        "frozen_sha256": "5fd3e507b41b615f7f084e3fa2b93452f99b8d85075c651502b389e018deeb4e",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "bdbcbb25f4912676035632d54541ef743b70c22333bde700e1e7da4765f6775c",
+        "symbol_rgba_sha256": "2cce48f7dc42f065b13b9561a43240b318f17e5ee556f16c36a5598c3778c306",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 42,
+        "separate_layers_max_channel_delta": 170,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      15,
+      17
+    ]
+  },
+  {
+    "role": "Pin",
+    "frames": 6,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      5,
+      13
+    ],
+    "symbol_hotspot": [
+      6,
+      14
+    ],
+    "native_frames": 6,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/Pin",
+    "body_hashes": [
+      "19d5bea62fc4a9c2b910a2a937a1744f85be21b490ee9ce303f466e912b0e929",
+      "23371d63d11886cee7fa187f206f17b834331c8f15ed03eb5545f46689f9f0bc",
+      "2cc980d460cfef8eea75f88f7d4753ed26bd4c8d97184c1afddca2be9368f138",
+      "77e1f6b96c6d216b3db70bfe49ba076fe917bd6b3dc3a29b48612922ab1eb39b",
+      "c4372fc3fed218f778b61a6a7027c0c33cab4a5166741809d770e4314b38b75d",
+      "0cf7823096e72aeb99e4f3c29160a666d5e50e25a2c072da62fd49f455fecabc"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "b8b12f54dac0f936be726d8a1882e92543c11929e2487e96d3c2a37da8e26829",
+      "f098676ab872a45ab2ff9ee5a779f6c62f41ff8cb7833a4b32385452896362cd",
+      "c86ef13a77566ead4efe3b3157f13f34e32075ce1553d416d3f3f18d1b65ae38",
+      "924b372cc9b09383ae6630b01b16e8dd0d8fdec516d5e5fbaed3ca51288f1085",
+      "2a19405de45e9d41d593c706dc5f8e9e440dc6b716d116948dcbc60f335f4300",
+      "e9d067da1d43d25d632ca4f6aff18424956cbe37a2f53c728954ede6e8d8baf4"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Pin-00.png",
+        "frozen_sha256": "b8b12f54dac0f936be726d8a1882e92543c11929e2487e96d3c2a37da8e26829",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "19d5bea62fc4a9c2b910a2a937a1744f85be21b490ee9ce303f466e912b0e929",
+        "symbol_rgba_sha256": "25be9c40313dcf80b3d8fb0e7ec6d3ab8b9c982bacd39595b96cdc3eb7993a22",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 10,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Pin-01.png",
+        "frozen_sha256": "f098676ab872a45ab2ff9ee5a779f6c62f41ff8cb7833a4b32385452896362cd",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "23371d63d11886cee7fa187f206f17b834331c8f15ed03eb5545f46689f9f0bc",
+        "symbol_rgba_sha256": "25be9c40313dcf80b3d8fb0e7ec6d3ab8b9c982bacd39595b96cdc3eb7993a22",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 13,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Pin-02.png",
+        "frozen_sha256": "c86ef13a77566ead4efe3b3157f13f34e32075ce1553d416d3f3f18d1b65ae38",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "2cc980d460cfef8eea75f88f7d4753ed26bd4c8d97184c1afddca2be9368f138",
+        "symbol_rgba_sha256": "25be9c40313dcf80b3d8fb0e7ec6d3ab8b9c982bacd39595b96cdc3eb7993a22",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 6,
+        "separate_layers_max_channel_delta": 254,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Pin-03.png",
+        "frozen_sha256": "924b372cc9b09383ae6630b01b16e8dd0d8fdec516d5e5fbaed3ca51288f1085",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "77e1f6b96c6d216b3db70bfe49ba076fe917bd6b3dc3a29b48612922ab1eb39b",
+        "symbol_rgba_sha256": "25be9c40313dcf80b3d8fb0e7ec6d3ab8b9c982bacd39595b96cdc3eb7993a22",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 12,
+        "separate_layers_max_channel_delta": 170,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 4,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Pin-04.png",
+        "frozen_sha256": "2a19405de45e9d41d593c706dc5f8e9e440dc6b716d116948dcbc60f335f4300",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "c4372fc3fed218f778b61a6a7027c0c33cab4a5166741809d770e4314b38b75d",
+        "symbol_rgba_sha256": "25be9c40313dcf80b3d8fb0e7ec6d3ab8b9c982bacd39595b96cdc3eb7993a22",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 20,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 5,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Pin-05.png",
+        "frozen_sha256": "e9d067da1d43d25d632ca4f6aff18424956cbe37a2f53c728954ede6e8d8baf4",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "0cf7823096e72aeb99e4f3c29160a666d5e50e25a2c072da62fd49f455fecabc",
+        "symbol_rgba_sha256": "25be9c40313dcf80b3d8fb0e7ec6d3ab8b9c982bacd39595b96cdc3eb7993a22",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 14,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      14,
+      16
+    ]
+  },
+  {
+    "role": "Person",
+    "frames": 4,
+    "frame_ms": 133.33333333333334,
+    "jiffies": 8,
+    "hotspot": [
+      6,
+      3
+    ],
+    "symbol_hotspot": [
+      7,
+      4
+    ],
+    "native_frames": 4,
+    "body_canvas": [
+      48,
+      48
+    ],
+    "body_directory": "astra-original-48/Person",
+    "body_hashes": [
+      "cf2bf9d6b59dcab5447517d5be546eef230db6c8cfba3f21792665b6ec7556db",
+      "3c143f43ef2c1ac95cb91956f6bd0ef33a77637d6bbf4ceb23f1d70a01fa99bf",
+      "d710b5685431e043376078ef309993a6bfa4443f7618fc7c9792c3e13376a4d8",
+      "bdbcbb25f4912676035632d54541ef743b70c22333bde700e1e7da4765f6775c"
+    ],
+    "character": "astra",
+    "edition": "original",
+    "logical_size": 48,
+    "frozen_frame_sha256": [
+      "a024dae6469ee056f5cb4a64810471db04ec09feb7519286e8e604770fbd4414",
+      "8d256712af35466c352d15e87744c85fed36c37dc5ea81ee1553aadf98fabd0e",
+      "25969b6f715320278803260d5e8e91f5763a4028590280f4aa7a2aac6f07ac8b",
+      "25437a3534fe38bb746e8cdadf61273f9c01aa95be3ee3ed15b63e941680a6ee"
+    ],
+    "native_canvas": [
+      32,
+      32
+    ],
+    "expectedNativeSize": 32,
+    "native_symbol_offset": [
+      1,
+      1
+    ],
+    "split_mode": "complete-symbol-and-source-character",
+    "source_phase_checks": [
+      {
+        "phase": 0,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Person-00.png",
+        "frozen_sha256": "a024dae6469ee056f5cb4a64810471db04ec09feb7519286e8e604770fbd4414",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "cf2bf9d6b59dcab5447517d5be546eef230db6c8cfba3f21792665b6ec7556db",
+        "symbol_rgba_sha256": "0711625c14cf3dc81894ed56f7ec72d7fd87da4a771b6477fa21b59723deafc3",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 49,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 1,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Person-01.png",
+        "frozen_sha256": "8d256712af35466c352d15e87744c85fed36c37dc5ea81ee1553aadf98fabd0e",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "3c143f43ef2c1ac95cb91956f6bd0ef33a77637d6bbf4ceb23f1d70a01fa99bf",
+        "symbol_rgba_sha256": "0711625c14cf3dc81894ed56f7ec72d7fd87da4a771b6477fa21b59723deafc3",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 47,
+        "separate_layers_max_channel_delta": 252,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 2,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Person-02.png",
+        "frozen_sha256": "25969b6f715320278803260d5e8e91f5763a4028590280f4aa7a2aac6f07ac8b",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "d710b5685431e043376078ef309993a6bfa4443f7618fc7c9792c3e13376a4d8",
+        "symbol_rgba_sha256": "0711625c14cf3dc81894ed56f7ec72d7fd87da4a771b6477fa21b59723deafc3",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 45,
+        "separate_layers_max_channel_delta": 255,
+        "non_target_changed_pixels": 0
+      },
+      {
+        "phase": 3,
+        "frozen_path": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\repos\\astra-sol-mint-cursors\\source\\frames\\astra\\48\\Person-03.png",
+        "frozen_sha256": "25437a3534fe38bb746e8cdadf61273f9c01aa95be3ee3ed15b63e941680a6ee",
+        "character_offset": [
+          0,
+          0
+        ],
+        "character_rgba_sha256": "bdbcbb25f4912676035632d54541ef743b70c22333bde700e1e7da4765f6775c",
+        "symbol_rgba_sha256": "0711625c14cf3dc81894ed56f7ec72d7fd87da4a771b6477fa21b59723deafc3",
+        "source_rebuild_visible_exact": true,
+        "separate_layers_visible_diff_pixels": 40,
+        "separate_layers_max_channel_delta": 254,
+        "non_target_changed_pixels": 0
+      }
+    ],
+    "native_visible_bounds": [
+      1,
+      1,
+      15,
+      17
+    ]
+  }
+]
